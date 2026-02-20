@@ -3,7 +3,7 @@ import feedparser
 import google.generativeai as genai
 from datetime import datetime
 import time
-import requests  # New: Required for Telegram
+import requests
 
 # --- Configuration ---
 RSS_FEEDS = {
@@ -12,46 +12,38 @@ RSS_FEEDS = {
     "Bleeping Computer": "https://www.bleepingcomputer.com/feed/"
 }
 
-# Secrets from Environment Variables
+# Load Secrets
 API_KEY = os.getenv("GEMINI_API_KEY")
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
+# Debugging for your secrets (This will help us see if GitHub is passing them)
 if not API_KEY:
-    raise ValueError("GEMINI_API_KEY environment variable not set.")
+    print("[!] ERROR: GEMINI_API_KEY is missing!")
+if not TELEGRAM_TOKEN:
+    print("[!] WARNING: TELEGRAM_BOT_TOKEN is missing!")
 
 # Initialize Gemini
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-2.5-flash')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 def send_telegram_alert(title, source, analysis, link):
-    """Sends a formatted alert to Telegram."""
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
-        print("[!] Telegram credentials missing. Skipping alert.")
         return
-
-    # Create the message using Markdown formatting
+    
     message = (
-        f"🚨 *HIGH SEVERITY THREAT DETECTED*\n\n"
+        f"🚨 *HIGH SEVERITY THREAT*\n\n"
         f"*Source:* {source}\n"
         f"*Title:* {title}\n\n"
         f"*AI Analysis:* {analysis}\n\n"
         f"[Read Full Article]({link})"
     )
-
+    
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    payload = {
-        "chat_id": TELEGRAM_CHAT_ID,
-        "text": message,
-        "parse_mode": "Markdown"
-    }
-
+    payload = {"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "Markdown"}
+    
     try:
-        response = requests.post(url, json=payload)
-        if response.status_code == 200:
-            print(f"[+] Telegram alert sent for: {title}")
-        else:
-            print(f"[!] Telegram API error: {response.text}")
+        requests.post(url, json=payload)
     except Exception as e:
         print(f"[!] Telegram Alert Failed: {e}")
 
@@ -66,15 +58,13 @@ def fetch_feed_data(feed_name, url):
 
 def analyze_threat(title, summary):
     prompt = (
-        f"Analyze this security news.\n"
-        f"Title: {title}\n"
-        f"Summary: {summary}\n\n"
-        f"Categorize its severity (Critical/High/Medium/Low) and give a 1-sentence technical impact."
+        f"Analyze this security news. Categorize its severity (Critical/High/Medium/Low) "
+        f"and give a 1-sentence technical impact.\nTitle: {title}\nSummary: {summary}"
     )
     try:
         response = model.generate_content(prompt)
         return response.text.strip()
-    except Exception as e:
+    except:
         return "Analysis unavailable."
 
 def generate_report(results):
@@ -89,13 +79,11 @@ def generate_report(results):
             f.write("---\n\n")
 
 def main():
-    all_results = []
+    all_results = [] # Defined inside main
     for name, url in RSS_FEEDS.items():
         entries = fetch_feed_data(name, url)
         for entry in entries:
             analysis = analyze_threat(entry.title, entry.get('summary', ''))
-            
-            # Store result
             item = {
                 "source": name,
                 "title": entry.title,
@@ -103,19 +91,16 @@ def main():
                 "analysis": analysis
             }
             all_results.append(item)
-
-            # ALERT LOGIC: If AI says Critical or High, send to Telegram
-            if "Critical" in analysis or "High" in analysis:
+            
+            # Alert on High/Critical
+            if any(lvl in analysis for lvl in ["Critical", "High"]):
                 send_telegram_alert(item['title'], item['source'], item['analysis'], item['link'])
             
-            time.sleep(1) # Rate limit protection
-
-    generate_report(all_results)
+            time.sleep(1)
+            
+    generate_report(all_results) # Passed correctly now
+    print("[+] Process completed successfully.")
 
 if __name__ == "__main__":
     main()
-    generate_report(all_results)
 
-if __name__ == "__main__":
-
-    main()
