@@ -2,12 +2,14 @@ name: Daily Threat Intelligence Feed
 
 on:
   schedule:
-    - cron: '0 8 * * *' # Runs at 08:00 UTC every day
-  workflow_dispatch: # Allows manual testing
+    - cron: '0 8 * * *' # 🚀 Runs automatically at 08:00 UTC every day
+  workflow_dispatch: # Allows you to trigger it manually for testing
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # 📝 Permission to save the report to your repo
 
     steps:
     - name: Checkout repository
@@ -24,8 +26,11 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run Threat Feed Script
+      # 🌉 THE BRIDGE: This passes your GitHub Secrets into Python environment variables
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: python threat_feed.py
 
     - name: Commit and Push Report
