@@ -4,7 +4,7 @@ An automated cybersecurity intelligence tool that aggregates live threat data, a
 🚀 Features
 Multi-Source Aggregation: Pulls live feeds from CISA, The Hacker News, and BleepingComputer.
 
-AI Analysis: Uses gemini-1.5-flash to categorize threats by severity (Critical/High/Medium/Low) and provides a 1-sentence technical impact.
+AI Analysis: Uses gemini-2.5-flash to categorize threats by severity (Critical/High/Medium/Low) and provides a 1-sentence technical impact.
 
 Real-time Alerting: Sends instant notifications for High and Critical threats to a private Telegram bot.
 
@@ -15,7 +15,7 @@ Persistent Reporting: Generates a daily Markdown report (DAILY_THREAT_REPORT.md)
 🛠️ Tech Stack
 Language: Python 3.10
 
-AI Model: Google Gemini 1.5 Flash
+AI Model: Google Gemini 2.5 Flash
 
 Automation: GitHub Actions (YAML)
 
