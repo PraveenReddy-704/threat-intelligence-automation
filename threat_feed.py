@@ -25,7 +25,7 @@ if not TELEGRAM_TOKEN:
 
 # Initialize Gemini
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 def send_telegram_alert(title, source, analysis, link):
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
@@ -108,5 +108,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
