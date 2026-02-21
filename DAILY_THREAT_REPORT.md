@@ -1,5 +1,5 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-02-20 19:04:54 (UTC)*
+*Generated on: 2026-02-21 04:42:50 (UTC)*
 
 ### [The Hacker News] BeyondTrust Flaw Used for Web Shells, Backdoors, and Data Exfiltration
 - **Link:** https://thehackernews.com/2026/02/beyondtrust-flaw-used-for-web-shells.html
