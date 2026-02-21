@@ -57,15 +57,20 @@ def fetch_feed_data(feed_name, url):
         return []
 
 def analyze_threat(title, summary):
+    if not API_KEY:
+        return "ERROR: Gemini API Key missing from environment."
+    
     prompt = (
-        f"Analyze this security news. Categorize its severity (Critical/High/Medium/Low) "
-        f"and give a 1-sentence technical impact.\nTitle: {title}\nSummary: {summary}"
+        f"Analyze this security news. Categorize severity (Critical/High/Medium/Low) "
+        f"and 1-sentence impact.\nTitle: {title}\nSummary: {summary}"
     )
     try:
         response = model.generate_content(prompt)
         return response.text.strip()
-    except:
-        return "Analysis unavailable."
+    except Exception as e:
+        # This will print the actual error in your GitHub Actions logs!
+        print(f"[!] Gemini AI Error: {e}")
+        return f"Analysis failed: {str(e)}"
 
 def generate_report(results):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -103,4 +108,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
