@@ -1,27 +1,31 @@
-# 🛡️ Automated AI Threat Intelligence Feed
+🛡️ AI-Powered Automated Threat Intelligence Feed
+An automated cybersecurity intelligence tool that aggregates live threat data, analyzes severity using Google Gemini AI, and delivers real-time alerts via Telegram.
 
-An automated OSINT pipeline that aggregates daily cybersecurity news and uses **Google Gemini 1.5 Flash** to provide technical impact analysis and severity scoring.
+🚀 Features
+Multi-Source Aggregation: Pulls live feeds from CISA, The Hacker News, and BleepingComputer.
 
-## 🚀 How It Works
-1. **Fetch:** Pulls the latest advisories from CISA, The Hacker News, and Bleeping Computer via RSS.
-2. **Analyze:** Sends summaries to Gemini-2.5-Flash with a custom prompt to determine severity (Critical/High/Medium/Low) and technical impact.
-3. **Report:** Generates a `DAILY_THREAT_REPORT.md` file.
-4. **Automate:** GitHub Actions triggers the workflow every day at 08:00 UTC.
+AI Analysis: Uses gemini-1.5-flash to categorize threats by severity (Critical/High/Medium/Low) and provides a 1-sentence technical impact.
 
-## 🛠️ Tech Stack
-- **Language:** Python 3.10
-- **AI:** Google Generative AI (Gemini API)
-- **Automation:** GitHub Actions
-- **Libraries:** `feedparser`, `google-generativeai`
+Real-time Alerting: Sends instant notifications for High and Critical threats to a private Telegram bot.
 
-## 📊 Sample Output
-Check [DAILY_THREAT_REPORT.md](./DAILY_THREAT_REPORT.md) for the latest updates.
+Cloud Automation: Fully automated via GitHub Actions—runs every day at 08:00 UTC.
 
-## ⚙️ Setup (For Local Testing)
-1. Clone the repo: `git clone <your-repo-url>`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Set your API key: `export GEMINI_API_KEY='your_key_here'`
-4. Run the script: `python threat_feed.py`
+Persistent Reporting: Generates a daily Markdown report (DAILY_THREAT_REPORT.md) for historical tracking.
 
----
-*Developed for my Cybersecurity Portfolio.*
+🛠️ Tech Stack
+Language: Python 3.10
+
+AI Model: Google Gemini 1.5 Flash
+
+Automation: GitHub Actions (YAML)
+
+API Integrations: Telegram Bot API, Feedparser (RSS)
+
+⚙️ Configuration
+The following secrets must be configured in GitHub Actions:
+
+GEMINI_API_KEY: For AI analysis.
+
+TELEGRAM_BOT_TOKEN: Your bot's unique identifier.
+
+TELEGRAM_CHAT_ID: Your personal chat ID for receiving alerts.
