@@ -1,74 +1,103 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-02-23 09:01:13 (UTC)*
+*Generated on: 2026-02-24 09:00:50 (UTC)*
 
-### [The Hacker News] MuddyWater Targets MENA Organizations with GhostFetch, CHAR, and HTTP_VIP
-- **Link:** https://thehackernews.com/2026/02/muddywater-targets-mena-organizations.html
+### [The Hacker News] Anthropic Says Chinese AI Firms Used 16 Million Claude Queries to Copy Model
+- **Link:** https://thehackernews.com/2026/02/anthropic-says-chinese-ai-firms-used-16.html
+- **AI Analysis:**
+> **Severity:** High
+
+**1-Sentence Impact:** This incident represents an industrial-scale theft of Anthropic's core AI model capabilities by competitors, threatening its intellectual property and market position.
+
+---
+
+### [The Hacker News] APT28 Targeted European Entities Using Webhook-Based Macro Malware
+- **Link:** https://thehackernews.com/2026/02/apt28-targeted-european-entities-using.html
+- **AI Analysis:**
+> This news report describes a significant, targeted threat.
+
+**Severity:** High
+
+**1-sentence impact:** This state-sponsored campaign by APT28 poses a high risk of strategic espionage and data exfiltration for targeted European entities, exploiting common macro functionality and legitimate services for stealthy operations.
+
+---
+**Reasoning for Severity:**
+
+*   **Threat Actor:** APT28 (Fancy Bear/Strontium/Pawn Storm) is a well-known, highly capable, and persistent state-sponsored threat actor linked to Russian military intelligence (GRU). Any activity attributed to such a group is inherently serious due to their strategic objectives, resources, and sophistication.
+*   **Targets:** "Specific entities in Western and Central Europe" suggests high-value targets such as government bodies, critical infrastructure, defense contractors, or think tanks, where intelligence gathering would be paramount.
+*   **Methodology:** While "basic tooling" might sound low-tech, the use of "webhook-based macro malware" combined with "exploitation of legitimate services" indicates a focus on stealth and evading traditional security detections by blending in with normal traffic. Macros, though old, remain an effective initial access vector.
+*   **Potential Impact:** The primary goal of APT28 is typically espionage, intelligence gathering, and potentially disruption or influence operations. Successful compromise of these entities could lead to significant data breaches, loss of sensitive information, and strategic disadvantages for the targeted nations.
+
+While not a widespread, indiscriminant attack like a critical zero-day worm, its targeted nature, state-sponsored backing, and strategic implications elevate it to a **High** severity. (A "Critical" rating would typically be reserved for threats that are extremely widespread, have immediate devastating consequences, or exploit a novel, widely applicable zero-day with high confidence of full system compromise.)
+
+*(Self-correction note: The dates "September 2025 and January 2026" appear to be a typo and are in the future. Assuming this is a typo and the campaign refers to *past* or *ongoing* activity, the analysis remains valid. If taken literally as future activity, the immediate severity would be low as it hasn't happened, but the *potential* severity based on the threat actor and targets would still be high.)*
+
+---
+
+### [The Hacker News] Wormable XMRig Campaign Uses BYOVD Exploit and Time-Based Logic Bomb
+- **Link:** https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html
+- **AI Analysis:**
+> **Severity:** High
+
+**1-sentence Impact:** The campaign uses sophisticated, kernel-level exploits and wormable capabilities to severely destabilize victim systems and consume maximum resources for cryptojacking, making detection and removal difficult.
+
+---
+
+### [The Hacker News] ⚡ Weekly Recap: Double-Tap Skimmers, PromptSpy AI, 30Tbps DDoS, Docker Malware & More
+- **Link:** https://thehackernews.com/2026/02/weekly-recap-double-tap-skimmers.html
+- **AI Analysis:**
+> This "Weekly Recap" covers multiple distinct security incidents/trends, each with its own severity. It's not appropriate to assign a single severity for the entire recap, as it bundles diverse threats. However, we can analyze the *collection* of threats and provide an overarching assessment.
+
+**Overall Assessment of the Recap's Contents:**
+
+*   **Categorization:** **High** (with elements that are Critical)
+*   **1-Sentence Impact:** The recap highlights a broad, evolving, and sophisticated threat landscape impacting individuals, enterprises, and critical infrastructure across physical, digital, and AI domains.
+
+---
+
+**Breakdown of Specific Threats Mentioned:**
+
+1.  **Double-Tap Skimmers**
+    *   **Categorization:** **High**
+    *   **1-Sentence Impact:** These sophisticated skimmers lead to direct financial fraud and loss for individuals, damaging trust in payment systems.
+
+2.  **PromptSpy AI**
+    *   **Categorization:** **High**
+    *   **1-Sentence Impact:** This indicates emerging threats leveraging AI vulnerabilities for data exfiltration, privacy breaches, and potential intellectual property theft.
+
+3.  **30Tbps DDoS**
+    *   **Categorization:** **Critical**
+    *   **1-Sentence Impact:** An attack of this magnitude poses an extreme threat to the availability of critical online services and infrastructure, capable of causing widespread internet disruption.
+
+4.  **Docker Malware**
+    *   **Categorization:** **High**
+    *   **1-Sentence Impact:** Malware targeting Docker containers can compromise cloud infrastructure, lead to data breaches, resource hijacking, and impact software supply chains.
+
+---
+
+### [The Hacker News] How Exposed Endpoints Increase Risk Across LLM Infrastructure
+- **Link:** https://thehackernews.com/2026/02/how-exposed-endpoints-increase-risk.html
+- **AI Analysis:**
+> **Severity:** Medium
+
+**Impact:** The growing infrastructure supporting LLMs, particularly new services and APIs, significantly expands an organization's attack surface, increasing the potential for exploitation.
+
+---
+
+### [Bleeping Computer] Android mental health apps with 14.7M installs filled with security flaws
+- **Link:** https://www.bleepingcomputer.com/news/security/android-mental-health-apps-with-147m-installs-filled-with-security-flaws/
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** State-sponsored MuddyWater is actively compromising MENA organizations with newly developed malware, enabling espionage and data theft.
+**1-sentence Impact:** Security flaws in widely used Android mental health applications expose the highly sensitive medical information of millions of users to potential breach.
 
 ---
 
-### [The Hacker News] AI-Assisted Threat Actor Compromises 600+ FortiGate Devices in 55 Countries
-- **Link:** https://thehackernews.com/2026/02/ai-assisted-threat-actor-compromises.html
-- **AI Analysis:**
-> Okay, let's break this down.
-
-There's a critical detail to address first: the date "February 18, 2026." This is in the future. Assuming this is a typo in the provided text and meant to be 2024 (or a past date), I will analyze it as if the event has already occurred. If it truly means 2026, then this is a predictive report, not current news, which would change the interpretation significantly (e.g., it's a warning, not a report of an actual breach). Given the context of "news" and "observed activity," a typo is the most likely scenario.
-
-Also, the sentence "No exploitation of FortiGate" is a fragment and directly contradicts "compromise over 600 FortiGate devices." This implies the compromise might not be through a specific vulnerability *exploitation* in the FortiGate software itself, but rather through other means like weak credentials, social engineering, or misconfiguration, which allowed the attacker to gain control of the devices. Regardless of the *method*, a "compromise" means unauthorized access and potential control.
-
-**Severity: High**
-
-**1-sentence Impact:** This widespread compromise of critical FortiGate network security devices grants financially motivated threat actors extensive unauthorized access to global organizational networks.
-
----
-
-### [The Hacker News] Anthropic Launches Claude Code Security for AI-Powered Vulnerability Scanning
-- **Link:** https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html
-- **AI Analysis:**
-> **Severity:** Medium
-
-**Impact:** This news signifies an advancement in software security, leveraging AI to proactively identify and suggest fixes for vulnerabilities in codebases, potentially streamlining developer security efforts.
-
----
-
-### [The Hacker News] CISA Adds Two Actively Exploited Roundcube Flaws to KEV Catalog
-- **Link:** https://thehackernews.com/2026/02/cisa-adds-two-actively-exploited.html
-- **AI Analysis:**
-> Here's the analysis of the security news:
-
-**Severity:** **Critical**
-
-**1-Sentence Impact:** These actively exploited flaws enable remote code execution on Roundcube webmail servers, leading to full system compromise and demanding immediate patching.
-
----
-
-### [The Hacker News] EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security
-- **Link:** https://thehackernews.com/2026/02/ec-council-expands-ai-certification.html
-- **AI Analysis:**
-> **Severity:** Low
-
-**1-Sentence Impact:** This news announces new AI and cybersecurity certifications aimed at proactively addressing the growing AI risk exposure and workforce skills gap, thereby improving future security posture rather than responding to a current threat.
-
----
-
-### [Bleeping Computer] Arkanix Stealer pops up as short-lived AI info-stealer experiment
-- **Link:** https://www.bleepingcomputer.com/news/security/arkanix-stealer-pops-up-as-short-lived-ai-info-stealer-experiment/
-- **AI Analysis:**
-> **Severity:** Medium
-
-**Impact:** This news reports on a short-lived, AI-assisted information-stealing malware experiment, Arkanix Stealer, which, despite being promoted on dark web forums, appears to have had a limited, experimental impact and is not an ongoing, widespread threat.
-
----
-
-### [Bleeping Computer] Predator spyware hooks iOS SpringBoard to hide mic, camera activity
-- **Link:** https://www.bleepingcomputer.com/news/security/predator-spyware-hooks-ios-springboard-to-hide-mic-camera-activity/
+### [Bleeping Computer] Spain arrests suspected hacktivists for DDoSing govt sites
+- **Link:** https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-anonymous-fenix-hacktivists-for-ddosing-govt-sites/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 51.317181858s. [links {
+Please retry in 14.113591199s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -86,18 +115,18 @@ Please retry in 51.317181858s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 51
+  seconds: 14
 }
 ]
 
 ---
 
-### [Bleeping Computer] Amazon: AI-assisted hacker breached 600 Fortinet firewalls in 5 weeks
-- **Link:** https://www.bleepingcomputer.com/news/security/amazon-ai-assisted-hacker-breached-600-fortigate-firewalls-in-5-weeks/
+### [Bleeping Computer] Microsoft says bug in classic Outlook hides the mouse pointer
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-in-classic-outlook-hides-the-mouse-pointer/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 50.216198172s. [links {
+Please retry in 13.004517443s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -115,18 +144,18 @@ Please retry in 50.216198172s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 50
+  seconds: 13
 }
 ]
 
 ---
 
-### [Bleeping Computer] Japanese tech giant Advantest hit by ransomware attack
-- **Link:** https://www.bleepingcomputer.com/news/security/japanese-tech-giant-advantest-hit-by-ransomware-attack/
+### [Bleeping Computer] Ad tech firm Optimizely confirms data breach after vishing attack
+- **Link:** https://www.bleepingcomputer.com/news/security/ad-tech-firm-optimizely-confirms-data-breach-after-vishing-attack/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 49.113560782s. [links {
+Please retry in 11.909405734s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -144,18 +173,18 @@ Please retry in 49.113560782s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 49
+  seconds: 11
 }
 ]
 
 ---
 
-### [Bleeping Computer] CISA: BeyondTrust RCE flaw now exploited in ransomware attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/cisa-beyondtrust-rce-flaw-now-exploited-in-ransomware-attacks/
+### [Bleeping Computer] When identity isn’t the weak link, access still is
+- **Link:** https://www.bleepingcomputer.com/news/security/when-identity-isnt-the-weak-link-access-still-is/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 48.006755775s. [links {
+Please retry in 10.816825033s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -173,7 +202,7 @@ Please retry in 48.006755775s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 48
+  seconds: 10
 }
 ]
 
