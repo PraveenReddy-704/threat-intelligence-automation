@@ -1,74 +1,72 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-02-27 08:53:52 (UTC)*
+*Generated on: 2026-02-28 08:40:18 (UTC)*
 
-### [The Hacker News] Meta Files Lawsuits Against Brazil, China, Vietnam Advertisers Over Celeb-Bait Scams
-- **Link:** https://thehackernews.com/2026/02/meta-files-lawsuits-against-brazil.html
-- **AI Analysis:**
-> **Severity: Medium**
-
-**Impact:** Meta's legal and technical actions against deceptive advertisers aim to protect users from financial scams and enhance platform integrity.
-
----
-
-### [The Hacker News] Aeternum C2 Botnet Stores Encrypted Commands on Polygon Blockchain to Evade Takedown
-- **Link:** https://thehackernews.com/2026/02/aeternum-c2-botnet-stores-encrypted.html
-- **AI Analysis:**
-> Here's an analysis of the provided security news:
-
-**Severity:** **High**
-
-**1-sentence Impact:** This new botnet leverages blockchain for its C2, making it exceptionally resilient to takedown and posing a persistent, difficult-to-neutralize threat.
-
----
-
-### [The Hacker News] UAT-10027 Targets U.S. Education and Healthcare with Dohdoor Backdoor
-- **Link:** https://thehackernews.com/2026/02/uat-10027-targets-us-education-and.html
+### [The Hacker News] Pentagon Designates Anthropic Supply Chain Risk Over AI Military Dispute
+- **Link:** https://thehackernews.com/2026/02/pentagon-designates-anthropic-supply.html
 - **AI Analysis:**
 > **Severity:** High
 
-**Impact:** This ongoing campaign delivers a novel, evasive backdoor to U.S. education and healthcare sectors, enabling persistent access and significant data compromise.
-
----
-**Note on the Summary:** The summary states "since at least December 2025." Assuming this is a typo and should refer to a past date (e.g., December 2023), the analysis proceeds based on the campaign being currently active. If it literally means 2025, the severity would drop to "Low" as it would be a future prediction, not an ongoing threat. Given the context of a "previously undocumented threat activity cluster" and "ongoing malicious campaign," a past date typo is the most logical interpretation.
+**Impact:** The Pentagon's designation of Anthropic as a supply chain risk directly impedes the ethical and reliable integration of advanced AI for critical national security applications like military operations and surveillance.
 
 ---
 
-### [The Hacker News] ThreatsDay Bulletin: Kali Linux + Claude, Chrome Crash Traps, WinRAR Flaws, LockBit & 15+ Stories
-- **Link:** https://thehackernews.com/2026/02/threatsday-bulletin-kali-linux-claude.html
+### [The Hacker News] DoJ Seizes $61 Million in Tether Linked to Pig Butchering Crypto Scams
+- **Link:** https://thehackernews.com/2026/02/doj-seizes-61-million-in-tether-linked.html
 - **AI Analysis:**
-> Based on the title and summary:
+> **Severity:** Medium
 
-*   **Severity:** **High**
-*   **1-sentence Impact:** Organizations face a heightened risk from diverse and sophisticated cyber threats, including browser and software vulnerabilities and active ransomware campaigns, which exploit common interactions for rapid compromise and difficult recovery.
+**Impact:** This DoJ action significantly disrupts a pig butchering crypto scam operation, demonstrating law enforcement's increasing capability to trace and seize illicit funds from financial fraud.
 
 ---
 
-### [The Hacker News] Expert Recommends: Prepare for PQC Right Now
-- **Link:** https://thehackernews.com/2026/02/expert-recommends-prepare-for-pqc-right.html
+### [The Hacker News] 900+ Sangoma FreePBX Instances Compromised in Ongoing Web Shell Attacks
+- **Link:** https://thehackernews.com/2026/02/900-sangoma-freepbx-instances.html
 - **AI Analysis:**
-> This news describes a significant, proactive security concern.
+> This news describes a **Critical** security situation.
 
-**Severity:** High
+**Severity:** Critical
 
-**1-Sentence Impact:** Data protected by current encryption is already vulnerable to collection by adversaries for future decryption by quantum computers, necessitating immediate adoption of Post-Quantum Cryptography.
+**Impact:** Hundreds of FreePBX instances are fully compromised with web shells, allowing attackers persistent control over critical communication systems, risking data theft and broader network intrusion.
+
+*(Note: The date "December 2025" is almost certainly a typo and assumed to be a past date like "December 2023" for the analysis, given the context of "ongoing" attacks and "still remain infected.")*
 
 ---
 
-### [Bleeping Computer] Previously harmless Google API keys now expose Gemini AI data
-- **Link:** https://www.bleepingcomputer.com/news/security/previously-harmless-google-api-keys-now-expose-gemini-ai-data/
+### [The Hacker News] Malicious Go Crypto Module Steals Passwords, Deploys Rekoobe Backdoor
+- **Link:** https://thehackernews.com/2026/02/malicious-go-crypto-module-steals.html
 - **AI Analysis:**
-> **Severity:** High
+> **Severity:** Critical
 
-**Impact:** Previously exposed Google API keys, once considered harmless for client-side use, can now be leveraged to authenticate to Gemini AI and access associated private user data.
+**Impact:** This malicious module leads to complete system compromise, allowing attackers to steal credentials and maintain persistent control over affected Linux systems.
 
 ---
 
-### [Bleeping Computer] Trend Micro warns of critical Apex One code execution flaws
-- **Link:** https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-critical-apex-one-rce-vulnerabilities/
+### [The Hacker News] ScarCruft Uses Zoho WorkDrive and USB Malware to Breach Air-Gapped Networks
+- **Link:** https://thehackernews.com/2026/02/scarcruft-uses-zoho-workdrive-and-usb.html
+- **AI Analysis:**
+> Here's the analysis of the security news:
+
+**Severity:** Critical
+
+**Impact:** ScarCruft's new tools pose a critical threat by enabling a state-sponsored actor to breach air-gapped networks, facilitating sophisticated espionage and potential sabotage against highly sensitive systems.
+
+---
+
+### [Bleeping Computer] Microsoft testing Windows 11 batch file security improvements
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-windows-11-batch-file-security-improvements/
+- **AI Analysis:**
+> **Severity:** Low
+
+**1-sentence Impact:** This proactive update enhances Windows 11's security posture by reducing potential attack vectors associated with batch file and CMD script execution.
+
+---
+
+### [Bleeping Computer] APT37 hackers use new malware to breach air-gapped networks
+- **Link:** https://www.bleepingcomputer.com/news/security/apt37-hackers-use-new-malware-to-breach-air-gapped-networks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 11.521054687s. [links {
+Please retry in 45.953579667s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -86,18 +84,18 @@ Please retry in 11.521054687s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 11
+  seconds: 45
 }
 ]
 
 ---
 
-### [Bleeping Computer] European DYI chain ManoMano data breach impacts 38 million customers
-- **Link:** https://www.bleepingcomputer.com/news/security/european-dyi-chain-manomano-data-breach-impacts-38-million-customers/
+### [Bleeping Computer] Europol-led crackdown on The Com hackers leads to 30 arrests
+- **Link:** https://www.bleepingcomputer.com/news/security/police-crackdown-on-the-com-cybercrime-gang-leads-to-30-arrests/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 10.429570352s. [links {
+Please retry in 44.823486963s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -115,18 +113,18 @@ Please retry in 10.429570352s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 10
+  seconds: 44
 }
 ]
 
 ---
 
-### [Bleeping Computer] Critical Juniper Networks PTX flaw allows full router takeover
-- **Link:** https://www.bleepingcomputer.com/news/security/critical-juniper-networks-ptx-flaw-allows-full-router-takeover/
+### [Bleeping Computer] CISA warns that RESURGE malware can be dormant on Ivanti devices
+- **Link:** https://www.bleepingcomputer.com/news/security/cisa-warns-that-resurge-malware-can-be-dormant-on-ivanti-devices/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 9.333161111s. [links {
+Please retry in 43.714319697s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -144,18 +142,18 @@ Please retry in 9.333161111s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 9
+  seconds: 43
 }
 ]
 
 ---
 
-### [Bleeping Computer] Olympique Marseille confirms 'attempted' cyberattack after data leak
-- **Link:** https://www.bleepingcomputer.com/news/security/olympique-marseille-football-club-confirms-cyberattack-after-data-leak/
+### [Bleeping Computer] Third-Party Patching and the Business Footprint We All Share
+- **Link:** https://www.bleepingcomputer.com/news/security/third-party-patching-and-the-business-footprint-we-all-share/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 8.23054437s. [links {
+Please retry in 42.592635948s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -173,7 +171,7 @@ Please retry in 8.23054437s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 8
+  seconds: 42
 }
 ]
 
