@@ -1,177 +1,53 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-03-09 08:57:18 (UTC)*
+*Generated on: 2026-03-10 08:56:36 (UTC)*
 
-### [The Hacker News] Web Server Exploits and Mimikatz Used in Attacks Targeting Asian Critical Infrastructure
-- **Link:** https://thehackernews.com/2026/03/web-server-exploits-and-mimikatz-used.html
+### [The Hacker News] Threat Actors Mass-Scan Salesforce Experience Cloud via Modified AuraInspector Tool
+- **Link:** https://thehackernews.com/2026/03/threat-actors-mass-scan-salesforce.html
 - **AI Analysis:**
-> **Severity:** Critical
+> Here's the analysis:
 
-**1-Sentence Impact:** This ongoing, nation-state campaign, leveraging web server exploits and Mimikatz, has enabled deep and persistent compromise of critical infrastructure and high-value sectors across Asia, posing a severe risk of espionage, intellectual property theft, and operational disruption.
+**Severity:** **High**
+
+**Impact:** This allows threat actors to exploit common customer misconfigurations in Salesforce Experience Cloud sites, potentially leading to unauthorized access to sensitive data.
 
 ---
 
-### [The Hacker News] OpenAI Codex Security Scanned 1.2 Million Commits and Found 10,561 High-Severity Issues
-- **Link:** https://thehackernews.com/2026/03/openai-codex-security-scanned-12.html
-- **AI Analysis:**
-> This news describes a new tool designed to *improve* security, not a new vulnerability or threat. The "high-severity issues" mentioned were *found by the tool* in other people's code (implicitly, as part of its testing/rollout), not discovered *in OpenAI's products* or as an active threat.
-
-**Severity: Low**
-**Impact:** OpenAI launched an AI-powered security agent (Codex Security) to help customers proactively find and fix vulnerabilities in their code, enhancing software security.
-
----
-
-### [The Hacker News] Anthropic Finds 22 Firefox Vulnerabilities Using Claude Opus 4.6 AI Model
-- **Link:** https://thehackernews.com/2026/03/anthropic-finds-22-firefox.html
+### [The Hacker News] CISA Flags SolarWinds, Ivanti, and Workspace One Vulnerabilities as Actively Exploited
+- **Link:** https://thehackernews.com/2026/03/cisa-flags-solarwinds-ivanti-and.html
 - **AI Analysis:**
 > **Severity:** High
 
-**Impact:** The discovery of 14 high-severity Firefox vulnerabilities, now patched, underscores the critical importance for users to update their browsers promptly to mitigate potential significant security risks.
+**Impact:** CISA's flagging of actively exploited vulnerabilities in SolarWinds, Ivanti, and Workspace One products indicates an immediate and severe risk of system compromise for affected organizations.
 
 ---
 
-### [The Hacker News] Transparent Tribe Uses AI to Mass-Produce Malware Implants in Campaign Targeting India
-- **Link:** https://thehackernews.com/2026/03/transparent-tribe-uses-ai-to-mass.html
+### [The Hacker News] Malicious npm Package Posing as OpenClaw Installer Deploys RAT, Steals macOS Credentials
+- **Link:** https://thehackernews.com/2026/03/malicious-npm-package-posing-as.html
 - **AI Analysis:**
-> **Severity:** Critical
+> **Severity:** High
 
-**Impact:** This development signifies a critical shift where AI-powered mass production by a state-aligned actor enables high-volume, evasive malware campaigns, significantly escalating the scale and difficulty of detecting threats targeting India.
+**1-sentence Impact:** Victims installing this npm package will have their macOS systems compromised by a remote access trojan, leading to sensitive data theft, including credentials.
 
 ---
 
-### [The Hacker News] Multi-Stage VOID#GEIST Malware Delivering XWorm, AsyncRAT, and Xeno RAT
-- **Link:** https://thehackernews.com/2026/03/multi-stage-voidgeist-malware.html
+### [The Hacker News] UNC4899 Breached Crypto Firm After Developer AirDropped Trojanized File to Work Device
+- **Link:** https://thehackernews.com/2026/03/unc4899-used-airdrop-file-transfer-and.html
 - **AI Analysis:**
 > Here's the analysis:
 
 **Severity:** High
 
-**1-Sentence Impact:** This multi-stage malware grants attackers full remote control over infected systems, enabling data theft, surveillance, and further malicious activities.
+**1-Sentence Impact:** A sophisticated North Korean state-sponsored actor breached a cryptocurrency firm, stealing millions of dollars via a cloud compromise stemming from a trojanized file air-dropped to a developer's work device.
 
 ---
 
-### [Bleeping Computer] EU court adviser says banks must immediately refund phishing victims
-- **Link:** https://www.bleepingcomputer.com/news/legal/eu-court-adviser-says-banks-must-immediately-refund-phishing-victims/
+### [The Hacker News] ⚡ Weekly Recap: Qualcomm 0-Day, iOS Exploit Chains, AirSnitch Attack & Vibe-Coded Malware
+- **Link:** https://thehackernews.com/2026/03/weekly-recap-qualcomm-0-day-ios-exploit.html
 - **AI Analysis:**
-> This news is not about a new vulnerability or an active attack, but rather a **legal and policy development** with significant implications for how financial institutions manage security risks and consumer protection.
+> Based on the title and summary:
 
-*   **Severity:** **Medium**
-*   **Impact:** This opinion could significantly shift the financial liability for phishing losses from EU consumers to banks, potentially altering fraud prevention strategies and increasing consumer protection.
-
----
-
-### [Bleeping Computer] Hackers abuse .arpa DNS and ipv6 to evade phishing defenses
-- **Link:** https://www.bleepingcomputer.com/news/security/hackers-abuse-arpa-dns-and-ipv6-to-evade-phishing-defenses/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 45.504668702s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 45
-}
-]
-
----
-
-### [Bleeping Computer] Termite ransomware breaches linked to ClickFix CastleRAT attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/termite-ransomware-breaches-linked-to-clickfix-castlerat-attacks/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 44.383161175s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 44
-}
-]
-
----
-
-### [Bleeping Computer] Microsoft: Hackers abusing AI at every stage of cyberattacks
-- **Link:** https://www.bleepingcomputer.com/news/security/microsoft-hackers-abusing-ai-at-every-stage-of-cyberattacks/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 43.274205959s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 43
-}
-]
-
----
-
-### [Bleeping Computer] Cognizant TriZetto breach exposes health data of 3.4 million patients
-- **Link:** https://www.bleepingcomputer.com/news/security/cognizant-trizetto-breach-exposes-health-data-of-34-million-patients/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 42.165843177s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 42
-}
-]
+*   **Severity:** **Critical**
+*   **Impact:** Multiple critical 0-day exploits and sophisticated attack chains targeting major platforms like Qualcomm and iOS present widespread immediate risks of device compromise, data theft, and significant operational disruption.
 
 ---
 
