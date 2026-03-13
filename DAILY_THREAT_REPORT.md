@@ -1,68 +1,76 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-03-12 08:56:08 (UTC)*
+*Generated on: 2026-03-13 08:53:59 (UTC)*
 
-### [The Hacker News] Six Android Malware Families Target Pix Payments, Banking Apps, and Crypto Wallets
-- **Link:** https://thehackernews.com/2026/03/six-android-malware-families-target-pix.html
+### [The Hacker News] Authorities Disrupt SocksEscort Proxy Botnet Exploiting 369,000 IPs Across 163 Countries
+- **Link:** https://thehackernews.com/2026/03/authorities-disrupt-socksescort-proxy.html
 - **AI Analysis:**
-> **Severity:** High
+> **Severity: Medium**
 
-**1-Sentence Impact:** These new Android malware families pose a high risk of significant financial fraud, data theft, and complete device compromise for users targeting sensitive banking and crypto applications.
+**1-sentence impact:** While law enforcement has successfully dismantled a massive botnet, it highlights that thousands of home and small business routers were compromised and exploited for large-scale fraud, underscoring ongoing consumer device vulnerability.
 
 ---
 
-### [The Hacker News] CISA Flags Actively Exploited n8n RCE Bug as 24,700 Instances Remain Exposed
-- **Link:** https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html
+### [The Hacker News] Veeam Patches 7 Critical Backup & Replication Flaws Allowing Remote Code Execution
+- **Link:** https://thehackernews.com/2026/03/veeam-patches-7-critical-backup.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** An actively exploited critical RCE vulnerability (CVSS 9.9) in n8n allows attackers to gain full control over thousands of unpatched instances, posing an immediate and severe risk to affected organizations.
+**Impact:** Exploiting these critical flaws allows remote code execution on Veeam Backup & Replication servers, leading to the complete compromise of backup infrastructure and the data it protects.
 
 ---
 
-### [The Hacker News] Researchers Trick Perplexity's Comet AI Browser Into Phishing Scam in Under Four Minutes
-- **Link:** https://thehackernews.com/2026/03/researchers-trick-perplexitys-comet-ai.html
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** This vulnerability allows agentic AI browsers to be easily tricked into autonomously performing malicious actions, such as revealing sensitive information or falling for scams, on behalf of users.
-
----
-
-### [The Hacker News] Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials
-- **Link:** https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html
+### [The Hacker News] Rust-Based VENON Malware Targets 33 Brazilian Banks with Credential-Stealing Overlays
+- **Link:** https://thehackernews.com/2026/03/rust-based-venon-malware-targets-33.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** These critical n8n flaws allow unauthenticated attackers to achieve remote code execution and expose sensitive stored credentials, leading to complete system compromise.
+**Impact:** The VENON malware poses a critical threat of widespread financial fraud by stealing user credentials from customers across 33 Brazilian banks.
 
 ---
 
-### [The Hacker News] Meta Disables 150K Accounts Linked to Southeast Asia Scam Centers in Global Crackdown
-- **Link:** https://thehackernews.com/2026/03/meta-disables-150k-accounts-linked-to.html
+### [The Hacker News] Hive0163 Uses AI-Assisted Slopoly Malware for Persistent Access in Ransomware Attacks
+- **Link:** https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html
 - **AI Analysis:**
 > **Severity:** High
 
-**Impact:** This global enforcement action significantly disrupts criminal scam operations targeting users and enhances online safety by removing widespread malicious infrastructure.
+**1-Sentence Impact:** This represents a significant escalation in threat capabilities, as AI is now being leveraged to rapidly develop ransomware, enabling more efficient and persistent attacks.
 
 ---
 
-### [Bleeping Computer] WhatsApp introduces parent-managed accounts for pre-teens
-- **Link:** https://www.bleepingcomputer.com/news/security/whatsapp-introduces-parent-managed-accounts-for-pre-teens/
+### [The Hacker News] How to Scale Phishing Detection in Your SOC: 3 Steps for CISOs
+- **Link:** https://thehackernews.com/2026/03/how-to-scale-phishing-detection-in-your.html
 - **AI Analysis:**
-> This news represents a **positive security enhancement** rather than a threat or vulnerability.
+> Here's an analysis of the provided security news snippet:
 
-**Categorization:** Medium (for its impact on user safety and privacy, especially for a vulnerable demographic)
-
-**1-sentence impact:** This feature significantly enhances the safety and privacy of pre-teen WhatsApp users by empowering parents with granular control over contacts and group access, mitigating risks like unwanted communication and exposure to inappropriate content.
+**Severity:** Medium
+**1-sentence impact:** Modern, sophisticated phishing campaigns are increasingly bypassing traditional detection, requiring CISOs to urgently scale and adapt their security operations to mitigate growing enterprise risk.
 
 ---
 
-### [Bleeping Computer] SQLi flaw in Elementor Ally plugin impacts 250k+ WordPress sites
-- **Link:** https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/
+### [Bleeping Computer] Starbucks discloses data breach affecting hundreds of employees
+- **Link:** https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** The breach exposes hundreds of employees to potential identity theft and privacy violations through unauthorized access to their internal accounts containing sensitive personal and employment data.
+
+---
+
+### [Bleeping Computer] Google fixes two new Chrome zero-days exploited in attacks
+- **Link:** https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/
+- **AI Analysis:**
+> **Severity:** Critical
+
+**1-sentence Impact:** Actively exploited zero-day vulnerabilities in Chrome posed an immediate risk to user security, requiring urgent updates to prevent system compromise.
+
+---
+
+### [Bleeping Computer] Canadian retail giant Loblaw notifies customers of data breach
+- **Link:** https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 55.802309813s. [links {
+Please retry in 3.429257152s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -80,18 +88,18 @@ Please retry in 55.802309813s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 55
+  seconds: 3
 }
 ]
 
 ---
 
-### [Bleeping Computer] CISA orders feds to patch n8n RCE flaw exploited in attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/
+### [Bleeping Computer] England Hockey investigating ransomware data breach
+- **Link:** https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 54.702060033s. [links {
+Please retry in 2.312486849s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -109,18 +117,18 @@ Please retry in 54.702060033s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 54
+  seconds: 2
 }
 ]
 
 ---
 
-### [Bleeping Computer] Medtech giant Stryker offline after Iran-linked wiper malware attack
-- **Link:** https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/
+### [Bleeping Computer] AI-generated Slopoly malware used in Interlock ransomware attack
+- **Link:** https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 53.597791641s. [links {
+Please retry in 1.216616562s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -138,36 +146,7 @@ Please retry in 53.597791641s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 53
-}
-]
-
----
-
-### [Bleeping Computer] New PhantomRaven NPM attack wave steals dev data via 88 packages
-- **Link:** https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 52.497841384s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 52
+  seconds: 1
 }
 ]
 
