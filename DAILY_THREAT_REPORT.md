@@ -1,49 +1,70 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-03-16 09:08:52 (UTC)*
+*Generated on: 2026-03-17 09:02:46 (UTC)*
 
-### [The Hacker News] Android 17 Blocks Non-Accessibility Apps from Accessibility API to Prevent Malware Abuse
-- **Link:** https://thehackernews.com/2026/03/android-17-blocks-non-accessibility.html
+### [The Hacker News] CISA Flags Actively Exploited Wing FTP Vulnerability Leaking Server Paths
+- **Link:** https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html
 - **AI Analysis:**
-> **Severity:** Medium
+> **Severity:** High
 
-**1-sentence Impact:** This proactive Android 17 security feature enhances user protection by preventing malware from abusing the Accessibility API, especially for devices using Advanced Protection Mode.
+**1-sentence Impact:** Actively exploited, this information disclosure vulnerability allows attackers to leak server installation paths, potentially aiding in further targeted attacks.
 
 ---
 
-### [The Hacker News] OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration
-- **Link:** https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html
-- **AI Analysis:**
-> **Severity: High**
-
-**1-Sentence Impact:**
-Flaws in OpenClaw AI agents, stemming from inherently weak default security configurations, enable prompt injection and data exfiltration, posing a significant risk to data privacy for self-hosting organizations.
-
----
-
-### [The Hacker News] GlassWorm Supply-Chain Attack Abuses 72 Open VSX Extensions to Target Developers
-- **Link:** https://thehackernews.com/2026/03/glassworm-supply-chain-attack-abuses-72.html
+### [The Hacker News] GlassWorm Attack Uses Stolen GitHub Tokens to Force-Push Malware Into Python Repos
+- **Link:** https://thehackernews.com/2026/03/glassworm-attack-uses-stolen-github.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** Developers using Open VSX extensions face a critical risk of system compromise through a sophisticated supply-chain attack that leverages transitive dependencies, potentially infecting their development environments and downstream software products.
+**Impact:** This supply chain attack injects malware into Python repositories, allowing attackers to execute arbitrary code on systems running compromised projects, threatening a wide range of applications and user data.
 
 ---
 
-### [The Hacker News] Chinese Hackers Target Southeast Asian Militaries with AppleChris and MemFun Malware
-- **Link:** https://thehackernews.com/2026/03/chinese-hackers-target-southeast-asian.html
+### [The Hacker News] ⚡ Weekly Recap: Chrome 0-Days, Router Botnets, AWS Breach, Rogue AI Agents & More
+- **Link:** https://thehackernews.com/2026/03/weekly-recap-chrome-0-days-router.html
+- **AI Analysis:**
+> Based on the title and summary:
+
+**Severity: Critical**
+
+**1-Sentence Impact:** Organizations and users face immediate, widespread compromise risks from critical software zero-days, infrastructure botnets, cloud breaches, and the emergence of sophisticated AI-driven threats.
+
+---
+
+### [The Hacker News] Why Security Validation Is Becoming Agentic
+- **Link:** https://thehackernews.com/2026/03/why-security-validation-is-becoming.html
+- **AI Analysis:**
+> This news discusses a widespread operational challenge rather than a direct vulnerability or breach.
+
+**Severity: Medium**
+
+**1-Sentence Impact:** The current fragmented approach to security validation tools creates an incomplete and potentially vulnerable picture of an organization's actual security posture.
+
+---
+
+### [The Hacker News] ClickFix Campaigns Spread MacSync macOS Infostealer via Fake AI Tool Installers
+- **Link:** https://thehackernews.com/2026/03/clickfix-campaigns-spread-macsync-macos.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** This campaign poses a high risk of information theft to macOS users who are tricked into executing malicious commands from fake AI tool installers.
+
+---
+
+### [Bleeping Computer] Stryker attack wiped tens of thousands of devices, no malware needed
+- **Link:** https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** This state-sponsored cyber espionage operation against Southeast Asian militaries poses a critical threat to national security, intelligence integrity, and regional stability.
+**1-Sentence Impact:** This attack caused massive data destruction and operational disruption by remotely wiping tens of thousands of employee devices within Stryker's internal environment.
 
 ---
 
-### [The Hacker News] Meta to Shut Down Instagram End-to-End Encrypted Chat Support Starting May 2026
-- **Link:** https://thehackernews.com/2026/03/meta-to-shut-down-instagram-end-to-end.html
+### [Bleeping Computer] CISA flags Wing FTP Server flaw as actively exploited in attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/cisa-flags-wing-ftp-server-flaw-as-actively-exploited-in-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 21.141987081s. [links {
+Please retry in 18.316937704s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -61,27 +82,18 @@ Please retry in 21.141987081s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 21
+  seconds: 18
 }
 ]
 
 ---
 
-### [Bleeping Computer] OpenAI says ChatGPT ads are not rolling out globally for now
-- **Link:** https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-ads-are-not-rolling-out-globally-for-now/
-- **AI Analysis:**
-> **Severity:** Low
-
-**1-sentence impact:** This news clarifies that anticipated privacy policy changes related to ChatGPT ads will only impact US free-tier users for now, posing no immediate global security or privacy risk.
-
----
-
-### [Bleeping Computer] Betterleaks, a new open-source secrets scanner to replace Gitleaks
-- **Link:** https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/
+### [Bleeping Computer] UK’s Companies House confirms security flaw exposed business data
+- **Link:** https://www.bleepingcomputer.com/news/security/uks-companies-house-confirms-security-flaw-exposed-business-data/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 12.166529657s. [links {
+Please retry in 17.23468271s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -99,18 +111,18 @@ Please retry in 12.166529657s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 12
+  seconds: 17
 }
 ]
 
 ---
 
-### [Bleeping Computer] Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/
+### [Bleeping Computer] Microsoft Exchange Online outage blocks access to mailboxes
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-blocks-access-to-mailboxes/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 11.073838489s. [links {
+Please retry in 16.143155891s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -128,18 +140,18 @@ Please retry in 11.073838489s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 11
+  seconds: 16
 }
 ]
 
 ---
 
-### [Bleeping Computer] AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code
-- **Link:** https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/
+### [Bleeping Computer] Shadow AI is everywhere. Here’s how to find and secure it.
+- **Link:** https://www.bleepingcomputer.com/news/security/shadow-ai-is-everywhere-heres-how-to-find-and-secure-it/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 9.988096047s. [links {
+Please retry in 15.052587243s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -157,36 +169,7 @@ Please retry in 9.988096047s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 9
-}
-]
-
----
-
-### [Bleeping Computer] Microsoft: Windows 11 users can't access C: drive on some Samsung PCs
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-users-cant-access-c-drive-on-some-samsung-pcs/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 8.901857395s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 8
+  seconds: 15
 }
 ]
 
