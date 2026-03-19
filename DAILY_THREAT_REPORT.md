@@ -1,39 +1,70 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-03-18 09:01:25 (UTC)*
+*Generated on: 2026-03-19 08:56:05 (UTC)*
 
-### [The Hacker News] Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS
-- **Link:** https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html
+### [The Hacker News] CISA Warns of Zimbra, SharePoint Flaw Exploits; Cisco Zero-Day Hit in Ransomware Attacks
+- **Link:** https://thehackernews.com/2026/03/cisa-warns-of-zimbra-sharepoint-flaw.html
+- **AI Analysis:**
+> Based on the information provided:
+
+**Severity:** High
+
+**Impact:** Actively exploited vulnerabilities in Zimbra Collaboration Suite and Microsoft SharePoint, flagged by CISA, pose a significant risk of system compromise and data exposure for affected organizations if not immediately patched.
+
+---
+
+### [The Hacker News] OFAC Sanctions DPRK IT Worker Network Funding WMD Programs Through Fake Remote Jobs
+- **Link:** https://thehackernews.com/2026/03/ofac-sanctions-dprk-it-worker-network.html
 - **AI Analysis:**
 > **Severity:** High
 
-**Impact:** A malicious website could exploit this flaw to bypass the Same-Origin Policy, allowing it to read sensitive data from legitimate websites, leading to information disclosure and potential account compromise.
+**Impact:** U.S. businesses face financial loss and potential insider threat risks from state-sponsored DPRK IT workers who deceive companies to generate illicit revenue for WMD programs, posing a significant national security concern.
 
 ---
 
-### [The Hacker News] Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE via Port 23
+### [The Hacker News] Interlock Ransomware Exploits Cisco FMC Zero-Day CVE-2026-20131 for Root Access
+- **Link:** https://thehackernews.com/2026/03/interlock-ransomware-exploits-cisco-fmc.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** Exploitation of this critical zero-day allows unauthenticated, remote attackers to gain full root access to Cisco Secure Firewall Management Center devices, enabling the deployment of Interlock ransomware and potential broader network compromise.
+
+---
+
+### [The Hacker News] Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE
 - **Link:** https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html
 - **AI Analysis:**
-> **Severity:** Critical
+> Here's the analysis:
 
-**Impact:** This flaw allows an unauthenticated remote attacker to gain root-level arbitrary code execution on vulnerable systems via port 23, leading to complete system compromise.
+**Severity:** **Critical**
+
+**1-Sentence Impact:** This critical flaw allows unauthenticated remote attackers to achieve full system compromise with root privileges on vulnerable devices running telnetd.
 
 ---
 
-### [The Hacker News] AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE
-- **Link:** https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html
+### [The Hacker News] Claude Code Security and Magecart: Getting the Threat Model Right
+- **Link:** https://thehackernews.com/2026/03/claude-code-security-and-magecart.html
 - **AI Analysis:**
-> **Severity:** Critical
+> **Severity:** High
 
-**Impact:** This critical vulnerability allows attackers to achieve remote code execution and exfiltrate sensitive data from AI code execution environments, like Amazon Bedrock, by exploiting outbound DNS queries.
+**Impact:** Failure to account for client-side runtime execution in the threat model leaves organizations vulnerable to sophisticated Magecart attacks, enabling undetected credit card and PII theft that bypasses even advanced static analysis tools.
 
 ---
 
-### [The Hacker News] LeakNet Ransomware Uses ClickFix via Hacked Sites, Deploys Deno In-Memory Loader
-- **Link:** https://thehackernews.com/2026/03/leaknet-ransomware-uses-clickfix-via.html
+### [Bleeping Computer] Aura confirms data breach exposing 900,000 marketing contacts
+- **Link:** https://www.bleepingcomputer.com/news/security/aura-confirms-data-breach-exposing-900-000-marketing-contacts/
+- **AI Analysis:**
+> **Severity: High**
+
+**1-sentence impact:** This breach significantly increases the risk of phishing and targeted attacks for nearly 900,000 individuals and severely undermines the credibility of an identity protection company.
+
+---
+
+### [Bleeping Computer] CISA orders feds to patch Zimbra XSS flaw exploited in attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-zimbra-xss-flaw-exploited-in-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 49.218658541s. [links {
+Please retry in 59.084144388s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -51,26 +82,18 @@ Please retry in 49.218658541s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 49
+  seconds: 59
 }
 ]
 
 ---
 
-### [The Hacker News] AI is Everywhere, But CISOs are Still Securing It with Yesterday's Skills and Tools, Study Finds
-- **Link:** https://thehackernews.com/2026/03/ai-is-everywhere-but-cisos-are-still.html
-- **AI Analysis:**
-> *   **Severity:** **High**
-*   **1-Sentence Impact:** The widespread lack of adequate skills and tools for securing AI systems creates a high strategic risk of AI-related breaches, manipulation, and operational failures for organizations.
-
----
-
-### [Bleeping Computer] Apple pushes first Background Security Improvements update to fix WebKit flaw
-- **Link:** https://www.bleepingcomputer.com/news/security/apple-pushes-first-background-security-improvements-update-to-fix-webkit-flaw/
+### [Bleeping Computer] ConnectWise patches new flaw allowing ScreenConnect hijacking
+- **Link:** https://www.bleepingcomputer.com/news/security/connectwise-patches-new-flaw-allowing-screenconnect-hijacking/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 40.040858462s. [links {
+Please retry in 57.890374943s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -88,18 +111,18 @@ Please retry in 40.040858462s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 40
+  seconds: 57
 }
 ]
 
 ---
 
-### [Bleeping Computer] GlassWorm malware hits 400+ code repos on GitHub, npm, VSCode, OpenVSX
-- **Link:** https://www.bleepingcomputer.com/news/security/glassworm-malware-hits-400-plus-code-repos-on-github-npm-vscode-openvsx/
+### [Bleeping Computer] Ransomware gang exploits Cisco flaw in zero-day attacks since January
+- **Link:** https://www.bleepingcomputer.com/news/security/interlock-ransomware-exploited-secure-fmc-flaw-in-zero-day-attacks-since-january/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 38.888546049s. [links {
+Please retry in 56.713828157s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -117,18 +140,18 @@ Please retry in 38.888546049s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 38
+  seconds: 56
 }
 ]
 
 ---
 
-### [Bleeping Computer] Europe sanctions Chinese and Iranian firms for cyberattacks
-- **Link:** https://www.bleepingcomputer.com/news/security/europe-sanctions-chinese-and-iranian-firms-for-cyberattacks/
+### [Bleeping Computer] Marquis: Ransomware gang stole data of 672K people in cyberattack
+- **Link:** https://www.bleepingcomputer.com/news/security/marquis-ransomware-gang-stole-data-of-672-000-people-in-2025-cyberattack/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 37.728155939s. [links {
+Please retry in 55.616584537s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -146,65 +169,7 @@ Please retry in 37.728155939s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 37
-}
-]
-
----
-
-### [Bleeping Computer] Top 5 Things CISOs Need to Do Today to Secure AI Agents
-- **Link:** https://www.bleepingcomputer.com/news/security/top-5-things-cisos-need-to-do-today-to-secure-ai-agents/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 36.581252976s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 36
-}
-]
-
----
-
-### [Bleeping Computer] New font-rendering trick hides malicious commands from AI tools
-- **Link:** https://www.bleepingcomputer.com/news/security/new-font-rendering-trick-hides-malicious-commands-from-ai-tools/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 35.434441364s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 35
+  seconds: 55
 }
 ]
 
