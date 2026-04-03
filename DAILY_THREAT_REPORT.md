@@ -1,76 +1,67 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-04-02 09:11:36 (UTC)*
+*Generated on: 2026-04-03 09:06:16 (UTC)*
 
-### [The Hacker News] Apple Expands iOS 18.7.7 Update to More Devices to Block DarkSword Exploit
-- **Link:** https://thehackernews.com/2026/04/apple-expands-ios-1877-update-to-more.html
-- **AI Analysis:**
-> This news appears to be **erroneous or hypothetical due to the date mentioned.**
-
-The key detail is: "We enabled the availability of iOS 18.7.7 for more devices on **April 1, 2026**". Since the current date is not 2026, this news piece describes a future event and is not reporting on an immediate, present-day security update or threat.
-
-Given this, the analysis is based on the *factual inaccuracy* of the reporting for the present time:
-
-*   **Severity:** **Low** (as presented, because it's not current, actionable news for the present moment)
-*   **1-sentence Impact:** This news, due to reporting a future date for the update's availability (April 1, 2026), does not describe a current, active threat requiring immediate user action, but rather presents a hypothetical or erroneous scenario.
-
-*(If we were to assume the date was a typo and the event *was* happening now, the severity would be Critical or High, as "exploit kits" for iOS are extremely serious and often lead to zero-click compromise.)*
-
----
-
-### [The Hacker News] CERT-UA Impersonation Campaign Spread AGEWHEEZE Malware to 1 Million Emails
-- **Link:** https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html
+### [The Hacker News] Hackers Exploit CVE-2025-55182 to Breach 766 Next.js Hosts, Steal Credentials
+- **Link:** https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-sentence Impact:** The impersonation of a trusted cybersecurity authority to distribute a remote administration tool creates a critical risk of widespread system compromise and erodes public trust in official security warnings.
+**Impact:** Exploitation allows attackers to achieve deep and widespread compromise across cloud infrastructure, databases, and financial systems by stealing critical credentials like SSH keys, AWS secrets, and API keys.
 
 ---
 
-### [The Hacker News] Microsoft Warns of WhatsApp-Delivered VBS Malware Hijacking Windows via UAC Bypass
-- **Link:** https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html
-- **AI Analysis:**
-> Here's the analysis of the security news:
-
-**Severity:** Critical
-
-**Impact:** This campaign poses a critical threat, enabling attackers to hijack Windows systems via WhatsApp-delivered VBS malware that bypasses UAC for full remote access and persistence.
-
----
-
-### [The Hacker News] Block the Prompt, Not the Work: The End of "Doctor No"
-- **Link:** https://thehackernews.com/2026/04/block-prompt-not-work-end-of-doctor-no.html
-- **AI Analysis:**
-> This news discusses a **Medium** severity issue.
-
-**Impact:** The news signals a critical strategic shift, warning that outdated blanket blocking of new technologies by "Doctor No" security departments will soon become a greater operational and security risk than the technologies they aim to protect.
-
----
-
-### [The Hacker News] Casbaneiro Phishing Targets Latin America and Europe Using Dynamic PDF Lures
-- **Link:** https://thehackernews.com/2026/04/casbaneiro-phishing-targets-latin.html
+### [The Hacker News] Cisco Patches 9.8 CVSS IMC and SSM Flaws Allowing Remote System Compromise
+- **Link:** https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-sentence Impact:** This campaign poses a critical risk of significant financial theft for targeted organizations and users across Latin America and Europe through sophisticated banking trojans delivered via phishing.
+**Impact:** This critical vulnerability allows an unauthenticated, remote attacker to bypass authentication and gain elevated privileges on affected Cisco IMC systems, leading to full system compromise.
 
 ---
 
-### [Bleeping Computer] Over 14,000 F5 BIG-IP APM instances still exposed to RCE attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/over-14-000-f5-big-ip-apm-instances-still-exposed-to-rce-attacks/
+### [The Hacker News] ThreatsDay Bulletin: Pre-Auth Chains, Android Rootkits, CloudTrail Evasion & 10 More Stories
+- **Link:** https://thehackernews.com/2026/04/threatsday-bulletin-pre-auth-chains.html
 - **AI Analysis:**
-> Here's the analysis of the security news:
+> Based on the title and summary:
 
 *   **Severity:** **Critical**
-*   **1-Sentence Impact:** Ongoing exploitation of a critical RCE vulnerability in over 14,000 exposed F5 BIG-IP APM instances grants attackers full control, risking widespread network compromise and data theft.
+*   **1-sentence Impact:** This bulletin details multiple critical vulnerabilities, including pre-authentication exploits and rootkits, enabling full system compromise, data theft, and evasion of detection.
 
 ---
 
-### [Bleeping Computer] New CrystalRAT malware adds RAT, stealer and prankware features
-- **Link:** https://www.bleepingcomputer.com/news/security/new-crystalrat-malware-adds-rat-stealer-and-prankware-features/
+### [The Hacker News] Researchers Uncover Mining Operation Using ISO Lures to Spread RATs and Crypto Miners
+- **Link:** https://thehackernews.com/2026/04/researchers-uncover-mining-operation.html
+- **AI Analysis:**
+> **Severity:** High
+
+**1-Sentence Impact:** This financially motivated operation deploys remote access trojans and cryptocurrency miners via fake installers, leading to system compromise, data theft, resource abuse, and financial fraud for victims.
+
+---
+
+### [The Hacker News] The State of Trusted Open Source Report
+- **Link:** https://thehackernews.com/2026/04/the-state-of-trusted-open-source-report.html
+- **AI Analysis:**
+> **Severity:** Medium
+
+**1-sentence impact:** This report provides crucial insights into open source consumption patterns and associated vulnerabilities, enabling organizations to better understand and manage their software supply chain risks.
+
+---
+
+### [Bleeping Computer] Man admits to locking thousands of Windows devices in extortion plot
+- **Link:** https://www.bleepingcomputer.com/news/security/man-admits-to-extortion-plot-locking-coworkers-out-of-thousands-of-windows-devices/
+- **AI Analysis:**
+> This incident represents a **Critical** severity event.
+
+**Impact:** An insider threat caused a catastrophic denial of service across thousands of an industrial company's critical servers and devices, leading to severe operational disruption as part of a failed extortion attempt.
+
+---
+
+### [Bleeping Computer] Microsoft now force upgrades unmanaged Windows 11 24H2 PCs
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-now-force-upgrades-unmanaged-windows-11-24h2-pcs/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 27.997525351s. [links {
+Please retry in 48.182697283s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -88,18 +79,18 @@ Please retry in 27.997525351s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 27
+  seconds: 48
 }
 ]
 
 ---
 
-### [Bleeping Computer] Apple expands iOS 18 updates to more iPhones to block DarkSword attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/apple-expands-ios-18-updates-to-more-iphones-to-block-darksword-attacks/
+### [Bleeping Computer] CERT-EU: European Commission hack exposes data of 30 EU entities
+- **Link:** https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 26.894811409s. [links {
+Please retry in 47.073859011s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -117,18 +108,18 @@ Please retry in 26.894811409s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 26
+  seconds: 47
 }
 ]
 
 ---
 
-### [Bleeping Computer] Hackers exploit TrueConf zero-day to push malicious software updates
-- **Link:** https://www.bleepingcomputer.com/news/security/hackers-exploit-trueconf-zero-day-to-push-malicious-software-updates/
+### [Bleeping Computer] Claude Code leak used to push infostealer malware on GitHub
+- **Link:** https://www.bleepingcomputer.com/news/security/claude-code-leak-used-to-push-infostealer-malware-on-github/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 25.787775753s. [links {
+Please retry in 45.962292032s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -146,18 +137,18 @@ Please retry in 25.787775753s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 25
+  seconds: 45
 }
 ]
 
 ---
 
-### [Bleeping Computer] New EvilTokens service fuels Microsoft device code phishing attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/new-eviltokens-service-fuels-microsoft-device-code-phishing-attacks/
+### [Bleeping Computer] Drift loses $280 million North Korean hackers seize Security Council powers
+- **Link:** https://www.bleepingcomputer.com/news/security/drift-loses-280-million-north-korean-hackers-seize-security-council-powers/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 24.623351241s. [links {
+Please retry in 44.852444738s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -175,7 +166,7 @@ Please retry in 24.623351241s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 24
+  seconds: 44
 }
 ]
 
