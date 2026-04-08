@@ -1,23 +1,21 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-04-07 09:17:26 (UTC)*
+*Generated on: 2026-04-08 09:14:27 (UTC)*
 
-### [The Hacker News] China-Linked Storm-1175 Exploits Zero-Days to Rapidly Deploy Medusa Ransomware
-- **Link:** https://thehackernews.com/2026/04/china-linked-storm-1175-exploits-zero.html
+### [The Hacker News] N. Korean Hackers Spread 1,700 Malicious Packages Across npm, PyPI, Go, Rust
+- **Link:** https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html
 - **AI Analysis:**
-> Here's the analysis of the security news:
+> **Severity:** High
 
-**Severity:** Critical
-
-**Impact:** Sophisticated China-linked actors are leveraging zero-day vulnerabilities in internet-facing systems to rapidly deploy Medusa ransomware, leading to severe data loss and operational disruption.
+**Impact:** This state-sponsored supply chain attack poses a significant risk to developers across multiple popular programming ecosystems, potentially leading to compromised development environments and facilitating further sophisticated attacks via malware loaders.
 
 ---
 
-### [The Hacker News] Flowise AI Agent Builder Under Active CVSS 10.0 RCE Exploitation; 12,000+ Instances Exposed
-- **Link:** https://thehackernews.com/2026/04/flowise-ai-agent-builder-under-active.html
+### [The Hacker News] Iran-Linked Hackers Disrupt U.S. Critical Infrastructure by Targeting Internet-Exposed PLCs
+- **Link:** https://thehackernews.com/2026/04/iran-linked-hackers-disrupt-us-critical.html
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 43.083917039s. [links {
+Please retry in 42.796254568s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -35,18 +33,18 @@ Please retry in 43.083917039s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 43
+  seconds: 42
 }
 ]
 
 ---
 
-### [The Hacker News] Iran-Linked Password-Spraying Campaign Targets 300+ Israeli Microsoft 365 Organizations
-- **Link:** https://thehackernews.com/2026/04/iran-linked-password-spraying-campaign.html
+### [The Hacker News] Russian State-Linked APT28 Exploits SOHO Routers in Global DNS Hijacking Campaign
+- **Link:** https://thehackernews.com/2026/04/russian-state-linked-apt28-exploits.html
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 41.982354354s. [links {
+Please retry in 41.646659283s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -70,12 +68,12 @@ Please retry in 41.982354354s. [links {
 
 ---
 
-### [The Hacker News] DPRK-Linked Hackers Use GitHub as C2 in Multi-Stage Attacks Targeting South Korea
-- **Link:** https://thehackernews.com/2026/04/dprk-linked-hackers-use-github-as-c2-in.html
+### [The Hacker News] [Webinar] How to Close Identity Gaps in 2026 Before AI Exploits Enterprise Risk
+- **Link:** https://thehackernews.com/2026/04/webinar-how-to-close-identity-gaps-in.html
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 40.878013865s. [links {
+Please retry in 40.494610382s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -99,12 +97,12 @@ Please retry in 40.878013865s. [links {
 
 ---
 
-### [The Hacker News] Multi-OS Cyberattacks: How SOCs Close a Critical Risk in 3 Steps
-- **Link:** https://thehackernews.com/2026/04/multi-os-cyberattacks-how-socs-close.html
+### [The Hacker News] Docker CVE-2026-34040 Lets Attackers Bypass Authorization and Gain Host Access
+- **Link:** https://thehackernews.com/2026/04/docker-cve-2026-34040-lets-attackers.html
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 39.762204597s. [links {
+Please retry in 39.349502827s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -128,12 +126,12 @@ Please retry in 39.762204597s. [links {
 
 ---
 
-### [Bleeping Computer] German authorities identify REvil and GandCrab ransomware bosses
-- **Link:** https://www.bleepingcomputer.com/news/security/german-authorities-identify-revil-and-gangcrab-ransomware-bosses/
+### [Bleeping Computer] Microsoft rolls out fix for broken Windows Start Menu search
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-broken-windows-start-menu-search/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 38.550756679s. [links {
+Please retry in 38.090523991s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -157,41 +155,12 @@ Please retry in 38.550756679s. [links {
 
 ---
 
-### [Bleeping Computer] New GPUBreach attack enables system takeover via GPU rowhammer
-- **Link:** https://www.bleepingcomputer.com/news/security/new-gpubreach-attack-enables-system-takeover-via-gpu-rowhammer/
+### [Bleeping Computer] Hackers exploit critical flaw in Ninja Forms WordPress plugin
+- **Link:** https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-flaw-in-ninja-forms-wordpress-plugin/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 37.438995763s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 37
-}
-]
-
----
-
-### [Bleeping Computer] Disgruntled researcher leaks “BlueHammer” Windows zero-day exploit
-- **Link:** https://www.bleepingcomputer.com/news/security/disgruntled-researcher-leaks-bluehammer-windows-zero-day-exploit/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 36.313571971s. [links {
+Please retry in 36.95013533s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -215,12 +184,12 @@ Please retry in 36.313571971s. [links {
 
 ---
 
-### [Bleeping Computer] Microsoft fixes Classic Outlook bug causing email delivery issues
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-classic-outlook-bug-causing-email-delivery-issues/
+### [Bleeping Computer] FBI: Americans lost a record $21 billion to cybercrime last year
+- **Link:** https://www.bleepingcomputer.com/news/security/fbi-americans-lost-a-record-21-billion-to-cybercrime-last-year/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 35.20509288s. [links {
+Please retry in 35.81120101s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -244,12 +213,12 @@ Please retry in 35.20509288s. [links {
 
 ---
 
-### [Bleeping Computer] Microsoft removes Support and Recovery Assistant from Windows
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-support-and-recovery-assistant-from-windows/
+### [Bleeping Computer] Snowflake customers hit in data theft attacks after SaaS integrator breach
+- **Link:** https://www.bleepingcomputer.com/news/security/snowflake-customers-hit-in-data-theft-attacks-after-saas-integrator-breach/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 34.093046673s. [links {
+Please retry in 34.673534961s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -268,6 +237,35 @@ Please retry in 34.093046673s. [links {
 }
 , retry_delay {
   seconds: 34
+}
+]
+
+---
+
+### [Bleeping Computer] US warns of Iranian hackers targeting critical infrastructure
+- **Link:** https://www.bleepingcomputer.com/news/security/us-warns-of-iranian-hackers-targeting-critical-infrastructure/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 33.536307654s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 33
 }
 ]
 
