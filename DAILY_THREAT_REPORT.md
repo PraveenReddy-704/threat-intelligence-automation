@@ -1,23 +1,75 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-04-13 10:03:49 (UTC)*
+*Generated on: 2026-04-14 09:44:05 (UTC)*
 
-### [The Hacker News] OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident
-- **Link:** https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html
+### [The Hacker News] 108 Malicious Chrome Extensions Steal Google and Telegram Data, Affecting 20,000 Users
+- **Link:** https://thehackernews.com/2026/04/108-malicious-chrome-extensions-steal.html
 - **AI Analysis:**
-> Here's an analysis of the security news:
+> **Severity:** Critical
 
-**Severity:** Medium
-
-**1-sentence Impact:** Despite a supply chain incident where a malicious library was downloaded during app signing, OpenAI reports no user data or internal systems were compromised.
+**Impact:** This campaign critically compromises user privacy and security by stealing sensitive Google and Telegram data and enabling full browser session control through arbitrary malicious JavaScript injection.
 
 ---
 
-### [The Hacker News] CPUID Breach Distributes STX RAT via Trojanized CPU-Z and HWMonitor Downloads
-- **Link:** https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html
+### [The Hacker News] ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers
+- **Link:** https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** An actively exploited Remote Code Execution (RCE) vulnerability in ShowDoc (CVE-2025-0520) allows attackers to fully compromise unpatched servers, leading to potential data theft and further network infiltration.
+
+---
+
+### [The Hacker News] CISA Adds 6 Known Exploited Flaws in Fortinet, Microsoft, and Adobe Software
+- **Link:** https://thehackernews.com/2026/04/cisa-adds-6-known-exploited-flaws-in.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**1-Sentence Impact:** Actively exploited vulnerabilities in widely used Fortinet, Microsoft, and Adobe software pose an immediate, critical risk of system compromise to affected organizations, necessitating urgent patching.
+
+---
+
+### [The Hacker News] JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025
+- **Link:** https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** JanelaRAT poses a critical threat by actively targeting Latin American financial institutions to steal financial and cryptocurrency data, leading to significant monetary loss and data compromise for banks and their customers.
+
+---
+
+### [The Hacker News] FBI and Indonesian Police Dismantle W3LL Phishing Network Behind $20M Fraud Attempts
+- **Link:** https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** This international law enforcement action effectively shuts down a significant global phishing operation, preventing further credential theft and millions in potential fraud from future victims.
+
+---
+
+### [Bleeping Computer] European Gym giant Basic-Fit data breach affects 1 million members
+- **Link:** https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** This breach of sensitive member data for 1 million individuals significantly increases the risk of phishing attacks, identity theft, and targeted scams for those affected.
+
+---
+
+### [Bleeping Computer] Stolen Rockstar Games analytics data leaked by extortion gang
+- **Link:** https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/
+- **AI Analysis:**
+> **Severity:** Medium
+
+**Impact:** The public leak of Rockstar Games' proprietary analytics data by an extortion gang poses significant reputational damage and potential business intelligence risks for the company.
+
+---
+
+### [Bleeping Computer] Critical flaw in wolfSSL library enables forged certificate use
+- **Link:** https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 23.555688204s. [links {
+Please retry in 5.19483499s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -35,18 +87,18 @@ Please retry in 23.555688204s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 23
+  seconds: 5
 }
 ]
 
 ---
 
-### [The Hacker News] Adobe Patches Actively Exploited Acrobat Reader Flaw CVE-2026-34621
-- **Link:** https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html
+### [Bleeping Computer] FBI takedown of W3LL phishing service leads to developer arrest
+- **Link:** https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 19.634858531s. [links {
+Please retry in 4.093892385s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -64,212 +116,18 @@ Please retry in 19.634858531s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 19
+  seconds: 4
 }
 ]
 
 ---
 
-### [The Hacker News] Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data
-- **Link:** https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html
+### [Bleeping Computer] OpenAI rotates macOS certs after Axios attack hit code-signing workflow
+- **Link:** https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/
 - **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 18.530262524s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 18
-}
-]
+> **Severity:** Critical
 
----
-
-### [The Hacker News] GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs
-- **Link:** https://thehackernews.com/2026/04/glassworm-campaign-uses-zig-dropper-to.html
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 17.418012095s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 17
-}
-]
-
----
-
-### [Bleeping Computer] Critical Marimo pre-auth RCE flaw now under active exploitation
-- **Link:** https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 16.184193625s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 16
-}
-]
-
----
-
-### [Bleeping Computer] Over 20,000 crypto fraud victims identified in international crackdown
-- **Link:** https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 15.071610216s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 15
-}
-]
-
----
-
-### [Bleeping Computer] ChatGPT rolls out new $100 Pro subscription to challenge Claude
-- **Link:** https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-new-100-pro-subscription-to-challenge-claude/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 13.941325538s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 13
-}
-]
-
----
-
-### [Bleeping Computer] Nearly 4,000 US industrial devices exposed to Iranian cyberattacks
-- **Link:** https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 12.832858543s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 12
-}
-]
-
----
-
-### [Bleeping Computer] Analysis of one billion CISA KEV remediation records exposes limits of human-scale security
-- **Link:** https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 11.734284152s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 11
-}
-]
+**Impact:** Potential compromise of macOS code-signing certificates could allow attackers to distribute malware impersonating OpenAI, severely undermining user trust and system integrity.
 
 ---
 
