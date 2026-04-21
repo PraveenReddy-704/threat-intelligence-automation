@@ -1,12 +1,38 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-04-20 10:06:38 (UTC)*
+*Generated on: 2026-04-21 09:47:11 (UTC)*
 
-### [The Hacker News] Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems
-- **Link:** https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html
+### [The Hacker News] CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines
+- **Link:** https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** Organizations face immediate and severe risk from eight newly added, actively exploited vulnerabilities, necessitating urgent patching to prevent compromise.
+
+---
+
+### [The Hacker News] SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files
+- **Link:** https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html
+- **AI Analysis:**
+> *   **Severity:** Critical
+*   **Impact:** This critical command injection vulnerability in SGLang allows attackers to achieve remote code execution on affected systems by using malicious GGUF model files.
+
+---
+
+### [The Hacker News] ⚡ Weekly Recap: Vercel Hack, Push Fraud, QEMU Abused, New Android RATs Emerge & More
+- **Link:** https://thehackernews.com/2026/04/weekly-recap-vercel-hack-push-fraud.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**1-sentence Impact:** This week's threats highlight a critical trend where attackers exploit trusted software, supply chains, and update channels to achieve widespread system compromise, data theft, and financial fraud by "bending trust" rather than direct system breaches.
+
+---
+
+### [The Hacker News] Why Most AI Deployments Stall After the Demo
+- **Link:** https://thehackernews.com/2026/04/why-most-ai-deployments-stall-after-demo.html
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 32.418758852s. [links {
+Please retry in 56.027813315s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -24,18 +50,18 @@ Please retry in 32.418758852s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 32
+  seconds: 56
 }
 ]
 
 ---
 
-### [The Hacker News] Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials
-- **Link:** https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html
+### [The Hacker News] Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain
+- **Link:** https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 31.286844046s. [links {
+Please retry in 54.915137278s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -53,18 +79,18 @@ Please retry in 31.286844046s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 31
+  seconds: 54
 }
 ]
 
 ---
 
-### [The Hacker News] [Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data
-- **Link:** https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html
+### [Bleeping Computer] NGate Android malware uses HandyPay NFC app to steal card data
+- **Link:** https://www.bleepingcomputer.com/news/security/ngate-android-malware-uses-handypay-nfc-app-to-steal-card-data/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 30.166523133s. [links {
+Please retry in 53.728340543s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -82,18 +108,18 @@ Please retry in 30.166523133s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 30
+  seconds: 53
 }
 ]
 
 ---
 
-### [The Hacker News] $13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims
-- **Link:** https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html
+### [Bleeping Computer] KelpDAO suffers $290 million heist tied to Lazarus hackers
+- **Link:** https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 29.038692227s. [links {
+Please retry in 52.613916827s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -111,18 +137,18 @@ Please retry in 29.038692227s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 29
+  seconds: 52
 }
 ]
 
 ---
 
-### [The Hacker News] Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet
-- **Link:** https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html
+### [Bleeping Computer] China's Apple App Store infiltrated by crypto-stealing wallet apps
+- **Link:** https://www.bleepingcomputer.com/news/security/chinas-apple-app-store-infiltrated-by-crypto-stealing-wallet-apps/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 27.919195978s. [links {
+Please retry in 51.508677446s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -140,18 +166,18 @@ Please retry in 27.919195978s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 27
+  seconds: 51
 }
 ]
 
 ---
 
-### [Bleeping Computer] Microsoft pulls service update causing Teams launch failures
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-client-launch-failures-caused-by-service-update/
+### [Bleeping Computer] The Gentlemen ransomware now uses SystemBC for bot-powered attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/the-gentlemen-ransomware-now-uses-systembc-for-bot-powered-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 26.697752881s. [links {
+Please retry in 50.397967414s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -169,18 +195,18 @@ Please retry in 26.697752881s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 26
+  seconds: 50
 }
 ]
 
 ---
 
-### [Bleeping Computer] Microsoft releases emergency updates to fix Windows Server issues
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-updates-to-fix-windows-server-issues/
+### [Bleeping Computer] Seiko USA website defaced as hacker claims customer data theft
+- **Link:** https://www.bleepingcomputer.com/news/security/seiko-usa-website-defaced-as-hacker-claims-customer-data-theft/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 25.572558773s. [links {
+Please retry in 49.282868134s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -198,94 +224,7 @@ Please retry in 25.572558773s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 25
-}
-]
-
----
-
-### [Bleeping Computer] Vercel confirms breach as hackers claim to be selling stolen data
-- **Link:** https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 24.452417091s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 24
-}
-]
-
----
-
-### [Bleeping Computer] Apple account change alerts abused to send phishing emails
-- **Link:** https://www.bleepingcomputer.com/news/security/apple-account-change-alerts-abused-to-send-phishing-emails/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 23.326348711s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 23
-}
-]
-
----
-
-### [Bleeping Computer] NIST to stop rating non-priority flaws due to volume increase
-- **Link:** https://www.bleepingcomputer.com/news/security/nist-to-stop-rating-non-priority-flaws-due-to-volume-increase/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 22.200727479s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 22
+  seconds: 49
 }
 ]
 
