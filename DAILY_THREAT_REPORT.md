@@ -1,99 +1,293 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-04-28 10:24:31 (UTC)*
+*Generated on: 2026-04-29 10:14:44 (UTC)*
 
-### [The Hacker News] Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks
-- **Link:** https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html
+### [The Hacker News] CISA Adds Actively Exploited ConnectWise and Windows Flaws to KEV
+- **Link:** https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html
 - **AI Analysis:**
-> *Self-correction: The date "July 2025" for the arrest is likely a typo and should be in the past (e.g., July 2023 or 2024), given the extradition has already occurred.*
-
-**Severity: Medium**
-
-**1-Sentence Impact:** While the underlying cyberattacks against COVID research by a state-sponsored actor were critical, this news reflects a past incident and highlights international law enforcement cooperation and deterrence against future state-sponsored cyber espionage.
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 38.997965773s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 38
+}
+]
 
 ---
 
-### [The Hacker News] Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover
-- **Link:** https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html
+### [The Hacker News] LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure
+- **Link:** https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html
 - **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** The vulnerability allows privilege escalation and service principal takeover within Entra ID via a specific AI administrative role, potentially leading to widespread compromise of cloud resources and data.
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 25.720266587s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 25
+}
+]
 
 ---
 
-### [The Hacker News] Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202
-- **Link:** https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html
+### [The Hacker News] Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push
+- **Link:** https://thehackernews.com/2026/04/researchers-discover-critical-github.html
 - **AI Analysis:**
-> Here's an analysis of the security news:
-
-**Severity:** **High**
-
-**1-Sentence Impact:** Organizations using unpatched Windows systems face an immediate risk of sensitive information disclosure due to active exploitation of this Windows Shell vulnerability.
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 24.609265869s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 24
+}
+]
 
 ---
 
-### [The Hacker News] Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack
-- **Link:** https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html
+### [The Hacker News] Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign
+- **Link:** https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html
 - **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** The public exposure of a security vendor's GitHub repository data on the dark web compromises intellectual property, severely erodes trust in their security posture, and creates significant opportunities for further exploitation by threat actors.
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 23.501233982s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 23
+}
+]
 
 ---
 
-### [The Hacker News] ⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More
-- **Link:** https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html
+### [The Hacker News] VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi
+- **Link:** https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html
 - **AI Analysis:**
-> **Severity:** High
-
-**Impact:** The week highlights a persistent and high-impact threat landscape, characterized by successful supply chain attacks, widespread credential theft, and abuse of remote tools that exploit long-standing vulnerabilities.
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 22.404140755s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 22
+}
+]
 
 ---
 
-### [Bleeping Computer] Microsoft: New Remote Desktop warnings may display incorrectly
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-new-remote-desktop-warnings-may-display-incorrectly/
+### [Bleeping Computer] Microsoft says backend change broke Teams Free chat and calls
+- **Link:** https://www.bleepingcomputer.com/news/security/microsoft-says-backend-change-broke-teams-free-chat-and-calls/
 - **AI Analysis:**
-> **Severity:** High
-
-**Impact:** Users may unknowingly connect to potentially malicious Remote Desktop servers due to incorrectly displayed security warnings, significantly increasing their risk of compromise.
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 21.197302604s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 21
+}
+]
 
 ---
 
-### [Bleeping Computer] Microsoft asks iPhone users to reauthenticate after Outlook outage
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-iphone-users-to-re-enter-credentials-after-outlook-outage/
+### [Bleeping Computer] Broken VECT 2.0 ransomware acts as a data wiper for large files
+- **Link:** https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/
 - **AI Analysis:**
-> Here's the analysis:
-
-**Severity:** Medium
-
-**Impact:** iPhone users of Outlook and Hotmail are required to re-authenticate their accounts, causing inconvenience but restoring service after a prior outage.
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 20.05717213s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 20
+}
+]
 
 ---
 
-### [Bleeping Computer] Robinhood account creation flaw abused to send phishing emails
-- **Link:** https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/
+### [Bleeping Computer] Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw
+- **Link:** https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/
 - **AI Analysis:**
-> **Severity:** High
-
-**1-sentence Impact:** This flaw enabled highly convincing phishing attacks by injecting malicious content into legitimate emails, significantly increasing the risk of user credential theft and subsequent financial losses.
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 18.957882763s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 18
+}
+]
 
 ---
 
-### [Bleeping Computer] GlassWorm malware attacks return via 73 OpenVSX "sleeper" extensions
-- **Link:** https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/
+### [Bleeping Computer] Video service Vimeo confirms Anodot breach exposed user data
+- **Link:** https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/
 - **AI Analysis:**
-> **Severity:** High
-
-**Impact:** GlassWorm malware uses 'sleeper' OpenVSX extensions that activate maliciously after updates, posing a significant risk of system compromise and supply chain attacks for affected developers.
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 17.861095585s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 17
+}
+]
 
 ---
 
-### [Bleeping Computer] Canada arrests three for operating “SMS blaster” device in Toronto
-- **Link:** https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/
+### [Bleeping Computer] US reportedly charges Scattered Spider hacker arrested in Finland
+- **Link:** https://www.bleepingcomputer.com/news/security/us-reportedly-charges-scattered-spider-hacker-arrested-in-finland/
 - **AI Analysis:**
-> **Severity:** High
-
-**Impact:** This represents a high risk as it bypasses standard SMS spam defenses by impersonating cellular infrastructure, enabling highly effective phishing attacks that can lead to significant data and financial loss for affected individuals.
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 16.754265885s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 16
+}
+]
 
 ---
 
