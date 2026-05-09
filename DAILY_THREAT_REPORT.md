@@ -1,53 +1,77 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-05-08 09:47:28 (UTC)*
+*Generated on: 2026-05-09 09:27:40 (UTC)*
 
-### [The Hacker News] Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions
-- **Link:** https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html
+### [The Hacker News] cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now
+- **Link:** https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html
 - **AI Analysis:**
-> Here's the analysis:
+> **Severity:** High
 
-**Severity:** Critical
-
-**Impact:** This unpatched Linux kernel local privilege escalation (LPE) flaw enables a local attacker to gain full root access on major distributions, posing an immediate and severe compromise risk.
+**1-Sentence Impact:** Unpatched cPanel and WHM installations are vulnerable to privilege escalation and code execution, allowing attackers to compromise hosting environments and potentially affecting multiple hosted websites.
 
 ---
 
-### [The Hacker News] Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access
-- **Link:** https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html
+### [The Hacker News] TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms
+- **Link:** https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html
 - **AI Analysis:**
-> **Severity:** Critical
+> **Severity:** High
 
-**1-Sentence Impact:** This RCE vulnerability allows attackers to gain administrative control over Ivanti EPMM servers and is being actively exploited in the wild, posing an immediate and severe threat to affected organizations.
+**1-Sentence Impact:** This new banking trojan poses a significant risk of financial theft and data compromise for individuals using affected banking, fintech, and cryptocurrency platforms, enabled by its rapid, worm-based spread via WhatsApp and Outlook.
 
 ---
 
-### [The Hacker News] PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems
-- **Link:** https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html
+### [The Hacker News] Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads
+- **Link:** https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html
 - **AI Analysis:**
-> Here's an analysis of the security news:
+> **Severity:** High
 
-**Severity:** **Critical**
-
-**1-sentence Impact:** This critical threat autonomously exploits vulnerabilities to spread across cloud systems, stealing high-value credentials from financial and developer services, leading to widespread data theft and profound organizational compromise.
+**Impact:** Millions of Android users suffered financial loss by subscribing to fraudulent call history apps disseminated via the official Google Play Store.
 
 ---
 
 ### [The Hacker News] One Click, Total Shutdown: The "Patient Zero" Webinar on Killing Stealth Breaches
 - **Link:** https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html
 - **AI Analysis:**
-> This news describes a significant future threat by highlighting the evolving sophistication of social engineering attacks.
+> This news describes a significant and evolving threat landscape rather than a specific, immediate vulnerability.
 
-**Severity: High**
-**Impact:** Future AI-enhanced social engineering attacks will make initial breaches nearly undetectable, potentially leading to widespread network compromise and operational shutdowns.
+**Severity:** **High**
+
+**Impact:** AI-enhanced phishing targeting the human factor presents a significant and evolving threat, where a single compromise can rapidly escalate to an enterprise-wide shutdown.
 
 ---
 
-### [The Hacker News] PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage
-- **Link:** https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html
+### [The Hacker News] Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise
+- **Link:** https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** This Linux RAT poses a critical threat of widespread software supply chain compromise by providing attackers deep access to developer systems and credentials, potentially injecting malicious code into legitimate software.
+
+---
+
+### [Bleeping Computer] NVIDIA confirms GeForce NOW data breach affecting Armenian users
+- **Link:** https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/
+- **AI Analysis:**
+> **Severity:** Medium
+
+**Impact:** GeForce NOW users in Armenia have had their information exposed, posing risks of phishing or account compromise.
+
+---
+
+### [Bleeping Computer] Why More Analysts Won’t Solve Your SOC’s Alert Problem
+- **Link:** https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/
+- **AI Analysis:**
+> **Severity:** High
+
+**1-Sentence Impact:** Overwhelmed Security Operations Centers (SOCs) are unable to investigate alerts fast enough to counter rapid attacker movements, significantly increasing the risk of successful cyberattacks.
+
+---
+
+### [Bleeping Computer] Trellix source code breach claimed by RansomHouse hackers
+- **Link:** https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 38.665038125s. [links {
+Please retry in 22.491975865s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -65,18 +89,18 @@ Please retry in 38.665038125s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 38
+  seconds: 22
 }
 ]
 
 ---
 
-### [Bleeping Computer] Former govt contractor convicted for wiping dozens of federal databases
-- **Link:** https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/
+### [Bleeping Computer] CISA gives feds four days to patch Ivanti flaw exploited as zero-day
+- **Link:** https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 37.350098299s. [links {
+Please retry in 21.376512855s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -94,18 +118,18 @@ Please retry in 37.350098299s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 37
+  seconds: 21
 }
 ]
 
 ---
 
-### [Bleeping Computer] New Linux 'Dirty Frag' zero-day gives root on all major distros
-- **Link:** https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/
+### [Bleeping Computer] Zara data breach exposed personal information of 197,000 people
+- **Link:** https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 36.250604115s. [links {
+Please retry in 20.266351933s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -123,94 +147,7 @@ Please retry in 36.250604115s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 36
-}
-]
-
----
-
-### [Bleeping Computer] Canvas login portals hacked in mass ShinyHunters extortion campaign
-- **Link:** https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 35.165606548s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 35
-}
-]
-
----
-
-### [Bleeping Computer] New TCLBanker malware self-spreads over WhatsApp and Outlook
-- **Link:** https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 34.048098841s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 34
-}
-]
-
----
-
-### [Bleeping Computer] New PCPJack worm steals credentials, cleans TeamPCP infections
-- **Link:** https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 32.931059937s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 32
+  seconds: 20
 }
 ]
 
