@@ -1,66 +1,70 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-05-11 11:32:59 (UTC)*
+*Generated on: 2026-05-12 10:40:20 (UTC)*
 
-### [The Hacker News] Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads
-- **Link:** https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html
-- **AI Analysis:**
-> **Severity: High**
-
-**Impact:** Hundreds of thousands of Windows users were exposed to data theft and account compromise after downloading a convincing fake OpenAI model from Hugging Face.
-
----
-
-### [The Hacker News] Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak
-- **Link:** https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html
+### [The Hacker News] Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages
+- **Link:** https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-sentence Impact:** This critical vulnerability allows a remote, unauthenticated attacker to leak the entire process memory of vulnerable Ollama servers, exposing sensitive information and potentially aiding further exploits.
+**Impact:** This supply chain attack on popular software packages has embedded malicious code to profile user environments, creating a widespread backdoor for potential future exploitation.
 
 ---
 
-### [The Hacker News] cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now
-- **Link:** https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html
+### [The Hacker News] Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak
+- **Link:** https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html
 - **AI Analysis:**
 > **Severity:** High
 
-**1-sentence Impact:** Attackers could exploit these vulnerabilities to achieve full server compromise, including code execution and privilege escalation, impacting all hosted websites and data on cPanel and WHM installations.
+**1-Sentence Impact:** Despite preventing a public leak by reaching an agreement with an extortion group, Instructure suffered a massive data breach compromising 3.65TB of sensitive information potentially affecting thousands of schools and universities.
 
 ---
 
-### [The Hacker News] TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms
-- **Link:** https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html
+### [The Hacker News] OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation
+- **Link:** https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html
 - **AI Analysis:**
-> **Severity:** High
+> Here's an analysis of the provided security news:
 
-**Impact:** This banking trojan poses a high risk of financial theft and data compromise for users of nearly 60 financial platforms, exploiting common communication channels like WhatsApp and Outlook for widespread propagation.
+**Severity:** High
+
+**1-Sentence Impact:** This initiative marks a significant advancement in proactive cybersecurity, leveraging advanced AI to enhance the speed and accuracy of vulnerability detection and patch validation, thereby strengthening organizational defenses.
 
 ---
 
-### [The Hacker News] Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads
-- **Link:** https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html
+### [The Hacker News] iOS 26.5 Brings Default End-to-End Encrypted RCS Messaging Between iPhone and Android
+- **Link:** https://thehackernews.com/2026/05/ios-265-brings-default-end-to-end.html
 - **AI Analysis:**
-> **Severity:** High
+> **Severity:** Medium
 
-**1-sentence Impact:** Millions of Android users suffered financial losses from fraudulent subscription schemes delivered through deceptive apps on the official Google Play Store.
+**1-sentence Impact:** This update significantly enhances the security and privacy of cross-platform messaging by introducing default end-to-end encryption for RCS communications between iPhone and Android users, making conversations much harder for third parties to intercept.
 
 ---
 
-### [Bleeping Computer] TrickMo Android banker adopts TON blockchain for covert comms
-- **Link:** https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/
+### [The Hacker News] TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack
+- **Link:** https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html
 - **AI Analysis:**
-> **Severity:** High
+> **Severity:** Critical
 
-**Impact:** This new TrickMo variant poses a significant financial threat to Android users, stealthily stealing banking credentials and funds through novel blockchain-based command-and-control.
+**1-sentence Impact:** This supply chain attack through a compromised Checkmarx Jenkins plugin could lead to remote code execution and exfiltration of sensitive data from affected CI/CD systems.
 
 ---
 
-### [Bleeping Computer] Hackers abuse Google ads, Claude.ai chats to push Mac malware
-- **Link:** https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/
+### [Bleeping Computer] Instructure reaches 'agreement' with ShinyHunters to stop data leak
+- **Link:** https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/
+- **AI Analysis:**
+> Here's the analysis:
+
+**Severity:** **High**
+
+**1-sentence impact:** While Instructure's agreement with ShinyHunters prevented the immediate public leak of stolen data, it confirms a significant breach of sensitive information and likely extortion payment, still leaving user data compromised.
+
+---
+
+### [Bleeping Computer] GM agrees to $12.75M California settlement over sale of drivers’ data
+- **Link:** https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 4.551912676s. [links {
+Please retry in 44.225159187s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -78,18 +82,18 @@ Please retry in 4.551912676s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 4
+  seconds: 44
 }
 ]
 
 ---
 
-### [Bleeping Computer] Police shut down reboot of Crimenetwork marketplace, arrest admin
-- **Link:** https://www.bleepingcomputer.com/news/security/police-shut-down-reboot-of-crimenetwork-marketplace-arrest-admin/
+### [Bleeping Computer] Official CheckMarx Jenkins package compromised with infostealer
+- **Link:** https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 3.440061176s. [links {
+Please retry in 43.070396771s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -107,18 +111,18 @@ Please retry in 3.440061176s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 3
+  seconds: 43
 }
 ]
 
 ---
 
-### [Bleeping Computer] JDownloader site hacked to replace installers with Python RAT malware
-- **Link:** https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/
+### [Bleeping Computer] New GhostLock tool abuses Windows API to block file access
+- **Link:** https://www.bleepingcomputer.com/news/security/new-ghostlock-tool-abuses-windows-api-to-block-file-access/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 2.343516423s. [links {
+Please retry in 41.903205578s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -136,18 +140,18 @@ Please retry in 2.343516423s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 2
+  seconds: 41
 }
 ]
 
 ---
 
-### [Bleeping Computer] Fake OpenAI repository on Hugging Face pushes infostealer malware
-- **Link:** https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/
+### [Bleeping Computer] Instructure confirms hackers used Canvas flaw to deface portals
+- **Link:** https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 1.243172585s. [links {
+Please retry in 40.756397437s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -165,7 +169,7 @@ Please retry in 1.243172585s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 1
+  seconds: 40
 }
 ]
 
