@@ -1,70 +1,68 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-05-12 10:40:20 (UTC)*
+*Generated on: 2026-05-13 10:38:20 (UTC)*
 
-### [The Hacker News] Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages
-- **Link:** https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** This supply chain attack on popular software packages has embedded malicious code to profile user environments, creating a widespread backdoor for potential future exploitation.
-
----
-
-### [The Hacker News] Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak
-- **Link:** https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html
-- **AI Analysis:**
-> **Severity:** High
-
-**1-Sentence Impact:** Despite preventing a public leak by reaching an agreement with an extortion group, Instructure suffered a massive data breach compromising 3.65TB of sensitive information potentially affecting thousands of schools and universities.
-
----
-
-### [The Hacker News] OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation
-- **Link:** https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html
-- **AI Analysis:**
-> Here's an analysis of the provided security news:
-
-**Severity:** High
-
-**1-Sentence Impact:** This initiative marks a significant advancement in proactive cybersecurity, leveraging advanced AI to enhance the speed and accuracy of vulnerability detection and patch validation, thereby strengthening organizational defenses.
-
----
-
-### [The Hacker News] iOS 26.5 Brings Default End-to-End Encrypted RCS Messaging Between iPhone and Android
-- **Link:** https://thehackernews.com/2026/05/ios-265-brings-default-end-to-end.html
+### [The Hacker News] GemStuffer Abuses 150+ RubyGems to Exfiltrate Scraped U.K. Council Portal Data
+- **Link:** https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html
 - **AI Analysis:**
 > **Severity:** Medium
 
-**1-sentence Impact:** This update significantly enhances the security and privacy of cross-platform messaging by introducing default end-to-end encryption for RCS communications between iPhone and Android users, making conversations much harder for third parties to intercept.
+**Impact:** Attackers abused the RubyGems platform by using over 150 packages to exfiltrate previously scraped U.K. council portal data, demonstrating a novel technique for data transfer rather than direct malware distribution or mass developer compromise.
 
 ---
 
-### [The Hacker News] TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack
-- **Link:** https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html
+### [The Hacker News] Android Adds Intrusion Logging for Sophisticated Spyware Forensics
+- **Link:** https://thehackernews.com/2026/05/android-adds-intrusion-logging-for.html
+- **AI Analysis:**
+> **Severity:** Low
+
+**Impact:** This new opt-in feature significantly enhances forensic capabilities for investigating sophisticated spyware attacks on Android devices, particularly for high-risk users.
+
+---
+
+### [The Hacker News] New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution
+- **Link:** https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-sentence Impact:** This supply chain attack through a compromised Checkmarx Jenkins plugin could lead to remote code execution and exfiltration of sensitive data from affected CI/CD systems.
+**Impact:** This Exim vulnerability allows remote code execution on affected Mail Transfer Agent (MTA) servers, potentially compromising email communications and the host system.
 
 ---
 
-### [Bleeping Computer] Instructure reaches 'agreement' with ShinyHunters to stop data leak
-- **Link:** https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/
+### [The Hacker News] RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded
+- **Link:** https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html
 - **AI Analysis:**
-> Here's the analysis:
+> **Severity:** High
 
-**Severity:** **High**
-
-**1-sentence impact:** While Instructure's agreement with ShinyHunters prevented the immediate public leak of stolen data, it confirms a significant breach of sensitive information and likely extortion payment, still leaving user data compromised.
+**Impact:** This directly impacts the integrity of the Ruby software supply chain, potentially exposing developers to malicious code and disrupting new user onboarding to the platform.
 
 ---
 
-### [Bleeping Computer] GM agrees to $12.75M California settlement over sale of drivers’ data
-- **Link:** https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/
+### [The Hacker News] New TrickMo Variant Uses TON C2 and SOCKS5 to Create Android Network Pivots
+- **Link:** https://thehackernews.com/2026/05/new-trickmo-variant-uses-ton-c2-and.html
+- **AI Analysis:**
+> Here's the analysis of the provided security news:
+
+**Severity:** High
+
+**1-sentence Impact:** This active TrickMo Android banking trojan variant leverages novel C2 and evasion techniques to facilitate financial theft from banking and cryptocurrency wallet users.
+
+---
+
+### [Bleeping Computer] US govt seeks Instructure testimony on massive Canvas cyberattack
+- **Link:** https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/
+- **AI Analysis:**
+> **Severity: Critical**
+
+**1-sentence Impact:** The cyberattacks resulted in the theft of student data and significant operational disruption for educational institutions during final exams, prompting government scrutiny.
+
+---
+
+### [Bleeping Computer] UK fines water supplier $1.3M for exposing data of 664k customers
+- **Link:** https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 44.225159187s. [links {
+Please retry in 44.307727626s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -88,12 +86,12 @@ Please retry in 44.225159187s. [links {
 
 ---
 
-### [Bleeping Computer] Official CheckMarx Jenkins package compromised with infostealer
-- **Link:** https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/
+### [Bleeping Computer] Webinar: Fixing the gaps in network incident response
+- **Link:** https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 43.070396771s. [links {
+Please retry in 43.201591346s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -117,12 +115,12 @@ Please retry in 43.070396771s. [links {
 
 ---
 
-### [Bleeping Computer] New GhostLock tool abuses Windows API to block file access
-- **Link:** https://www.bleepingcomputer.com/news/security/new-ghostlock-tool-abuses-windows-api-to-block-file-access/
+### [Bleeping Computer] Signal adds security warnings for social engineering, phishing attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 41.903205578s. [links {
+Please retry in 42.085627933s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -140,18 +138,18 @@ Please retry in 41.903205578s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 41
+  seconds: 42
 }
 ]
 
 ---
 
-### [Bleeping Computer] Instructure confirms hackers used Canvas flaw to deface portals
-- **Link:** https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/
+### [Bleeping Computer] Microsoft releases Windows 10 KB5087544 extended security update
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5087544-extended-security-update/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 40.756397437s. [links {
+Please retry in 40.972991984s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
