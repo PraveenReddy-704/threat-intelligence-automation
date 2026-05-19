@@ -1,50 +1,57 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-05-18 11:51:54 (UTC)*
+*Generated on: 2026-05-19 11:28:52 (UTC)*
 
-### [The Hacker News] Developer Workstations Are Now Part of the Software Supply Chain
-- **Link:** https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html
+### [The Hacker News] SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access
+- **Link:** https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** Attackers are stealing developer and CI/CD credentials, allowing them to impersonate trusted entities and directly inject malicious code or compromise infrastructure within the software supply chain.
+**1-sentence Impact:** These vulnerabilities allow remote attackers to execute arbitrary code on the email gateway, access all sensitive mail traffic, and potentially gain an entry vector into the internal network.
 
 ---
 
-### [The Hacker News] Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws
-- **Link:** https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html
+### [The Hacker News] Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer
+- **Link:** https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** These widespread vulnerabilities, including critical RCE and authentication bypass flaws, could allow attackers to gain full control over affected systems and sensitive data.
+**Impact:** Millions of VS Code developers are at risk of having their credentials stolen, potentially leading to unauthorized access to critical development systems and sensitive data.
 
 ---
 
-### [The Hacker News] MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems
-- **Link:** https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html
+### [The Hacker News] Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials
+- **Link:** https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-Sentence Impact:** This 0-day vulnerability enables attackers with existing access to fully patched Windows systems to achieve SYSTEM privileges, granting them complete control over the compromised machine with no available patch.
+**Impact:** Attackers compromised a popular GitHub Action to steal CI/CD credentials, enabling potential access to production systems, sensitive data, and further supply chain infiltration.
 
 ---
 
-### [The Hacker News] Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware
-- **Link:** https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html
+### [The Hacker News] Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account
+- **Link:** https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html
 - **AI Analysis:**
-> Here's an analysis of the security news:
+> **Severity:** Critical
 
-**Severity:** High
-
-**1-Sentence Impact:** Developers who installed these packages face system compromise, data theft, and involuntary participation in DDoS attacks.
+**1-Sentence Impact:** This software supply chain attack compromises trusted npm packages, including "echarts-for-react" with 1.1 million weekly downloads, enabling attackers to inject malicious code into developer environments and potentially millions of downstream applications.
 
 ---
 
-### [The Hacker News] Pre-Stuxnet Fast16 Malware Tampered with Nuclear Weapons Simulations
-- **Link:** https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html
+### [The Hacker News] INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests
+- **Link:** https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html
+- **AI Analysis:**
+> **Severity:** Medium
+
+**1-Sentence Impact:** This operation significantly disrupts cybercrime networks in the MENA region, leading to a degradation of their capabilities and a potential reduction in future attacks.
+
+---
+
+### [Bleeping Computer] Microsoft confirms patching issues in restricted Windows networks
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-patching-issues-in-restricted-windows-networks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 12.011432515s. [links {
+Please retry in 12.985208834s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -68,12 +75,41 @@ Please retry in 12.011432515s. [links {
 
 ---
 
-### [Bleeping Computer] Microsoft testing adjustable taskbar, Start menu in Windows 11
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/windows-11-finally-gets-a-resizable-taskbar-and-start-menu/
+### [Bleeping Computer] INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers
+- **Link:** https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 10.693129146s. [links {
+Please retry in 11.861779805s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 11
+}
+]
+
+---
+
+### [Bleeping Computer] SHub macOS infostealer variant spoofs Apple security updates
+- **Link:** https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 10.739990507s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -97,12 +133,12 @@ Please retry in 10.693129146s. [links {
 
 ---
 
-### [Bleeping Computer] Microsoft confirms Windows 11 security update install issues
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-windows-11-security-update-install-issues/
+### [Bleeping Computer] 5 Steps to Managing Shadow AI Tools Without Slowing Down Employees
+- **Link:** https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 9.577825343s. [links {
+Please retry in 9.632459275s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -126,12 +162,12 @@ Please retry in 9.577825343s. [links {
 
 ---
 
-### [Bleeping Computer] Exploit available for new DirtyDecrypt Linux root escalation flaw
-- **Link:** https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/
+### [Bleeping Computer] Leaked Shai-Hulud malware fuels new npm infostealer campaign
+- **Link:** https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 8.468144521s. [links {
+Please retry in 8.519969571s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -150,64 +186,6 @@ Please retry in 8.468144521s. [links {
 }
 , retry_delay {
   seconds: 8
-}
-]
-
----
-
-### [Bleeping Computer] Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026
-- **Link:** https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 7.371934529s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 7
-}
-]
-
----
-
-### [Bleeping Computer] New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 6.269524435s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 6
 }
 ]
 
