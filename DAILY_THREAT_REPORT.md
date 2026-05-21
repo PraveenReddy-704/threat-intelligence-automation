@@ -1,35 +1,72 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-05-20 11:14:33 (UTC)*
+*Generated on: 2026-05-21 11:34:29 (UTC)*
 
-### [The Hacker News] Typosquatting Is No Longer a User Problem. It's a Supply Chain Problem
-- **Link:** https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html
-- **AI Analysis:**
-> Here's an analysis of the security news:
-
-**Severity:** High
-
-**1-Sentence Impact:** This new attack vector allows attackers to embed malicious lookalike domains within trusted third-party web scripts, enabling stealthy data theft or malware injection that current security tools cannot detect.
-
----
-
-### [The Hacker News] Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit
-- **Link:** https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html
+### [The Hacker News] When Identity is the Attack Path
+- **Link:** https://thehackernews.com/2026/05/when-identity-is-attack-path.html
 - **AI Analysis:**
 > Here's the analysis:
 
-*   **Severity:** **High**
-    *   **Justification:** While the CVSS score of 6.8 technically falls into the "Medium" category (4.0-6.9), the description as a "zero-day flaw" that bypasses a critical security feature like BitLocker (full disk encryption) significantly elevates its practical severity. A zero-day means it was actively exploitable without a public patch at the time of disclosure, and bypassing encryption directly compromises data confidentiality, which is a fundamental security goal.
+**Severity:** Critical
 
-*   **1-sentence impact:** This zero-day vulnerability allows attackers to bypass BitLocker encryption, compromising the confidentiality of data on affected systems.
+**1-sentence impact:** A single, standard, legitimately cached AWS access key on a user's machine, easily exploitable by a minor attacker, poses a critical path to near-total compromise (98%) of an organization's entire cloud infrastructure, even without misconfiguration.
 
 ---
 
-### [The Hacker News] Grafana GitHub Breach Exposes Source Code via TanStack npm Attack
-- **Link:** https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html
+### [The Hacker News] 9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros
+- **Link:** https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html
+- **AI Analysis:**
+> Here's the analysis:
+
+**Severity:** **High**
+
+**1-sentence impact:** This flaw allows a local unprivileged user to gain root access and steal sensitive data on affected Linux distributions.
+
+---
+
+### [The Hacker News] GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension
+- **Link:** https://thehackernews.com/2026/05/github-internal-repositories-breached.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** This sophisticated supply chain attack compromised GitHub's internal repositories, risking intellectual property and potentially enabling further exploitation of its systems or users.
+
+---
+
+### [The Hacker News] Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks
+- **Link:** https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** A highly critical flaw in Drupal Core allows remote code execution on PostgreSQL-backed sites, risking full system compromise and data exposure.
+
+---
+
+### [The Hacker News] Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development
+- **Link:** https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html
+- **AI Analysis:**
+> This news reports on the release of tools designed to *improve* security, rather than a vulnerability or attack.
+
+**Severity:** Low
+
+**Impact:** Microsoft's new open-source tools empower developers to proactively test and enhance the security of AI agents throughout their development lifecycle.
+
+---
+
+### [Bleeping Computer] Flipper One project needs community help to build open Linux platform
+- **Link:** https://www.bleepingcomputer.com/news/hardware/flipper-one-project-needs-community-help-to-build-open-linux-platform/
+- **AI Analysis:**
+> **Severity:** Low
+
+**Impact:** This news announces the initiation of a community-driven project to build a new open Linux platform from a pentesting tool maker, potentially expanding the capabilities for both legitimate security research and misuse of connected devices in the future.
+
+---
+
+### [Bleeping Computer] Microsoft warns of new Defender zero-days exploited in attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-defender-zero-days-exploited-in-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 37.032145055s. [links {
+Please retry in 4.21407211s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -47,212 +84,36 @@ Please retry in 37.032145055s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 37
+  seconds: 4
 }
 ]
 
 ---
 
-### [The Hacker News] GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos
-- **Link:** https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html
+### [Bleeping Computer] GitHub links repo breach to TanStack npm supply-chain attack
+- **Link:** https://www.bleepingcomputer.com/news/security/github-links-repo-breach-to-tanstack-npm-supply-chain-attack/
 - **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 35.915106291s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 35
-}
-]
+> **Severity:** Critical
+
+**Impact:** A supply-chain attack breached 3,800 of GitHub's internal repositories, posing a critical risk of sensitive data exposure and potential for wider system compromises.
 
 ---
 
-### [The Hacker News] Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps
-- **Link:** https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html
+### [Bleeping Computer] Ukraine identifies infostealer operator tied to 28,000 stolen accounts
+- **Link:** https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/
 - **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 33.429710879s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 33
-}
-]
+> **Severity:** Medium
+
+**1-sentence Impact:** This news reports a successful law enforcement operation identifying an infostealer operator responsible for 28,000 stolen accounts, underscoring the persistent risk of credential theft to online users.
 
 ---
 
-### [Bleeping Computer] Exploit released for new PinTheft Arch Linux root escalation flaw
-- **Link:** https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-arch-linux-root-escalation-flaw/
+### [Bleeping Computer] Hackers bypass SonicWall VPN MFA due to incomplete patching
+- **Link:** https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/
 - **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 32.183309366s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 32
-}
-]
+> **Severity:** Critical
 
----
-
-### [Bleeping Computer] GitHub confirms breach of 3,800 repos via malicious VSCode extension
-- **Link:** https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 31.072459176s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 31
-}
-]
-
----
-
-### [Bleeping Computer] Microsoft shares mitigation for YellowKey Windows zero-day
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-mitigation-for-yellowkey-windows-zero-day/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 29.961944996s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 29
-}
-]
-
----
-
-### [Bleeping Computer] GitHub investigates internal repositories breach claimed by TeamPCP
-- **Link:** https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 28.858209523s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 28
-}
-]
-
----
-
-### [Bleeping Computer] Max-severity flaw in ChromaDB for AI apps allows server hijacking
-- **Link:** https://www.bleepingcomputer.com/news/security/max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 27.748628113s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 27
-}
-]
+**Impact:** This allows threat actors to bypass multi-factor authentication on SonicWall VPNs, leading to network compromise and potential ransomware deployment for affected organizations.
 
 ---
 
