@@ -1,72 +1,66 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-05-22 10:58:29 (UTC)*
+*Generated on: 2026-05-23 10:02:10 (UTC)*
 
-### [The Hacker News] Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks
-- **Link:** https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html
-- **AI Analysis:**
-> Here's the analysis:
-
-**Severity:** Medium
-
-**Impact:** The arrest of the Kimwolf botnet operator disrupts a significant DDoS-for-hire service, mitigating a specific cybercrime threat.
-
----
-
-### [The Hacker News] CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV
-- **Link:** https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html
+### [The Hacker News] LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root
+- **Link:** https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** Organizations using Langflow or Trend Micro Apex One face immediate and critical risk of compromise due to active exploitation of these vulnerabilities, necessitating urgent patching.
+**1-Sentence Impact:** This critical vulnerability in the LiteSpeed cPanel Plugin allows any cPanel user to gain root access to the server, leading to complete system compromise, and is actively being exploited.
 
 ---
 
-### [The Hacker News] Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access
-- **Link:** https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html
-- **AI Analysis:**
-> Here's the analysis:
-
-**Severity:** Critical
-
-**Impact:** An unauthenticated, remote attacker can exploit this flaw to gain unauthorized access to sensitive data within Cisco Secure Workload.
-
----
-
-### [The Hacker News] Showboat Linux Malware Hits Middle East Telecom with SOCKS5 Proxy Backdoor
-- **Link:** https://thehackernews.com/2026/05/showboat-linux-malware-hits-middle-east.html
-- **AI Analysis:**
-> Here's the analysis:
-
-**Severity:** High
-
-**1-Sentence Impact:** This long-term Linux malware compromise provides attackers with full system control, data exfiltration capabilities, and a proxy for further attacks within a critical Middle East telecommunications provider's network.
-
----
-
-### [The Hacker News] ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories
-- **Link:** https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html
+### [The Hacker News] Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV
+- **Link:** https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-sentence Impact:** Attackers are increasingly leveraging trusted system components and processes, including AI, making detection challenging and necessitating a re-evaluation of fundamental security trust models.
+**Impact:** An actively exploited SQL injection vulnerability in Drupal Core puts all supported versions at immediate risk of data compromise and potential system control.
 
 ---
 
-### [Bleeping Computer] US and Canada arrest and charge suspected Kimwolf botnet admin
-- **Link:** https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/
+### [The Hacker News] First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups
+- **Link:** https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html
 - **AI Analysis:**
 > **Severity:** High
 
-**1-sentence Impact:** This action significantly disrupts a large-scale DDoS botnet, reducing a major cybercrime threat and reinforcing international law enforcement efforts against botnet operators.
+**Impact:** This global takedown significantly hinders the operational capabilities and anonymity of 25 ransomware groups and other cybercriminals by removing a critical enabler for their attacks.
 
 ---
 
-### [Bleeping Computer] Google accidentally exposed details of unfixed Chromium flaw
-- **Link:** https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/
+### [The Hacker News] Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware
+- **Link:** https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html
+- **AI Analysis:**
+> **Severity: Critical**
+
+**Impact:** This active nation-state phishing campaign by Ghostwriter targeting Ukrainian government entities poses a critical threat of espionage, data theft, and operational disruption amidst the ongoing conflict.
+
+---
+
+### [The Hacker News] Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows
+- **Link:** https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** The attack critically compromises development pipelines by injecting malicious code into GitHub CI/CD workflows, enabling the exfiltration of critical secrets and potentially leading to widespread supply chain attacks.
+
+---
+
+### [Bleeping Computer] Netherlands seizes 800 servers of hosting firm enabling cyberattacks
+- **Link:** https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** The seizure of 800 servers and arrests significantly disrupt a key infrastructure provider for serious cyberattacks, interference operations, and disinformation campaigns globally.
+
+---
+
+### [Bleeping Computer] Former US execs plead guilty to aiding tech support scammers
+- **Link:** https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 35.236661078s. [links {
+Please retry in 54.099615956s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -84,18 +78,18 @@ Please retry in 35.236661078s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 35
+  seconds: 54
 }
 ]
 
 ---
 
-### [Bleeping Computer] Apple blocked over $11 billion in App Store fraud in 6 years
-- **Link:** https://www.bleepingcomputer.com/news/apple/apple-blocked-22-billion-in-fraudulent-app-store-transactions-in-2025/
+### [Bleeping Computer] Trend Micro warns of Apex One zero-day exploited in the wild
+- **Link:** https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 34.102389312s. [links {
+Please retry in 52.989683051s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -113,18 +107,18 @@ Please retry in 34.102389312s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 34
+  seconds: 52
 }
 ]
 
 ---
 
-### [Bleeping Computer] Inside a Crypto Drainer: How to Spot it Before it Empties Your Wallet
-- **Link:** https://www.bleepingcomputer.com/news/security/inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet/
+### [Bleeping Computer] Drupal: Critical SQL injection flaw now targeted in attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 32.977197289s. [links {
+Please retry in 51.891490433s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -142,18 +136,18 @@ Please retry in 32.977197289s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 32
+  seconds: 51
 }
 ]
 
 ---
 
-### [Bleeping Computer] Chinese hackers target telcos with new Linux, Windows malware
-- **Link:** https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/
+### [Bleeping Computer] Why Chargebacks are Just One Piece of the Fraud Puzzle
+- **Link:** https://www.bleepingcomputer.com/news/security/why-chargebacks-are-just-one-piece-of-the-fraud-puzzle/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 31.845681947s. [links {
+Please retry in 50.792986927s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -171,7 +165,7 @@ Please retry in 31.845681947s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 31
+  seconds: 50
 }
 ]
 
