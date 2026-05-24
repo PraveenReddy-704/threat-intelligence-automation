@@ -1,66 +1,70 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-05-23 10:02:10 (UTC)*
+*Generated on: 2026-05-24 10:02:48 (UTC)*
+
+### [The Hacker News] npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks
+- **Link:** https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html
+- **AI Analysis:**
+> This news reports a **security improvement**, not a vulnerability. However, if we categorize the *significance of the improvement* in mitigating threats:
+
+**Severity:** **High**
+
+**1-sentence impact:** These new controls significantly strengthen the npm software supply chain by requiring 2FA-gated approval for package publishing, directly mitigating malicious package injection.
+
+---
+
+### [The Hacker News] Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware
+- **Link:** https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** This supply chain attack compromises affected PHP/JavaScript projects, enabling attackers to execute arbitrary Linux malware on user systems.
+
+---
+
+### [The Hacker News] Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software
+- **Link:** https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html
+- **AI Analysis:**
+> Here's the analysis:
+
+**Severity:** High
+
+**Impact:** The discovery of over 10,000 high- or critical-severity vulnerabilities in systemically important global software reveals a massive, systemic underlying security risk that could lead to widespread disruptions or breaches.
+
+---
+
+### [The Hacker News] Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer
+- **Link:** https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** This software supply chain compromise delivers a cross-platform credential stealer, potentially leading to widespread data theft for users of the affected Laravel-Lang PHP packages.
+
+---
 
 ### [The Hacker News] LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root
 - **Link:** https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-Sentence Impact:** This critical vulnerability in the LiteSpeed cPanel Plugin allows any cPanel user to gain root access to the server, leading to complete system compromise, and is actively being exploited.
+**1-sentence impact:** This critical vulnerability, actively exploited, allows any cPanel user to execute arbitrary scripts as root, leading to complete compromise of affected servers.
 
 ---
 
-### [The Hacker News] Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV
-- **Link:** https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html
+### [Bleeping Computer] Laravel Lang packages hijacked to deploy credential-stealing malware
+- **Link:** https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** An actively exploited SQL injection vulnerability in Drupal Core puts all supported versions at immediate risk of data compromise and potential system control.
+**Impact:** This supply chain attack compromised widely-used Laravel packages to distribute credential-stealing malware, directly exposing developers and their associated systems to severe data theft and follow-on compromise.
 
 ---
 
-### [The Hacker News] First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups
-- **Link:** https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** This global takedown significantly hinders the operational capabilities and anonymity of 25 ransomware groups and other cybercriminals by removing a critical enabler for their attacks.
-
----
-
-### [The Hacker News] Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware
-- **Link:** https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html
-- **AI Analysis:**
-> **Severity: Critical**
-
-**Impact:** This active nation-state phishing campaign by Ghostwriter targeting Ukrainian government entities poses a critical threat of espionage, data theft, and operational disruption amidst the ongoing conflict.
-
----
-
-### [The Hacker News] Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows
-- **Link:** https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** The attack critically compromises development pipelines by injecting malicious code into GitHub CI/CD workflows, enabling the exfiltration of critical secrets and potentially leading to widespread supply chain attacks.
-
----
-
-### [Bleeping Computer] Netherlands seizes 800 servers of hosting firm enabling cyberattacks
-- **Link:** https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** The seizure of 800 servers and arrests significantly disrupt a key infrastructure provider for serious cyberattacks, interference operations, and disinformation campaigns globally.
-
----
-
-### [Bleeping Computer] Former US execs plead guilty to aiding tech support scammers
-- **Link:** https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/
+### [Bleeping Computer] Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes
+- **Link:** https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 54.099615956s. [links {
+Please retry in 16.28264218s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -78,7 +82,65 @@ Please retry in 54.099615956s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 54
+  seconds: 16
+}
+]
+
+---
+
+### [Bleeping Computer] Netherlands seizes 800 servers of hosting firm enabling cyberattacks
+- **Link:** https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 15.156814333s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 15
+}
+]
+
+---
+
+### [Bleeping Computer] Former US execs plead guilty to aiding tech support scammers
+- **Link:** https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 14.02955397s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 14
 }
 ]
 
@@ -89,7 +151,7 @@ Please retry in 54.099615956s. [links {
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 52.989683051s. [links {
+Please retry in 12.897826129s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -107,65 +169,7 @@ Please retry in 52.989683051s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 52
-}
-]
-
----
-
-### [Bleeping Computer] Drupal: Critical SQL injection flaw now targeted in attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 51.891490433s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 51
-}
-]
-
----
-
-### [Bleeping Computer] Why Chargebacks are Just One Piece of the Fraud Puzzle
-- **Link:** https://www.bleepingcomputer.com/news/security/why-chargebacks-are-just-one-piece-of-the-fraud-puzzle/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 50.792986927s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 50
+  seconds: 12
 }
 ]
 
