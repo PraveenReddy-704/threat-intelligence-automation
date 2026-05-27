@@ -1,66 +1,66 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-05-25 11:58:54 (UTC)*
+*Generated on: 2026-05-27 11:46:03 (UTC)*
 
-### [The Hacker News] Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms
-- **Link:** https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html
+### [The Hacker News] 5 Steps to Managing Shadow AI Tools Without Slowing Down Employees
+- **Link:** https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** Unvetted and widespread employee use of shadow AI tools poses a high risk of data breaches, intellectual property loss, and compliance violations for organizations.
+
+---
+
+### [The Hacker News] Gitea Vulnerability Exposes Private Container Images without Authentication
+- **Link:** https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** This sophisticated, memory-only RAT deployed by the state-sponsored Lazarus Group against high-value financial and crypto firms poses a critical and highly evasive threat, risking severe financial loss, data exfiltration, and operational disruption.
+**1-sentence Impact:** This vulnerability enables unauthenticated remote attackers to exfiltrate private container images, leading to direct theft of proprietary code and potential exposure of critical application secrets.
 
 ---
 
-### [The Hacker News] TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO
-- **Link:** https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** This widespread supply chain attack distributes credential-stealing malware via major package managers (npm, PyPI, Crates.io), critically endangering developer credentials and leading to potential widespread system compromise and data breaches across various software projects.
-
----
-
-### [The Hacker News] npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks
-- **Link:** https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html
-- **AI Analysis:**
-> **Severity Category:** Medium
-
-**1-Sentence Impact:** This new feature significantly enhances npm supply chain security by requiring 2FA-gated human approval for package releases, thereby preventing unauthorized or automated modifications.
-
----
-
-### [The Hacker News] Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware
-- **Link:** https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html
+### [The Hacker News] AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites
+- **Link:** https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html
 - **AI Analysis:**
 > **Severity: High**
 
-**Impact:** This supply chain attack risks arbitrary code execution and system compromise on developer machines or CI/CD environments processing the infected packages.
+**1-Sentence Impact:** This active campaign leverages AI chatbot recommendations to socially engineer users into downloading cryptojacking malware, exploiting a new and trusted attack vector.
 
 ---
 
-### [The Hacker News] Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software
-- **Link:** https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html
+### [The Hacker News] MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries
+- **Link:** https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** The discovery of over 10,000 high-to-critical vulnerabilities in global foundational software poses a significant and systemic risk to critical infrastructure and data worldwide.
+**1-sentence Impact:** Organizations globally, particularly in critical and public sectors, face a severe risk of extensive data theft and intellectual property loss from this sophisticated, state-sponsored espionage campaign.
 
 ---
 
-### [Bleeping Computer] Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign
-- **Link:** https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/
+### [The Hacker News] [THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back
+- **Link:** https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** AI tools are making attacks, particularly DDoS and reconnaissance, significantly more effective and harder to stop, increasing the risk of widespread service disruption and data breaches for organizations.
+
+---
+
+### [Bleeping Computer] CISA gives feds 4 days to patch actively exploited cPanel plugin flaw
+- **Link:** https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-Sentence Impact:** A critical and actively exploited SQL injection in Ghost CMS allows attackers to inject malicious JavaScript, leading to large-scale ClickFix attacks that compromise website visitors.
+**Impact:** This critical, actively exploited vulnerability in the LiteSpeed cPanel plugin poses an immediate risk of server compromise and data breaches for affected systems if not patched within days.
 
 ---
 
-### [Bleeping Computer] Laravel Lang packages hijacked to deploy credential-stealing malware
-- **Link:** https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/
+### [Bleeping Computer] Dutch police arrests suspect linked to Ajax football club hack
+- **Link:** https://www.bleepingcomputer.com/news/security/dutch-police-arrests-suspect-linked-to-ajax-football-club-hack/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 10.204035321s. [links {
+Please retry in 449.514512ms. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -78,18 +78,17 @@ Please retry in 10.204035321s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 10
 }
 ]
 
 ---
 
-### [Bleeping Computer] Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes
-- **Link:** https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/
+### [Bleeping Computer] Windows 11 KB5089573 update released with performance improvements
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089573-update-released-with-performance-improvements/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 9.095011761s. [links {
+Please retry in 59.334552465s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -107,18 +106,18 @@ Please retry in 9.095011761s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 9
+  seconds: 59
 }
 ]
 
 ---
 
-### [Bleeping Computer] Netherlands seizes 800 servers of hosting firm enabling cyberattacks
-- **Link:** https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/
+### [Bleeping Computer] KnowledgeDeliver flaw exploited as a zero-day to install web shells
+- **Link:** https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-as-a-zero-day-to-install-web-shells/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 7.993544975s. [links {
+Please retry in 58.225216697s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -136,18 +135,18 @@ Please retry in 7.993544975s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 7
+  seconds: 58
 }
 ]
 
 ---
 
-### [Bleeping Computer] Former US execs plead guilty to aiding tech support scammers
-- **Link:** https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/
+### [Bleeping Computer] Charter confirms data breach after ShinyHunters extortion threat
+- **Link:** https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 6.886450405s. [links {
+Please retry in 57.123807146s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -165,7 +164,7 @@ Please retry in 6.886450405s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 6
+  seconds: 57
 }
 ]
 
