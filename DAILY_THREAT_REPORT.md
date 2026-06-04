@@ -1,96 +1,172 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-06-03 12:49:18 (UTC)*
+*Generated on: 2026-06-04 11:23:00 (UTC)*
 
-### [The Hacker News] Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)
-- **Link:** https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html
-- **AI Analysis:**
-> This news describes a systemic problem rather than a specific, exploitable vulnerability. However, the implications of this problem are significant and pervasive.
-
-*   **Severity:** **High**
-*   **1-sentence impact:** The emergence of "Identity Dark Matter" due to fragmented IAM environments significantly expands the attack surface, leaving organizations highly vulnerable to undetected breaches and unauthorized activity.
-
----
-
-### [The Hacker News] Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore
-- **Link:** https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html
-- **AI Analysis:**
-> This news discusses a critical strategic shift in cybersecurity, not a specific vulnerability or attack.
-
-*   **Severity:** **High**
-*   **1-sentence impact:** This news urges organizations to strategically shift from a prevention-first security model to an "assume breach" stance, focusing on network segmentation and containment to minimize the impact of inevitable cyberattacks.
-
----
-
-### [The Hacker News] Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes
-- **Link:** https://thehackernews.com/2026/06/unpatched-windows-search-uri.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** This unpatched vulnerability allows attackers to steal user NTLMv2 authentication hashes from affected Windows systems, potentially enabling lateral movement and unauthorized access within a network.
-
----
-
-### [The Hacker News] New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare
-- **Link:** https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** This critical remote DoS vulnerability allows attackers to easily disrupt a significant portion of internet services by targeting major web servers like NGINX, Apache, and IIS in their default HTTP/2 configurations.
-
----
-
-### [The Hacker News] Weedhack Attacks Minecraft Users, CountLoader Hits 86K, Miners Spread via Pirated Content
-- **Link:** https://thehackernews.com/2026/06/weedhack-attacks-minecraft-users.html
+### [The Hacker News] Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS
+- **Link:** https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html
 - **AI Analysis:**
 > **Severity:** High
 
-**Impact:** Successful attacks grant adversaries full control over victims' systems, enabling data theft and further malware deployment, potentially including cryptocurrency miners.
+**Impact:** Users searching for open-source tools are at high risk of significant data theft and system compromise by downloading malware from expertly crafted, SEO-poisoned fake websites.
 
 ---
 
-### [Bleeping Computer] Acer working to patch max severity zero-days in Wave 7 routers
-- **Link:** https://www.bleepingcomputer.com/news/security/acer-warns-of-max-severity-zero-days-affecting-wave-7-routers/
+### [The Hacker News] Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months
+- **Link:** https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** The prolonged espionage on a senior executive's mailbox at a global stock exchange poses a high risk of severe market manipulation, insider trading, or strategic competitive disadvantage.
+
+---
+
+### [The Hacker News] CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog
+- **Link:** https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** These zero-day vulnerabilities could allow remote attackers to gain full control over affected Acer Wave 7 routers, compromising network security and potentially all connected devices.
+**1-Sentence Impact:** This critical, actively exploited RCE flaw in a popular Magento extension allows attackers to gain full control over affected e-commerce websites, posing an immediate and severe risk.
 
 ---
 
-### [Bleeping Computer] Police dismantles 9 crime groups in illegal streaming crackdown
-- **Link:** https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/
+### [The Hacker News] DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets
+- **Link:** https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html
 - **AI Analysis:**
-> Here's an analysis of the provided security news:
+> **Severity: Medium**
 
-**Severity:** Low
-
-**1-sentence Impact:** This successful law enforcement operation significantly disrupts illegal streaming networks, reducing revenue for organized crime and protecting intellectual property rights of content creators.
+**Impact:** This operation successfully disrupts a major cryptocurrency fraud network, significantly reducing the threat of financial exploitation for Americans by dismantling key criminal infrastructure.
 
 ---
 
-### [Bleeping Computer] Google adds Android protection against AI deepfake scam calls
-- **Link:** https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/
-- **AI Analysis:**
-> *   **Severity:** Medium
-*   **1-Sentence Impact:** This new Android feature provides a crucial defense for users against sophisticated AI deepfake scams that impersonate personal contacts, mitigating the risk of financial fraud and identity theft.
-
----
-
-### [Bleeping Computer] VS Code zero-day lets hackers steal GitHub tokens in one click
-- **Link:** https://www.bleepingcomputer.com/news/security/vs-code-zero-day-lets-hackers-steal-github-tokens-in-one-click/
+### [The Hacker News] WhatsApp, Slack Notifications Could Hijack Google Gemini on Android
+- **Link:** https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** This zero-day allows attackers to easily steal GitHub authentication tokens from VS Code users via a single click, potentially leading to unauthorized access to source code and broader supply chain compromises.
+**1-sentence Impact:** Malicious notifications from common apps could remotely hijack Google Gemini on Android without user interaction, leading to physical device control, impersonation, and stealthy, long-term AI memory poisoning.
 
 ---
 
-### [Bleeping Computer] Microsoft's Coreutils project brings Linux commands to Windows
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsofts-coreutils-project-brings-linux-commands-to-windows/
+### [Bleeping Computer] Cisco warns of critical Unified CM flaw with PoC exploit code
+- **Link:** https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/
 - **AI Analysis:**
-> **Severity:** Low
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 12.742841435s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 12
+}
+]
 
-**Impact:** While enhancing developer capabilities, this project inherently expands the attack surface on Windows and provides new native tools that could be leveraged by threat actors for post-exploitation activities.
+---
+
+### [Bleeping Computer] Chinese hackers use new Atlas RAT malware in European cyberattacks
+- **Link:** https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 11.632642404s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 11
+}
+]
+
+---
+
+### [Bleeping Computer] U.S. sanctions Nobitex crypto exchange used by Iranian ransomware actors
+- **Link:** https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/
+- **AI Analysis:**
+> **Severity: High**
+
+**1-sentence Impact:** This action disrupts a significant financial pipeline for Iranian ransomware actors and terrorist organizations, increasing the difficulty for these groups to fund illicit and harmful activities.
+
+---
+
+### [Bleeping Computer] CISA warns of cyberattacks targeting fuel tank monitoring systems
+- **Link:** https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 1.833285533s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 1
+}
+]
+
+---
+
+### [Bleeping Computer] New 'HTTP/2 Bomb' DoS attack crashes web servers in under a minute
+- **Link:** https://www.bleepingcomputer.com/news/security/new-http-2-bomb-dos-attack-crashes-web-servers-in-under-a-minute/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 741.086163ms. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+}
+]
 
 ---
 
