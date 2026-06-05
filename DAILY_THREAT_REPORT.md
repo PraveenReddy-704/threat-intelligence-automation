@@ -1,57 +1,66 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-06-04 11:23:00 (UTC)*
+*Generated on: 2026-06-05 11:34:56 (UTC)*
 
-### [The Hacker News] Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS
-- **Link:** https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** Users searching for open-source tools are at high risk of significant data theft and system compromise by downloading malware from expertly crafted, SEO-poisoned fake websites.
-
----
-
-### [The Hacker News] Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months
-- **Link:** https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** The prolonged espionage on a senior executive's mailbox at a global stock exchange poses a high risk of severe market manipulation, insider trading, or strategic competitive disadvantage.
-
----
-
-### [The Hacker News] CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog
-- **Link:** https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html
+### [The Hacker News] Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites
+- **Link:** https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-Sentence Impact:** This critical, actively exploited RCE flaw in a popular Magento extension allows attackers to gain full control over affected e-commerce websites, posing an immediate and severe risk.
+**1-Sentence Impact:** Attackers are actively exploiting a remote code execution flaw to completely compromise WordPress sites using the vulnerable plugin.
 
 ---
 
-### [The Hacker News] DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets
-- **Link:** https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html
+### [The Hacker News] FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins
+- **Link:** https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html
 - **AI Analysis:**
-> **Severity: Medium**
+> **Severity:** High
 
-**Impact:** This operation successfully disrupts a major cryptocurrency fraud network, significantly reducing the threat of financial exploitation for Americans by dismantling key criminal infrastructure.
+**Impact:** World Cup fans face a high risk of significant financial loss and account compromise through widespread sophisticated phishing campaigns and malware distribution.
 
 ---
 
-### [The Hacker News] WhatsApp, Slack Notifications Could Hijack Google Gemini on Android
-- **Link:** https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html
+### [The Hacker News] PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network
+- **Link:** https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-sentence Impact:** Malicious notifications from common apps could remotely hijack Google Gemini on Android without user interaction, leading to physical device control, impersonation, and stealthy, long-term AI memory poisoning.
+**Impact:** This widespread hijacking establishes a robust, covert infrastructure for large-scale spam, phishing, and malware distribution, severely impacting cloud security, the reputation of compromised organizations, and the broader digital ecosystem.
 
 ---
 
-### [Bleeping Computer] Cisco warns of critical Unified CM flaw with PoC exploit code
-- **Link:** https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/
+### [The Hacker News] Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public
+- **Link:** https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html
+- **AI Analysis:**
+> **Severity: Critical**
+
+**1-Sentence Impact:** Unauthenticated attackers can achieve root on Cisco Unified Communications Manager with publicly available exploit code, posing an immediate and severe risk of full system compromise.
+
+---
+
+### [The Hacker News] Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories
+- **Link:** https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html
+- **AI Analysis:**
+> **Severity: Critical**
+
+**Impact:** This flaw allowed attackers to hijack repositories, including the action's own source, via a single GitHub issue, enabling widespread supply chain compromise.
+
+---
+
+### [Bleeping Computer] Cisco warns of unpatched SD-WAN zero-day exploited in attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** This unpatched zero-day allows attackers to gain full root control over critical Cisco Catalyst SD-WAN Manager devices, posing an immediate and severe threat to network infrastructure due to active exploitation.
+
+---
+
+### [Bleeping Computer] Brave Software releases Origin for a paid, bloat-free browsing experience
+- **Link:** https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 12.742841435s. [links {
+Please retry in 8.3404376s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -69,18 +78,18 @@ Please retry in 12.742841435s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 12
+  seconds: 8
 }
 ]
 
 ---
 
-### [Bleeping Computer] Chinese hackers use new Atlas RAT malware in European cyberattacks
-- **Link:** https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/
+### [Bleeping Computer] Hola Browser for Windows compromised to deliver cryptominer
+- **Link:** https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 11.632642404s. [links {
+Please retry in 7.224167831s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -98,27 +107,18 @@ Please retry in 11.632642404s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 11
+  seconds: 7
 }
 ]
 
 ---
 
-### [Bleeping Computer] U.S. sanctions Nobitex crypto exchange used by Iranian ransomware actors
-- **Link:** https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/
-- **AI Analysis:**
-> **Severity: High**
-
-**1-sentence Impact:** This action disrupts a significant financial pipeline for Iranian ransomware actors and terrorist organizations, increasing the difficulty for these groups to fund illicit and harmful activities.
-
----
-
-### [Bleeping Computer] CISA warns of cyberattacks targeting fuel tank monitoring systems
-- **Link:** https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/
+### [Bleeping Computer] Credit card theft campaign abuses Stripe to host stolen payment info
+- **Link:** https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 1.833285533s. [links {
+Please retry in 6.112347211s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -136,18 +136,18 @@ Please retry in 1.833285533s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 1
+  seconds: 6
 }
 ]
 
 ---
 
-### [Bleeping Computer] New 'HTTP/2 Bomb' DoS attack crashes web servers in under a minute
-- **Link:** https://www.bleepingcomputer.com/news/security/new-http-2-bomb-dos-attack-crashes-web-servers-in-under-a-minute/
+### [Bleeping Computer] DentaQuest data breach  exposed info of 2.6 million accounts
+- **Link:** https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 741.086163ms. [links {
+Please retry in 4.985309801s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -165,6 +165,7 @@ Please retry in 741.086163ms. [links {
   quota_value: 5
 }
 , retry_delay {
+  seconds: 4
 }
 ]
 
