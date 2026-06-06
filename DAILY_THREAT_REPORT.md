@@ -1,66 +1,80 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-06-05 11:34:56 (UTC)*
+*Generated on: 2026-06-06 10:14:45 (UTC)*
 
-### [The Hacker News] Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites
-- **Link:** https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html
+### [The Hacker News] Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI
+- **Link:** https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html
+- **AI Analysis:**
+> **Severity: High**
+
+**Impact:** This exposes the non-consensual misuse of user devices as web-scraping proxies, draining resources and raising significant privacy concerns for device owners.
+
+---
+
+### [The Hacker News] CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog
+- **Link:** https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-Sentence Impact:** Attackers are actively exploiting a remote code execution flaw to completely compromise WordPress sites using the vulnerable plugin.
+**Impact:** Organizations using SolarWinds Serv-U face immediate risk of critical service disruption due to an actively exploited denial-of-service vulnerability, necessitating urgent patching.
 
 ---
 
-### [The Hacker News] FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins
-- **Link:** https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html
+### [The Hacker News] AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs
+- **Link:** https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html
 - **AI Analysis:**
-> **Severity:** High
+> This news describes two significant but distinct security events.
 
-**Impact:** World Cup fans face a high risk of significant financial loss and account compromise through widespread sophisticated phishing campaigns and malware distribution.
+**FFmpeg Zero-Days:**
+*   **Severity:** High
+*   **1-sentence impact:** Unpatched zero-day vulnerabilities in FFmpeg pose a widespread and immediate threat to a vast array of applications and systems that process video.
 
----
-
-### [The Hacker News] PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network
-- **Link:** https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** This widespread hijacking establishes a robust, covert infrastructure for large-scale spam, phishing, and malware distribution, severely impacting cloud security, the reputation of compromised organizations, and the broader digital ecosystem.
+**Chrome Patches:**
+*   **Severity:** Medium (due to patches being available, not unpatched zero-days)
+*   **1-sentence impact:** The unprecedented number of patches released for Chrome underscores the ongoing volume of browser vulnerabilities and necessitates immediate user updates to maintain security.
 
 ---
 
-### [The Hacker News] Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public
-- **Link:** https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html
-- **AI Analysis:**
-> **Severity: Critical**
-
-**1-Sentence Impact:** Unauthenticated attackers can achieve root on Cisco Unified Communications Manager with publicly available exploit code, posing an immediate and severe risk of full system compromise.
+**Overall News Analysis:**
+*   **Categorize Severity:** High
+*   **1-sentence impact:** The discovery of 21 zero-days in the critical FFmpeg library presents a significant, unpatched threat across the video processing ecosystem, while Chrome's record-breaking patch release highlights the continuous and massive effort required to secure web browsers.
 
 ---
 
-### [The Hacker News] Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories
-- **Link:** https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html
-- **AI Analysis:**
-> **Severity: Critical**
-
-**Impact:** This flaw allowed attackers to hijack repositories, including the action's own source, via a single GitHub issue, enabling widespread supply chain compromise.
-
----
-
-### [Bleeping Computer] Cisco warns of unpatched SD-WAN zero-day exploited in attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/
+### [The Hacker News] Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack
+- **Link:** https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** This unpatched zero-day allows attackers to gain full root control over critical Cisco Catalyst SD-WAN Manager devices, posing an immediate and severe threat to network infrastructure due to active exploitation.
+**1-sentence Impact:** This major supply chain attack on 73 Microsoft GitHub repositories, including Azure code, poses a critical risk of widespread downstream software compromise and significant disruption to development.
 
 ---
 
-### [Bleeping Computer] Brave Software releases Origin for a paid, bloat-free browsing experience
-- **Link:** https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/
+### [The Hacker News] Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available
+- **Link:** https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** Organizations utilizing Cisco Catalyst SD-WAN Manager face immediate, unmitigated risk from active exploitation of a high-severity vulnerability due to the absence of a patch, potentially leading to network compromise.
+
+---
+
+### [Bleeping Computer] Suspicious Polyfill login prompts pop up on Toshiba, Muji websites
+- **Link:** https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/
+- **AI Analysis:**
+> Here's the analysis:
+
+**Severity:** **High**
+
+**Impact:** Attackers are actively exploiting Toshiba and Muji's websites to steal user login credentials via suspicious prompts, leading to potential account compromise for visitors.
+
+---
+
+### [Bleeping Computer] CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers
+- **Link:** https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 8.3404376s. [links {
+Please retry in 19.207816319s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -78,18 +92,18 @@ Please retry in 8.3404376s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 8
+  seconds: 19
 }
 ]
 
 ---
 
-### [Bleeping Computer] Hola Browser for Windows compromised to deliver cryptominer
-- **Link:** https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/
+### [Bleeping Computer] Chinese APT deploys new malware to keep access to hacked networks
+- **Link:** https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 7.224167831s. [links {
+Please retry in 18.098536666s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -107,18 +121,18 @@ Please retry in 7.224167831s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 7
+  seconds: 18
 }
 ]
 
 ---
 
-### [Bleeping Computer] Credit card theft campaign abuses Stripe to host stolen payment info
-- **Link:** https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/
+### [Bleeping Computer] Dark web Nemesis Market vendor gets 26 years for selling drugs
+- **Link:** https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 6.112347211s. [links {
+Please retry in 16.983696804s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -136,18 +150,18 @@ Please retry in 6.112347211s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 6
+  seconds: 16
 }
 ]
 
 ---
 
-### [Bleeping Computer] DentaQuest data breach  exposed info of 2.6 million accounts
-- **Link:** https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/
+### [Bleeping Computer] Over 900 US gas station tank gauge systems exposed to attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 4.985309801s. [links {
+Please retry in 15.856954092s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -165,7 +179,7 @@ Please retry in 4.985309801s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 4
+  seconds: 15
 }
 ]
 
