@@ -1,72 +1,39 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-06-08 12:40:50 (UTC)*
+*Generated on: 2026-06-09 11:25:30 (UTC)*
 
-### [The Hacker News] VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances
-- **Link:** https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html
+### [The Hacker News] New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing
+- **Link:** https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html
+- **AI Analysis:**
+> **Severity: High**
+
+**1-Sentence Impact:** This attack allows malicious websites to silently track a user's visited websites and opened applications by exploiting SSD timing via JavaScript, completely bypassing typical browser security and user consent.
+
+---
+
+### [The Hacker News] Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer
+- **Link:** https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-sentence Impact:** This activity poses a critical risk of unauthorized persistent access and data exfiltration for organizations utilizing Linux systems and appliances, driven by a sophisticated nation-state actor.
+**1-sentence impact:** This supply chain attack allows automatic credential theft upon the installation of 19 compromised PyPI packages, posing a severe and immediate risk to Python developers and users.
 
 ---
 
-### [The Hacker News] UNC3753 Used Vishing and Physical Intrusions in U.S. Data Theft Extortion Campaign
-- **Link:** https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html
+### [The Hacker News] LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE
+- **Link:** https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html
 - **AI Analysis:**
-> Here's the analysis:
+> **Severity:** Critical
 
-**Severity:** **Critical**
-
-**Impact:** UNC3753's campaign, employing vishing and **physical intrusions** against U.S. professional, legal, and financial sectors, poses a critical risk of widespread data theft and extortion with severe financial and reputational consequences.
-
----
-**Reasoning for Severity:**
-
-*   **Physical Intrusions:** This is an extremely high-severity vector, indicating sophisticated and determined attackers willing to bypass physical security, which is a major red flag for any organization. It often implies a greater level of access and damage potential than purely digital attacks.
-*   **Target Sectors:** Professional, legal, and financial services handle highly sensitive data (client PII, financial records, legal documents, intellectual property). Compromise of this data can lead to massive financial losses, regulatory fines, legal liabilities, and severe reputational damage.
-*   **Objective:** Data theft **and extortion**. This means not only is data compromised, but victims are then pressured for payment, adding a direct financial impact beyond the initial breach.
-*   **Scope:** "Dozens of organizations" and an ongoing "campaign" indicate a broad and sustained threat, not an isolated incident.
-*   **Attribution:** Mandiant and GTIG are highly reputable threat intelligence sources.
-
-The combination of physical intrusion, highly sensitive targets, data theft for extortion, and a broad campaign makes this a **Critical** threat.
-
-*(Note: The date "January and May 2026" appears to be a typo, as security disclosures are typically retrospective. Assuming it refers to a past period, the severity and impact remain the same.)*
+**Impact:** This actively exploited vulnerability allows unauthenticated attackers to achieve remote code execution on vulnerable LiteLLM instances, leading to full system compromise without needing any credentials.
 
 ---
 
-### [The Hacker News] VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks
-- **Link:** https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html
-- **AI Analysis:**
-> **Severity:** Medium
-
-**1-Sentence Impact:** This feature introduces a proactive delay to mitigate the immediate impact and widespread propagation of malicious VS Code extension updates by providing a window for detection and remediation.
-
----
-
-### [The Hacker News] New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration
-- **Link:** https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html
-- **AI Analysis:**
-> **Severity:** Medium
-
-**1-Sentence Impact:** OpenAI's new ChatGPT Lockdown Mode enhances security by limiting tools to reduce the risk of data exfiltration stemming from prompt injection attacks, particularly for users handling sensitive information.
-
----
-
-### [The Hacker News] Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI
-- **Link:** https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** User devices, including smart TVs, are covertly used as exit nodes for web-scraping, raising significant privacy concerns and potentially implicating users in third-party data collection activities without their explicit, informed consent.
-
----
-
-### [Bleeping Computer] Oxford University discloses data breach after careers platform hack
-- **Link:** https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/
+### [The Hacker News] One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public
+- **Link:** https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 15.261720812s. [links {
+Please retry in 37.873995998s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -84,18 +51,18 @@ Please retry in 15.261720812s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 15
+  seconds: 37
 }
 ]
 
 ---
 
-### [Bleeping Computer] Over 20,000 Instagram accounts stolen in Meta AI support hack
-- **Link:** https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/
+### [The Hacker News] Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order
+- **Link:** https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 14.081224423s. [links {
+Please retry in 36.749210658s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -113,18 +80,18 @@ Please retry in 14.081224423s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 14
+  seconds: 36
 }
 ]
 
 ---
 
-### [Bleeping Computer] Hands on with Intelligent Terminal, an AI-powered Windows Terminal
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/
+### [Bleeping Computer] French govt messaging service breached in account hijacking attack
+- **Link:** https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 12.912105517s. [links {
+Please retry in 35.450825075s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -142,18 +109,18 @@ Please retry in 12.912105517s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 12
+  seconds: 35
 }
 ]
 
 ---
 
-### [Bleeping Computer] C0XMO botnet spreads via DD-WRT router flaw, kills rival malware
-- **Link:** https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/
+### [Bleeping Computer] CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day
+- **Link:** https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 11.741521669s. [links {
+Please retry in 34.320976243s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -171,18 +138,18 @@ Please retry in 11.741521669s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 11
+  seconds: 34
 }
 ]
 
 ---
 
-### [Bleeping Computer] Silent Ransom Group targets law firms with fake IT support calls
-- **Link:** https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/
+### [Bleeping Computer] Google patches new Chrome zero-day flaw exploited in the wild
+- **Link:** https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 10.603170764s. [links {
+Please retry in 33.194346659s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -200,7 +167,65 @@ Please retry in 10.603170764s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 10
+  seconds: 33
+}
+]
+
+---
+
+### [Bleeping Computer] NFCShare Android malware spreads via fake banking app updates on GitHub
+- **Link:** https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 32.085082434s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 32
+}
+]
+
+---
+
+### [Bleeping Computer] SoFi confirms third-party data breach at Hong Kong subsidiary
+- **Link:** https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 30.948396546s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 30
 }
 ]
 
