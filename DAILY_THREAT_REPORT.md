@@ -1,62 +1,72 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-06-10 11:45:13 (UTC)*
+*Generated on: 2026-06-11 12:16:17 (UTC)*
 
-### [The Hacker News] Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar
-- **Link:** https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html
+### [The Hacker News] AI Broke Vulnerability Management. That's Why CISOs Are Moving Budget to BAS.
+- **Link:** https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html
 - **AI Analysis:**
-> This news discusses a **methodological flaw** in security practices rather than a specific vulnerability.
+> Here's an analysis of the provided security news snippet:
 
-*   **Severity:** **Medium**
-*   **Impact:** Organizations relying solely on automated pentesting may have a false sense of security, leaving them vulnerable to critical issues that remain undetected.
+**Severity:** **High**
+
+**1-Sentence Impact:** AI has eliminated the critical time buffer between vulnerability discovery and weaponization, rendering traditional vulnerability management ineffective and demanding a strategic shift to proactive security validation to manage increased organizational risk.
 
 ---
 
-### [The Hacker News] Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs
-- **Link:** https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html
+### [The Hacker News] OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack
+- **Link:** https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html
 - **AI Analysis:**
-> **Severity:** Critical
+> Here's the analysis of the security news:
 
-**Impact:** Failure to apply these patches risks immediate exploitation of zero-day vulnerabilities and critical remote code execution flaws, potentially leading to widespread system compromise.
+**Severity:** Critical
+
+**Impact:** This state-sponsored campaign critically threatens national security and economic stability through prolonged cyber espionage, critical infrastructure compromise, and supply chain attacks against domestic entities and stock investors.
 
 ---
 
-### [The Hacker News] Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards
-- **Link:** https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html
+### [The Hacker News] GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks
+- **Link:** https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html
 - **AI Analysis:**
 > **Severity:** High
 
-**Impact:** This news indicates Anthropic is proactively mitigating potential misuse and safety risks of powerful AI by implementing distinct security safeguards for its public release, restricting unfiltered capabilities to vetted users.
+**Impact:** This crucial security update will significantly reduce the risk of software supply chain attacks by disabling npm install scripts by default, requiring explicit developer action for legitimate script execution.
 
 ---
 
-### [The Hacker News] ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances
-- **Link:** https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html
-- **AI Analysis:**
-> Based on the provided information:
-
-**Severity:** Critical
-
-**Impact:** This exploited flaw allowed unauthenticated attackers to gain deep, unauthorized access to customer ServiceNow instances, risking data compromise and potential control over critical business processes.
-
----
-
-### [The Hacker News] Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows
-- **Link:** https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html
+### [The Hacker News] China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance
+- **Link:** https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html
 - **AI Analysis:**
 > Here's the analysis:
 
-**Severity:** Critical
+**Severity:** High
 
-**Impact:** This zero-day exploit grants an attacker SYSTEM-level privileges on fully updated Windows systems via Microsoft Defender, posing an immediate and unpatched critical risk to nearly all Windows users.
+**Impact:** This botnet, controlled by China-linked state actors, leverages over 1,500 SOHO and IoT devices for extensive cyber reconnaissance, significantly increasing the risk of future, more targeted attacks.
 
 ---
 
-### [Bleeping Computer] Microsoft: Some Windows PCs fail to install latest monthly updates
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-some-upgraded-windows-pcs-fail-to-install-monthly-updates/
+### [The Hacker News] Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities
+- **Link:** https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** Critical vulnerabilities in Fortinet, Ivanti, and SAP products could lead to remote code execution and information disclosure, requiring immediate patching by affected organizations.
+
+---
+
+### [Bleeping Computer] Microsoft fixes BitLocker recovery bug on Windows Server 2025
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** The bug caused Windows Server 2025 devices to enter BitLocker recovery after security updates, leading to system unavailability and significant operational disruption.
+
+---
+
+### [Bleeping Computer] Nottingham University data breach affects over 450,000 students
+- **Link:** https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 51.877037338s. [links {
+Please retry in 46.500650163s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -74,18 +84,18 @@ Please retry in 51.877037338s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 51
+  seconds: 46
 }
 ]
 
 ---
 
-### [Bleeping Computer] Microsoft patches YellowKey, GreenPlasma, MiniPlasma zero-days
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/
+### [Bleeping Computer] Max severity Ivanti Sentry vulnerability now exploited in attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 50.762701841s. [links {
+Please retry in 45.348857139s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -103,18 +113,18 @@ Please retry in 50.762701841s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 50
+  seconds: 45
 }
 ]
 
 ---
 
-### [Bleeping Computer] Ivanti: Max severity Sentry flaw allows code execution as root
-- **Link:** https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/
+### [Bleeping Computer] Path traversal flaw in AI dev platform Langflow exploited in attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 49.648514947s. [links {
+Please retry in 44.23421787s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -132,18 +142,18 @@ Please retry in 49.648514947s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 49
+  seconds: 44
 }
 ]
 
 ---
 
-### [Bleeping Computer] Anthropic rolls out Claude Fable 5, but it's available for a limited time
-- **Link:** https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-claude-fable-5-but-its-available-for-a-limited-time/
+### [Bleeping Computer] The ‘Miasma’ worm source code briefly leaked on GitHub
+- **Link:** https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 48.52824505s. [links {
+Please retry in 43.106544862s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -161,36 +171,7 @@ Please retry in 48.52824505s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 48
-}
-]
-
----
-
-### [Bleeping Computer] Microsoft Defender 'RoguePlanet' zero-day grants SYSTEM privileges
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-rogueplanet-zero-day-grants-system-privileges/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 47.409182156s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 47
+  seconds: 43
 }
 ]
 
