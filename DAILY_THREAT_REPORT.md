@@ -1,68 +1,41 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-06-14 10:53:35 (UTC)*
+*Generated on: 2026-06-15 14:31:13 (UTC)*
 
-### [The Hacker News] Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication
-- **Link:** https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
+### [The Hacker News] The Onboarding Password Mistake That Creates Unnecessary Risk
+- **Link:** https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** Failure to securely manage and enforce changes for temporary onboarding passwords creates easy initial access points for attackers, potentially leading to widespread account compromise and data breaches.
+
+---
+
+### [The Hacker News] 152 Chrome Wallpaper Extensions with 105K Installs Linked to Adware and Fake Traffic
+- **Link:** https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html
+- **AI Analysis:**
+> Here's an analysis of the security news:
+
+**Severity:** High
+
+**Impact:** Users with these extensions are subjected to unwanted advertisements, degraded browser performance, and potential privacy risks as their systems are exploited for ad fraud.
+
+---
+
+### [The Hacker News] Popular WordPress Plugin Scripts Tampered to Plant Hidden Backdoors on Sites
+- **Link:** https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** This flaw allows an unauthenticated attacker to take complete control of affected Splunk Enterprise instances by executing arbitrary code.
+**1-Sentence Impact:** This supply chain attack allowed attackers to gain full, persistent administrative control over vulnerable WordPress sites when an administrator loaded the tampered scripts.
 
 ---
 
-### [The Hacker News] U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals
-- **Link:** https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** Access to Anthropic's advanced AI models, Fable 5 and Mythos 5, is abruptly terminated for all users due to a U.S. government order citing national security risks associated with foreign national access.
-
----
-
-### [The Hacker News] Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit
-- **Link:** https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** Users who built compromised Arch Linux AUR packages risk the theft of critical developer secrets and persistent system compromise through a stealthy eBPF rootkit.
-
----
-
-### [The Hacker News] Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing
-- **Link:** https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** This development significantly enhances the sophistication and scale of phishing attacks using AI, increasing the risk of widespread data theft and financial fraud for individuals.
-
----
-
-### [The Hacker News] China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade
-- **Link:** https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html
-- **AI Analysis:**
-> Here's the analysis:
-
-**Severity:** Critical
-
-**Impact:** This decade-long compromise of core Linux login components (PAM/OpenSSH) by a state-sponsored group grants stealthy, persistent, high-privilege access, fundamentally undermining system security and trust.
-
----
-
-### [Bleeping Computer] Ex-school district employee jailed for hacks on former employer
-- **Link:** https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** The incident caused significant operational disruption to classroom activities, substantial financial damages, and data integrity issues, demonstrating the severe risks posed by malicious former insiders.
-
----
-
-### [Bleeping Computer] Chinese hackers hijack auth flow, spy on isolated network for a decade
-- **Link:** https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/
+### [The Hacker News] Sniper Dz Scams Target MENA Users via Fake Facebook Offers and Browser Alerts
+- **Link:** https://thehackernews.com/2026/06/sniper-dz-scams-target-mena-users-via.html
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 28.516581325s. [links {
+Please retry in 2.433783424s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -80,18 +53,27 @@ Please retry in 28.516581325s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 28
+  seconds: 2
 }
 ]
 
 ---
 
-### [Bleeping Computer] US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos
-- **Link:** https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/
+### [The Hacker News] Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw
+- **Link:** https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** Attackers are actively exploiting an authentication bypass flaw in Palo Alto GlobalProtect VPN portals, allowing them to gain unauthorized access and potentially enabling further network intrusion.
+
+---
+
+### [Bleeping Computer] Vibe coders are gonna vibe code: How CISOs are tackling code sprawl
+- **Link:** https://www.bleepingcomputer.com/news/security/vibe-coders-are-gonna-vibe-code-how-cisos-are-tackling-code-sprawl/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 27.389581019s. [links {
+Please retry in 52.438416135s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -109,18 +91,18 @@ Please retry in 27.389581019s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 27
+  seconds: 52
 }
 ]
 
 ---
 
-### [Bleeping Computer] Maine disables data breach notification portal after fake disclosures
-- **Link:** https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/
+### [Bleeping Computer] Chinese hackers breach REDCap servers, steal medical research
+- **Link:** https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-redcap-servers-steal-medical-research/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 26.254904766s. [links {
+Please retry in 51.319191472s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -138,18 +120,18 @@ Please retry in 26.254904766s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 26
+  seconds: 51
 }
 ]
 
 ---
 
-### [Bleeping Computer] phpBB forum fixes auth bypass bug lurking for a decade
-- **Link:** https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/
+### [Bleeping Computer] New attack turned Microsoft 365 Copilot into 1-click data theft tool
+- **Link:** https://www.bleepingcomputer.com/news/security/new-attack-turned-microsoft-365-copilot-into-1-click-data-theft-tool/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 25.124788736s. [links {
+Please retry in 50.195752267s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -167,7 +149,65 @@ Please retry in 25.124788736s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 25
+  seconds: 50
+}
+]
+
+---
+
+### [Bleeping Computer] Infinite Campus data breach affects 137,000 school staff accounts
+- **Link:** https://www.bleepingcomputer.com/news/security/infinite-campus-data-breach-affects-137-000-school-staff-accounts/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 49.060978118s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 49
+}
+]
+
+---
+
+### [Bleeping Computer] Webinar: How behavioral AI stops phishing and account takeovers
+- **Link:** https://www.bleepingcomputer.com/news/security/webinar-how-behavioral-ai-stops-phishing-and-account-takeovers/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 47.926714483s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 47
 }
 ]
 
