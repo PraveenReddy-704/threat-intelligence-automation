@@ -1,41 +1,31 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-06-15 14:31:13 (UTC)*
+*Generated on: 2026-06-16 13:03:19 (UTC)*
 
-### [The Hacker News] The Onboarding Password Mistake That Creates Unnecessary Risk
-- **Link:** https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html
+### [The Hacker News] Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive
+- **Link:** https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html
 - **AI Analysis:**
-> **Severity:** High
+> Here's the analysis:
 
-**Impact:** Failure to securely manage and enforce changes for temporary onboarding passwords creates easy initial access points for attackers, potentially leading to widespread account compromise and data breaches.
+*   **Severity:** **High**
+*   **1-sentence impact:** The prevalence of anonymized infrastructure in 94% of incidents prevents security teams from effectively identifying threat actors, leading to a persistent reactive security posture and increased organizational risk.
 
 ---
 
-### [The Hacker News] 152 Chrome Wallpaper Extensions with 105K Installs Linked to Adware and Fake Traffic
-- **Link:** https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html
-- **AI Analysis:**
-> Here's an analysis of the security news:
-
-**Severity:** High
-
-**Impact:** Users with these extensions are subjected to unwanted advertisements, degraded browser performance, and potential privacy risks as their systems are exploited for ad fraud.
-
----
-
-### [The Hacker News] Popular WordPress Plugin Scripts Tampered to Plant Hidden Backdoors on Sites
-- **Link:** https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html
+### [The Hacker News] Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week
+- **Link:** https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-Sentence Impact:** This supply chain attack allowed attackers to gain full, persistent administrative control over vulnerable WordPress sites when an administrator loaded the tampered scripts.
+**Impact:** Active exploitation of these critical vulnerabilities in FortiSandbox allows attackers to compromise a key security appliance, potentially leading to unauthorized access and system compromise.
 
 ---
 
-### [The Hacker News] Sniper Dz Scams Target MENA Users via Fake Facebook Offers and Browser Alerts
-- **Link:** https://thehackernews.com/2026/06/sniper-dz-scams-target-mena-users-via.html
+### [The Hacker News] China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth
+- **Link:** https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 2.433783424s. [links {
+Please retry in 30.793009024s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -53,27 +43,36 @@ Please retry in 2.433783424s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 2
+  seconds: 30
 }
 ]
 
 ---
 
-### [The Hacker News] Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw
-- **Link:** https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html
+### [The Hacker News] Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware
+- **Link:** https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**1-sentence Impact:** This attack allows a state-sponsored threat actor to gain full remote control over compromised systems, enabling data theft, espionage, and potential network infiltration.
+
+---
+
+### [The Hacker News] Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw
+- **Link:** https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html
 - **AI Analysis:**
 > **Severity:** High
 
-**Impact:** Attackers are actively exploiting an authentication bypass flaw in Palo Alto GlobalProtect VPN portals, allowing them to gain unauthorized access and potentially enabling further network intrusion.
+**1-Sentence Impact:** This actively exploited vulnerability allows authenticated attackers to create files on Cisco Catalyst SD-WAN Manager, posing an immediate operational risk to affected organizations.
 
 ---
 
-### [Bleeping Computer] Vibe coders are gonna vibe code: How CISOs are tackling code sprawl
-- **Link:** https://www.bleepingcomputer.com/news/security/vibe-coders-are-gonna-vibe-code-how-cisos-are-tackling-code-sprawl/
+### [Bleeping Computer] CISA warns of another cPanel plugin flaw exploited in attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 52.438416135s. [links {
+Please retry in 46.143514639s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -91,18 +90,18 @@ Please retry in 52.438416135s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 52
+  seconds: 46
 }
 ]
 
 ---
 
-### [Bleeping Computer] Chinese hackers breach REDCap servers, steal medical research
-- **Link:** https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-redcap-servers-steal-medical-research/
+### [Bleeping Computer] Ransomware gang abuses Microsoft Teams relays to hide malicious traffic
+- **Link:** https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 51.319191472s. [links {
+Please retry in 45.060875966s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -120,18 +119,18 @@ Please retry in 51.319191472s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 51
+  seconds: 45
 }
 ]
 
 ---
 
-### [Bleeping Computer] New attack turned Microsoft 365 Copilot into 1-click data theft tool
-- **Link:** https://www.bleepingcomputer.com/news/security/new-attack-turned-microsoft-365-copilot-into-1-click-data-theft-tool/
+### [Bleeping Computer] Critical Fortinet FortiSandbox flaws now exploited in attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/critical-fortinet-fortisandbox-flaws-now-exploited-in-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 50.195752267s. [links {
+Please retry in 43.990603066s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -149,18 +148,18 @@ Please retry in 50.195752267s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 50
+  seconds: 43
 }
 ]
 
 ---
 
-### [Bleeping Computer] Infinite Campus data breach affects 137,000 school staff accounts
-- **Link:** https://www.bleepingcomputer.com/news/security/infinite-campus-data-breach-affects-137-000-school-staff-accounts/
+### [Bleeping Computer] Windows version of SprySOCKS Linux malware used to attack govt orgs
+- **Link:** https://www.bleepingcomputer.com/news/security/windows-version-of-sprysocks-linux-malware-used-to-attack-govt-orgs/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 49.060978118s. [links {
+Please retry in 42.933453617s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -178,18 +177,18 @@ Please retry in 49.060978118s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 49
+  seconds: 42
 }
 ]
 
 ---
 
-### [Bleeping Computer] Webinar: How behavioral AI stops phishing and account takeovers
-- **Link:** https://www.bleepingcomputer.com/news/security/webinar-how-behavioral-ai-stops-phishing-and-account-takeovers/
+### [Bleeping Computer] iRhythm discloses data breach, says hackers stole patient info
+- **Link:** https://www.bleepingcomputer.com/news/security/irhythm-discloses-data-breach-says-hackers-stole-patient-info/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 47.926714483s. [links {
+Please retry in 41.874747911s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -207,7 +206,7 @@ Please retry in 47.926714483s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 47
+  seconds: 41
 }
 ]
 
