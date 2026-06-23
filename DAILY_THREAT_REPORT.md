@@ -1,31 +1,39 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-06-22 13:41:38 (UTC)*
+*Generated on: 2026-06-23 11:25:21 (UTC)*
 
-### [The Hacker News] New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer
-- **Link:** https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html
+### [The Hacker News] Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT
+- **Link:** https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html
 - **AI Analysis:**
-> Here's an analysis of the provided security news:
+> **Severity:** High
 
-**Severity:** **High**
-
-**1-Sentence Impact:** This campaign poses a high risk of data and credential theft for users and organizations, as financially motivated threat actors are leveraging deceptive Google Ads and a new, evasive malware loader (OXLOADER) to deliver a stealer payload (CastleStealer).
+**Impact:** This threat enables attackers to gain full remote control over compromised Windows systems, posing a significant supply chain risk to developers and their projects.
 
 ---
 
-### [The Hacker News] Google Sets Sept. 30 Deadline for Android Developer Verification in Four Countries
-- **Link:** https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html
+### [The Hacker News] WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool
+- **Link:** https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html
 - **AI Analysis:**
-> *   **Severity:** Medium
-*   **Impact:** This policy enhances Android app security and developer accountability by blocking unverified apps in four countries, potentially impacting user app availability and requiring action from developers.
+> **Severity:** Critical
+
+**Impact:** This campaign poses a critical threat by allowing attackers to gain full remote control over victim's computers via a maliciously installed legitimate RMM tool, enabling data theft and further system compromise.
 
 ---
 
-### [The Hacker News] Stop Your Legacy Infrastructure from Hijacking Your AI Agents
-- **Link:** https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html
+### [The Hacker News] OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws
+- **Link:** https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html
+- **AI Analysis:**
+> **Severity:** Low
+
+**Impact:** This initiative enhances cybersecurity defenses by providing advanced AI tools to help trusted defenders proactively identify and patch software vulnerabilities.
+
+---
+
+### [The Hacker News] ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack
+- **Link:** https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 30.123387237s. [links {
+Please retry in 47.658306857s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -43,18 +51,18 @@ Please retry in 30.123387237s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 30
+  seconds: 47
 }
 ]
 
 ---
 
-### [The Hacker News] ⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More
-- **Link:** https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html
+### [The Hacker News] Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants
+- **Link:** https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 29.029467351s. [links {
+Please retry in 44.65408384s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -72,18 +80,18 @@ Please retry in 29.029467351s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 29
+  seconds: 44
 }
 ]
 
 ---
 
-### [The Hacker News] Canada’s Spy Agency Used First-of-Its-Kind Warrant to Clean Botnet-Infected Devices
-- **Link:** https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html
+### [Bleeping Computer] WhatsApp phishing attack uses fake business docs to hack PCs
+- **Link:** https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 27.953192387s. [links {
+Please retry in 43.385431238s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -101,18 +109,18 @@ Please retry in 27.953192387s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 27
+  seconds: 43
 }
 ]
 
 ---
 
-### [Bleeping Computer] AryStinger botnet infected thousands of D-Link routers worldwide
-- **Link:** https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/
+### [Bleeping Computer] JaredFromSubway MEV bot hacked in $15 million crypto theft
+- **Link:** https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 26.687336583s. [links {
+Please retry in 42.313715142s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -130,18 +138,18 @@ Please retry in 26.687336583s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 26
+  seconds: 42
 }
 ]
 
 ---
 
-### [Bleeping Computer] New Prinz Eugen ransomware prioritizes recent files for encryption
-- **Link:** https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/
+### [Bleeping Computer] FFmpeg fixes PixelSmash flaw in widely used video decoder
+- **Link:** https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 25.598778713s. [links {
+Please retry in 41.250068306s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -159,18 +167,18 @@ Please retry in 25.598778713s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 25
+  seconds: 41
 }
 ]
 
 ---
 
-### [Bleeping Computer] Microsoft links Mastra AI supply chain attack to North Korean hackers
-- **Link:** https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/
+### [Bleeping Computer] FortiBleed campaign used custom FortiGate sniffer to steal credentials
+- **Link:** https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 24.50649914s. [links {
+Please retry in 40.188229511s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -188,18 +196,18 @@ Please retry in 24.50649914s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 24
+  seconds: 40
 }
 ]
 
 ---
 
-### [Bleeping Computer] Klue OAuth breach victim list grows as Icarus hackers claim attack
-- **Link:** https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/
+### [Bleeping Computer] Microsoft says Windows 11 26H2 is coming soon, details upgrade process
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-says-windows-11-26h2-is-coming-soon-details-upgrade-process/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 23.428023911s. [links {
+Please retry in 39.094269994s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -217,36 +225,7 @@ Please retry in 23.428023911s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 23
-}
-]
-
----
-
-### [Bleeping Computer] Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin
-- **Link:** https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 22.346522785s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 22
+  seconds: 39
 }
 ]
 
