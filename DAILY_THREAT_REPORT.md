@@ -1,70 +1,68 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-06-26 11:11:19 (UTC)*
+*Generated on: 2026-06-27 10:18:54 (UTC)*
 
-### [The Hacker News] Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack
-- **Link:** https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html
-- **AI Analysis:**
-> Here's the analysis:
-
-*   **Severity:** **Critical**
-*   **1-Sentence Impact:** This supply chain attack compromises popular npm and Go packages via GitHub Actions abuse, enabling widespread malware distribution, code injection, and potential data exfiltration across affected development environments.
-
----
-
-### [The Hacker News] Microsoft Warns of Photo ZIP Phishing Campaign Targeting Hotels with Node.js Implant
-- **Link:** https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html
-- **AI Analysis:**
-> **Severity:** High
-
-**1-Sentence Impact:** This active phishing campaign poses a significant risk to hospitality organizations by deploying a versatile Node.js implant on critical front-desk machines, potentially leading to severe customer data breaches and operational disruption.
-
-*(Note: The date "April 2026" in the summary appears to be a typo, likely intending April 2023 or 2024, given it's described as an "active phishing campaign.")*
-
----
-
-### [The Hacker News] Russia Used Cellebrite on Jailed Activist's iPhone Months After Sales Cutoff
-- **Link:** https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html
-- **AI Analysis:**
-> **Severity:** High
-
-**1-Sentence Impact:** This highlights the significant challenge of controlling powerful forensic tools and their continued use by state actors against political targets, even after vendors cease sales, posing a serious threat to dissidents and human rights.
-
----
-
-### [The Hacker News] Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks
-- **Link:** https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html
+### [The Hacker News] FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys
+- **Link:** https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-Sentence Impact:** This new, state-sponsored backdoor poses a critical espionage threat by enabling persistent compromise and data exfiltration from high-value government, military, and foreign policy organizations.
+**Impact:** Russian intelligence can gain full, persistent control over Signal accounts, accessing all past and future communications and impersonating users, posing severe risks for targets relying on the app for secure communication.
 
 ---
 
-### [The Hacker News] Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability
-- **Link:** https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html
+### [The Hacker News] New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks
+- **Link:** https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** This vulnerability enables a popular Chrome extension to execute arbitrary code on over 10 million users' browsers, potentially leading to data theft, session hijacking, or further malware injection at any time.
+**Impact:** This campaign allows attackers to establish persistent and extensive control over sensitive government and diplomatic networks, enabling significant data theft and espionage.
 
 ---
 
-### [Bleeping Computer] Anthropic is testing desktop-like Claude Cowork for mobile
-- **Link:** https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/
+### [The Hacker News] Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign
+- **Link:** https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html
 - **AI Analysis:**
-> This news describes a product feature expansion and has no direct security implications.
+> **Severity:** Critical
 
-**Severity: Low** (as it is not security-related news)
-**Impact:** This announcement describes a new product feature aimed at improving user convenience and carries no direct security implications.
+**Impact:** This campaign poses a critical risk of espionage, sabotage, and long-term compromise for government entities and vital energy infrastructure across Southeast Asia by a sophisticated, state-sponsored actor.
 
 ---
 
-### [Bleeping Computer] Poland busts SIM-swapping gang tied to millions in crypto theft
-- **Link:** https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/
+### [The Hacker News] New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries
+- **Link:** https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html
+- **AI Analysis:**
+> This vulnerability is:
+
+**Severity: Critical**
+
+**Impact:** A local, unprivileged user can gain full root access on affected Linux systems due to a kernel flaw, enabling complete system compromise, and a public exploit is already available.
+
+---
+
+### [The Hacker News] Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs
+- **Link:** https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** This flaw allowed attackers to execute arbitrary code and steal a developer's cloud credentials when opening a malicious repository within Amazon Q Developer.
+
+---
+
+### [Bleeping Computer] FBI: Russian hackers now target Signal backup recovery keys
+- **Link:** https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** This sophisticated phishing campaign by Russian intelligence enables full compromise of victims' historical encrypted Signal messages by stealing their backup recovery keys.
+
+---
+
+### [Bleeping Computer] CISA sets urgent deadline to fix Cisco flaw exploited in attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 44.427361817s. [links {
+Please retry in 9.659389431s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -82,18 +80,18 @@ Please retry in 44.427361817s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 44
+  seconds: 9
 }
 ]
 
 ---
 
-### [Bleeping Computer] Order-tracking app Shop abused to push callback phishing attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/
+### [Bleeping Computer] Polymarket customers lose $3 million in supply-chain attack
+- **Link:** https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 43.306742257s. [links {
+Please retry in 8.563534815s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -111,18 +109,18 @@ Please retry in 43.306742257s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 43
+  seconds: 8
 }
 ]
 
 ---
 
-### [Bleeping Computer] Microsoft quietly extends free Windows 10 ESU support to October 2027
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/
+### [Bleeping Computer] Cybersecurity firms targeted by fraudulent OpenAI organization invites
+- **Link:** https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 42.185836955s. [links {
+Please retry in 7.469972234s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -140,18 +138,18 @@ Please retry in 42.185836955s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 42
+  seconds: 7
 }
 ]
 
 ---
 
-### [Bleeping Computer] New macOS malware embeds fake errors to confuse AI analysis tools
-- **Link:** https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/
+### [Bleeping Computer] Your First GRC Agent: A Red Teamer's Walkthrough
+- **Link:** https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 41.069040548s. [links {
+Please retry in 6.382417633s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -169,7 +167,7 @@ Please retry in 41.069040548s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 41
+  seconds: 6
 }
 ]
 
