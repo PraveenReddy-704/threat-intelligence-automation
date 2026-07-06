@@ -1,66 +1,66 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-07-05 10:24:56 (UTC)*
+*Generated on: 2026-07-06 12:12:00 (UTC)*
+
+### [The Hacker News] New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions
+- **Link:** https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** This technique allows attackers who have already compromised an air-gapped system to secretly exfiltrate sensitive data via video cable emissions to a nearby receiver.
+
+---
+
+### [The Hacker News] New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS
+- **Link:** https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** The emergence of QuimaRAT as a cross-platform MaaS significantly broadens the threat landscape for remote system compromise and data theft across Windows, Linux, and macOS environments.
+
+---
+
+### [The Hacker News] Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages
+- **Link:** https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** This flaw allowed malicious websites to silently auto-install browser add-ons, enabling the theft of sensitive user data from visited pages without any user interaction.
+
+---
+
+### [The Hacker News] SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing
+- **Link:** https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html
+- **AI Analysis:**
+> **Severity:** High
+
+**1-Sentence Impact:** This technique allows malicious AI agent skills to bypass static security scanners, enabling undetected code execution and potential compromise of development environments.
+
+---
 
 ### [The Hacker News] U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
 - **Link:** https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
 - **AI Analysis:**
 > **Severity:** High
 
-**Impact:** A U.S. government entity suffered a significant financial loss and a serious data confidentiality breach by paying $1 million to prevent the leak of stolen files.
+**Impact:** A U.S. government entity paid $1 million to prevent a data leak, demonstrating a successful data-theft extortion attack with significant financial and reputational implications, even without system encryption.
 
 ---
 
-### [The Hacker News] North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign
-- **Link:** https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html
+### [Bleeping Computer] Flipper Zero firmware development continues with community help
+- **Link:** https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/
 - **AI Analysis:**
-> **Severity:** Critical
+> **Severity: Medium**
 
-**Impact:** This ongoing supply chain attack by a state-sponsored actor leveraging popular developer repositories and browser extensions poses a critical risk of widespread software compromise and data exfiltration.
-
----
-
-### [The Hacker News] Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices
-- **Link:** https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** Millions of embedded devices, including critical infrastructure and hardware crypto wallets, are vulnerable to compromise, data theft, or denial of service due to unpatched flaws in a widely used filesystem library when processing malicious external storage.
-
----
-
-### [The Hacker News] New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android
-- **Link:** https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** This critical flaw allows any unprivileged local user to gain full root control over vulnerable Linux desktops, servers, and Android devices.
-
----
-
-### [The Hacker News] New Avalon Malware Framework Packs CrownX Ransomware Capabilities
-- **Link:** https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**1-Sentence Impact:** The Avalon framework presents a critical, multi-faceted threat capable of bypassing traditional security controls to achieve credential theft, system compromise, and devastating ransomware execution.
+**1-sentence impact:** While ensuring continued development, the increased reliance on community contributions for Flipper Zero firmware could introduce new security vulnerabilities if not rigorously vetted by the smaller internal team.
 
 ---
 
 ### [Bleeping Computer] JadePuffer ransomware used AI agent to automate entire attack
 - **Link:** https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/
 - **AI Analysis:**
-> This news warrants a **Critical** severity categorization.
-
-**1-sentence impact:** This marks a critical evolution in cyber threats, as AI-driven automation could dramatically accelerate the scale and speed of future ransomware attacks, making them more pervasive and challenging to defend against.
-
----
-
-### [Bleeping Computer] NetNut proxy network disrupted, 2 million infected devices cut off
-- **Link:** https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/
-- **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 8.008066085s. [links {
+Please retry in 3.356647832s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -78,7 +78,36 @@ Please retry in 8.008066085s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 8
+  seconds: 3
+}
+]
+
+---
+
+### [Bleeping Computer] NetNut proxy network disrupted, 2 million infected devices cut off
+- **Link:** https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 2.288757326s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 2
 }
 ]
 
@@ -89,7 +118,7 @@ Please retry in 8.008066085s. [links {
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 6.933033508s. [links {
+Please retry in 1.209891115s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -107,7 +136,7 @@ Please retry in 6.933033508s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 6
+  seconds: 1
 }
 ]
 
@@ -118,7 +147,7 @@ Please retry in 6.933033508s. [links {
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 5.870673457s. [links {
+Please retry in 138.351711ms. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -136,36 +165,6 @@ Please retry in 5.870673457s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 5
-}
-]
-
----
-
-### [Bleeping Computer] Claude Fable relaunch disappoints users with nerfed performance
-- **Link:** https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-relaunch-disappoints-users-with-nerfed-performance/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 4.806581235s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 4
 }
 ]
 
