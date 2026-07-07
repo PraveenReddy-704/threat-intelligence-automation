@@ -1,66 +1,69 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-07-06 12:12:00 (UTC)*
+*Generated on: 2026-07-07 11:16:44 (UTC)*
 
-### [The Hacker News] New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions
-- **Link:** https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
+### [The Hacker News] Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities
+- **Link:** https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html
 - **AI Analysis:**
-> **Severity:** High
+> Here's the analysis:
 
-**Impact:** This technique allows attackers who have already compromised an air-gapped system to secretly exfiltrate sensitive data via video cable emissions to a nearby receiver.
+*   **Severity:** **Critical**
+
+*   **1-Sentence Impact:** Suspected nation-state actors exploited critical Roundcube vulnerabilities in university webmail to steal credentials, enabling potential espionage and intellectual property theft from sensitive research departments.
 
 ---
 
-### [The Hacker News] New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS
-- **Link:** https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html
+### [The Hacker News] CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware
+- **Link:** https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html
 - **AI Analysis:**
-> **Severity:** High
+> Here's the analysis:
 
-**Impact:** The emergence of QuimaRAT as a cross-platform MaaS significantly broadens the threat landscape for remote system compromise and data theft across Windows, Linux, and macOS environments.
+*   **Severity:** **Critical**
+*   **1-Sentence Impact:** This undocumented backdoor grants attackers full administrative control over affected Tenda routers, leading to complete network compromise and potential interception of user data.
 
 ---
 
-### [The Hacker News] Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages
-- **Link:** https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html
+### [The Hacker News] BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA
+- **Link:** https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** This flaw allowed malicious websites to silently auto-install browser add-ons, enabling the theft of sensitive user data from visited pages without any user interaction.
+**Impact:** These critical pre-authentication flaws allow unauthenticated attackers to fully compromise BeyondTrust Remote Support and PRA products, granting them unauthorized control over the remote access infrastructure and potentially underlying IT systems.
 
 ---
 
-### [The Hacker News] SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing
-- **Link:** https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html
+### [The Hacker News] Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations
+- **Link:** https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html
 - **AI Analysis:**
 > **Severity:** High
 
-**1-Sentence Impact:** This technique allows malicious AI agent skills to bypass static security scanners, enabling undetected code execution and potential compromise of development environments.
+**Impact:** Iranian nation-state hackers are using a new, custom C2 framework to conduct sophisticated espionage and potential disruption against critical Israeli government and IT organizations, posing significant national security and supply chain risks.
 
 ---
 
-### [The Hacker News] U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
-- **Link:** https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
+### [The Hacker News] 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems
+- **Link:** https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html
 - **AI Analysis:**
-> **Severity:** High
+> **Severity:** Critical
 
-**Impact:** A U.S. government entity paid $1 million to prevent a data leak, demonstrating a successful data-theft extortion attack with significant financial and reputational implications, even without system encryption.
+**Impact:** This critical flaw allows a malicious guest virtual machine to escape and compromise the host system, gaining full control over the hypervisor and all other co-resident virtual machines.
 
 ---
 
-### [Bleeping Computer] Flipper Zero firmware development continues with community help
-- **Link:** https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/
+### [Bleeping Computer] Microsoft to enable Windows settings backup by default for orgs
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/
 - **AI Analysis:**
-> **Severity: Medium**
+> **Severity:** Medium
 
-**1-sentence impact:** While ensuring continued development, the increased reliance on community contributions for Flipper Zero firmware could introduce new security vulnerabilities if not rigorously vetted by the smaller internal team.
+**1-sentence Impact:** While convenient for users, this default setting could introduce risks for data exposure, malware persistence, or compliance issues for organizations if not properly understood and managed.
 
 ---
 
-### [Bleeping Computer] JadePuffer ransomware used AI agent to automate entire attack
-- **Link:** https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/
+### [Bleeping Computer] BeyondTrust warns of critical flaws in remote access software
+- **Link:** https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 3.356647832s. [links {
+Please retry in 20.039648204s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -78,18 +81,18 @@ Please retry in 3.356647832s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 3
+  seconds: 20
 }
 ]
 
 ---
 
-### [Bleeping Computer] NetNut proxy network disrupted, 2 million infected devices cut off
-- **Link:** https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/
+### [Bleeping Computer] Microsoft testing new Cloud Rebuild Windows 11 recovery feature
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-new-cloud-rebuild-windows-11-recovery-feature/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 2.288757326s. [links {
+Please retry in 18.984415013s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -107,18 +110,18 @@ Please retry in 2.288757326s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 2
+  seconds: 18
 }
 ]
 
 ---
 
-### [Bleeping Computer] ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit
-- **Link:** https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/
+### [Bleeping Computer] Phishing poses as big-brand job interview to steal Google accounts
+- **Link:** https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 1.209891115s. [links {
+Please retry in 17.919831528s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -136,18 +139,18 @@ Please retry in 1.209891115s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 1
+  seconds: 17
 }
 ]
 
 ---
 
-### [Bleeping Computer] Claude Fable 5 isn’t permanently leaving subscriptions, Anthropic says
-- **Link:** https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/
+### [Bleeping Computer] Fake IT support calls on Microsoft Teams push EtherRAT malware
+- **Link:** https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 138.351711ms. [links {
+Please retry in 16.851619845s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -165,6 +168,7 @@ Please retry in 138.351711ms. [links {
   quota_value: 5
 }
 , retry_delay {
+  seconds: 16
 }
 ]
 
