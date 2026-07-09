@@ -1,23 +1,68 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-07-08 10:27:39 (UTC)*
+*Generated on: 2026-07-09 11:15:04 (UTC)*
 
-### [The Hacker News] China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware
-- **Link:** https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html
+### [The Hacker News] Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges
+- **Link:** https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html
 - **AI Analysis:**
-> Here's an analysis of the provided security news:
+> **Severity:** High
 
-**Severity:** Critical
-
-**1-sentence impact:** This critical threat allows a China-linked APT to establish broad, stealthy infrastructure by compromising internet-facing networking devices, significantly raising the risk of widespread espionage and future advanced cyberattacks.
+**Impact:** This privilege escalation flaw in Microsoft Defender's core engine allows an attacker to gain full SYSTEM control over affected Windows systems.
 
 ---
 
-### [The Hacker News] 15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros
-- **Link:** https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html
+### [The Hacker News] Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images
+- **Link:** https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html
+- **AI Analysis:**
+> **Severity:** Medium
+
+**Impact:** This feature allows others to easily generate AI images using users' public photos, creating significant privacy concerns regarding misrepresentation, impersonation, and potential misuse, especially with its default-on setting.
+
+---
+
+### [The Hacker News] Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It
+- **Link:** https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** This vulnerability allows malicious code embedded in scanned projects to execute autonomously on a user's machine when analyzed by popular AI coding agents, potentially leading to full system compromise.
+
+---
+
+### [The Hacker News] GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents
+- **Link:** https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**1-sentence Impact:** This vulnerability allows malicious code projects to trick developers into granting arbitrary code execution on their machines via popular AI coding assistants, effectively compromising their systems.
+
+---
+
+### [The Hacker News] Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes
+- **Link:** https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html
+- **AI Analysis:**
+> **Severity: High**
+
+**1-sentence Impact:** Infected devices are covertly co-opted into a large-scale malicious residential proxy network, consuming user bandwidth and potentially exposing them to liability for illicit activities conducted through their IP address.
+
+---
+
+### [Bleeping Computer] Microsoft to retire the OWA Light client in Exchange Server
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/
+- **AI Analysis:**
+> This news describes an operational change with indirect security benefits, rather than a direct vulnerability fix.
+
+**Severity:** Low
+
+**1-sentence impact:** This retirement enhances overall security by deprecating an older, potentially less secure client in favor of more modern and maintained alternatives, though it may cause operational adjustments for some users.
+
+---
+
+### [Bleeping Computer] Police arrests 5,800 suspects in global anti-fraud crackdown
+- **Link:** https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 30.261052402s. [links {
+Please retry in 59.406504544s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -35,18 +80,18 @@ Please retry in 30.261052402s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 30
+  seconds: 59
 }
 ]
 
 ---
 
-### [The Hacker News] CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV
-- **Link:** https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html
+### [Bleeping Computer] AssuranceAmerica data breach exposes records of 6.9 million drivers
+- **Link:** https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 29.175849807s. [links {
+Please retry in 58.340782822s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -64,18 +109,18 @@ Please retry in 29.175849807s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 29
+  seconds: 58
 }
 ]
 
 ---
 
-### [The Hacker News] RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service
-- **Link:** https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html
+### [Bleeping Computer] Microsoft patches RoguePlanet Defender zero-day vulnerability
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 28.087060885s. [links {
+Please retry in 57.282171222s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -93,18 +138,18 @@ Please retry in 28.087060885s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 28
+  seconds: 57
 }
 ]
 
 ---
 
-### [The Hacker News] Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots
-- **Link:** https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html
+### [Bleeping Computer] Mount Royal University confirms breach as hackers claim attack
+- **Link:** https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 26.9952367s. [links {
+Please retry in 56.221378926s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -122,152 +167,7 @@ Please retry in 26.9952367s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 26
-}
-]
-
----
-
-### [Bleeping Computer] CISA orders feds to prioritize patching Langflow auth bypass flaw
-- **Link:** https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 25.793027496s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 25
-}
-]
-
----
-
-### [Bleeping Computer] Ubiquiti warns of new max severity  UniFi OS vulnerability
-- **Link:** https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 24.699691579s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 24
-}
-]
-
----
-
-### [Bleeping Computer] CISA orders feds to patch max severity ColdFusion flaw by Friday
-- **Link:** https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 23.608362489s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 23
-}
-]
-
----
-
-### [Bleeping Computer] Accenture confirms breach after hacker offers stolen data for sale
-- **Link:** https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 22.514397529s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 22
-}
-]
-
----
-
-### [Bleeping Computer] Chinese hackers develop LONGLEASH malware to expand ORB network
-- **Link:** https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 21.425792611s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 21
+  seconds: 56
 }
 ]
 
