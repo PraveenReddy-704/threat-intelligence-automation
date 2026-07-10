@@ -1,68 +1,68 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-07-09 11:15:04 (UTC)*
+*Generated on: 2026-07-10 11:13:50 (UTC)*
 
-### [The Hacker News] Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges
-- **Link:** https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html
+### [The Hacker News] Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets
+- **Link:** https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html
 - **AI Analysis:**
-> **Severity:** High
+> **Severity: Critical**
 
-**Impact:** This privilege escalation flaw in Microsoft Defender's core engine allows an attacker to gain full SYSTEM control over affected Windows systems.
+**Impact:** Attackers are actively exploiting a critical vulnerability in how some cryptocurrency wallets generate recovery phrases, allowing them to completely drain all funds from affected users.
 
 ---
 
-### [The Hacker News] Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images
-- **Link:** https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html
+### [The Hacker News] Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks
+- **Link:** https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html
+- **AI Analysis:**
+> This news describes a law enforcement action rather than a direct threat or vulnerability, but it has significant implications for the cybercrime ecosystem.
+
+**Severity:** **Medium**
+
+**1-sentence Impact:** The sentencing underscores severe legal consequences for individuals who actively aid ransomware operations, bolstering deterrence and disrupting the cybercrime ecosystem.
+
+---
+
+### [The Hacker News] Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs
+- **Link:** https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html
 - **AI Analysis:**
 > **Severity:** Medium
 
-**Impact:** This feature allows others to easily generate AI images using users' public photos, creating significant privacy concerns regarding misrepresentation, impersonation, and potential misuse, especially with its default-on setting.
+**Impact:** The systematic enumeration of corporate GitHub resources by threat actors provides critical intelligence for subsequent targeted attacks and potential supply chain compromise.
 
 ---
 
-### [The Hacker News] Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It
-- **Link:** https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** This vulnerability allows malicious code embedded in scanned projects to execute autonomously on a user's machine when analyzed by popular AI coding agents, potentially leading to full system compromise.
-
----
-
-### [The Hacker News] GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents
-- **Link:** https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html
+### [The Hacker News] New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware
+- **Link:** https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-sentence Impact:** This vulnerability allows malicious code projects to trick developers into granting arbitrary code execution on their machines via popular AI coding assistants, effectively compromising their systems.
+**Impact:** This new GigaWiper Windows backdoor poses a critical threat due to its modular design enabling irreversible disk wiping, permanent data encryption via fake ransomware, and covert spyware capabilities on compromised systems.
 
 ---
 
-### [The Hacker News] Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes
-- **Link:** https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html
+### [The Hacker News] npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk
+- **Link:** https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html
 - **AI Analysis:**
-> **Severity: High**
+> **Severity:** High
 
-**1-sentence Impact:** Infected devices are covertly co-opted into a large-scale malicious residential proxy network, consuming user bandwidth and potentially exposing them to liability for illicit activities conducted through their IP address.
+**1-sentence Impact:** This update significantly reduces the risk of supply chain attacks in the JavaScript ecosystem by preventing automatic execution of potentially malicious install scripts and strengthening two-factor authentication.
 
 ---
 
-### [Bleeping Computer] Microsoft to retire the OWA Light client in Exchange Server
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/
+### [Bleeping Computer] Former ransomware negotiator gets 4 years for BlackCat attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/
 - **AI Analysis:**
-> This news describes an operational change with indirect security benefits, rather than a direct vulnerability fix.
+> **Severity:** Medium
 
-**Severity:** Low
-
-**1-sentence impact:** This retirement enhances overall security by deprecating an older, potentially less secure client in favor of more modern and maintained alternatives, though it may cause operational adjustments for some users.
+**Impact:** The sentencing highlights the significant insider threat posed by individuals with specialized cybersecurity knowledge and reinforces the legal consequences for ransomware attackers.
 
 ---
 
-### [Bleeping Computer] Police arrests 5,800 suspects in global anti-fraud crackdown
-- **Link:** https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/
+### [Bleeping Computer] OpenMandriva Linux says contributor tried to sabotage the project
+- **Link:** https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 59.406504544s. [links {
+Please retry in 13.569881937s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -80,18 +80,18 @@ Please retry in 59.406504544s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 59
+  seconds: 13
 }
 ]
 
 ---
 
-### [Bleeping Computer] AssuranceAmerica data breach exposes records of 6.9 million drivers
-- **Link:** https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/
+### [Bleeping Computer] Injective SDK on npm infected with cryptocurrency wallet stealer
+- **Link:** https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 58.340782822s. [links {
+Please retry in 12.403352578s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -109,18 +109,18 @@ Please retry in 58.340782822s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 58
+  seconds: 12
 }
 ]
 
 ---
 
-### [Bleeping Computer] Microsoft patches RoguePlanet Defender zero-day vulnerability
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/
+### [Bleeping Computer] New Helix vishing group emerges in SharePoint data theft attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 57.282171222s. [links {
+Please retry in 11.311029489s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -138,18 +138,18 @@ Please retry in 57.282171222s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 57
+  seconds: 11
 }
 ]
 
 ---
 
-### [Bleeping Computer] Mount Royal University confirms breach as hackers claim attack
-- **Link:** https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/
+### [Bleeping Computer] Microsoft expects more Windows security updates from AI-discovered flaws
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 56.221378926s. [links {
+Please retry in 10.229533181s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -167,7 +167,7 @@ Please retry in 56.221378926s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 56
+  seconds: 10
 }
 ]
 
