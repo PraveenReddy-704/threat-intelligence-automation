@@ -1,13 +1,31 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-07-11 09:45:09 (UTC)*
+*Generated on: 2026-07-12 09:59:44 (UTC)*
+
+### [The Hacker News] Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
+- **Link:** https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** Installing the compromised `jscrambler` 8.14.0 npm package automatically executes a cross-platform Rust infostealer on the user's machine, leading to immediate system compromise and sensitive data theft.
+
+---
+
+### [The Hacker News] Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns
+- **Link:** https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** State-aligned hackers weaponized law enforcement portals and compromised servers containing sensitive police and citizen criminal data, enabling sustained espionage and posing severe national security and privacy risks.
+
+---
 
 ### [The Hacker News] Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions
 - **Link:** https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html
 - **AI Analysis:**
-> Here's the analysis:
+> Here's the analysis of the security news:
 
-*   **Severity:** Critical
-*   **1-Sentence Impact:** Attackers can execute arbitrary code within a user's Zimbra session via crafted emails, leading to session hijacking, data theft, and potential further compromise of the Zimbra environment.
+*   **Severity:** **Critical**
+*   **1-sentence Impact:** This vulnerability allows attackers to execute arbitrary code within a user's web client session simply by sending a specially crafted email, leading to potential session hijacking and data theft.
 
 ---
 
@@ -16,7 +34,7 @@
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** A critical external security threat has forced ShareFile customers to shut down their storage controllers and lose service access, putting sensitive data and systems at risk of compromise.
+**Impact:** Customers face immediate service outages and potential data compromise as they are instructed to shut down critical storage infrastructure due to an active and credible security threat.
 
 ---
 
@@ -25,25 +43,16 @@
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** This supply chain attack directly enabled the theft of cryptocurrency wallet private keys and seed phrases from developers using the compromised Injective Labs SDK, leading to potential irreversible financial losses.
+**Impact:** This supply chain attack directly enabled threat actors to steal cryptocurrency wallet private keys and seed phrases from users who installed the compromised SDK package, leading to potential irreversible financial loss.
 
 ---
 
-### [The Hacker News] Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot
-- **Link:** https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html
+### [Bleeping Computer] Australia warns of global campaign targeting vulnerable CMS platforms
+- **Link:** https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** These flaws allow attackers to execute arbitrary code before the operating system boots, granting complete and persistent control over a vast range of vulnerable devices, from consumer IoT to data-center server management chips, or cause a denial of service.
-
----
-
-### [The Hacker News] Laser Attack Resets Tangem Wallet Passwords on Cards That Can't Be Patched
-- **Link:** https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** This vulnerability enables sophisticated physical attacks to completely reset Tangem wallet passwords on unpatchable cards, resulting in irreversible loss of all associated cryptocurrency funds.
+**Impact:** Organizations with vulnerable CMS platforms and plugins face an immediate and widespread risk of active exploitation, leading to website compromise, data breaches, and further malicious activity.
 
 ---
 
@@ -52,123 +61,33 @@
 - **AI Analysis:**
 > **Severity:** High
 
-**1-sentence Impact:** This novel prompt injection technique hides commands in image files to bypass AI code reviewers and trick AI agents into exfiltrating sensitive repository secrets.
+**Impact:** The 'Ghostcommit' technique uses prompt injection hidden within image files to trick AI agents into exfiltrating sensitive repository secrets, bypassing current AI security measures.
 
 ---
 
 ### [Bleeping Computer] New U-Boot flaws could enable stealthy firmware attacks
 - **Link:** https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/
 - **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 55.127755873s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 55
-}
-]
+> **Severity:** Critical
+
+**1-sentence Impact:** These flaws enable attackers to execute malicious code during device boot, compromising fundamental security protections and installing persistent, stealthy malware that is very difficult to detect and remove on affected devices.
 
 ---
 
 ### [Bleeping Computer] Ryuk ransomware member pleads guilty in the US, faces 15 years in prison
 - **Link:** https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/
 - **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 54.048500872s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 54
-}
-]
+> **Severity:** Low
+
+**1-sentence Impact:** This news highlights successful law enforcement efforts in prosecuting a major ransomware actor, serving as a deterrent and demonstrating ongoing commitment to combating cybercrime.
 
 ---
 
 ### [Bleeping Computer] Police suspects Dutch hackers were involved in Odido breach
 - **Link:** https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/
 - **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 52.961808705s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 52
-}
-]
-
----
-
-### [Bleeping Computer] Progress urges ShareFile admins to shut down servers over “credible” threat
-- **Link:** https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 51.879768161s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 51
-}
-]
+> *   **Severity:** Medium
+*   **Impact:** This signifies law enforcement progress in identifying domestic threat actors involved in a past data breach at a major telecommunications provider.
 
 ---
 
