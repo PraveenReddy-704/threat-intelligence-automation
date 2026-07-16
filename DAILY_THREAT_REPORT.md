@@ -1,67 +1,66 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-07-15 10:10:22 (UTC)*
+*Generated on: 2026-07-16 10:18:55 (UTC)*
 
-### [The Hacker News] Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware
-- **Link:** https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html
+### [The Hacker News] OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol
+- **Link:** https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html
+- **AI Analysis:**
+> **Severity:** Low
+
+**1-sentence Impact:** This news describes OpenAI's proactive efforts to enhance the security of its future GPT models against prompt injection, improving their robustness before wide deployment.
+
+---
+
+### [The Hacker News] Zoom Patches Critical Windows Flaw That Could Enable Account Takeover
+- **Link:** https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** This supply chain attack critically compromises developer systems and projects through the installation of malicious AsyncAPI npm packages, leading to multi-stage botnet infection.
+**Impact:** This critical vulnerability in Zoom's Windows clients could enable an attacker to achieve full account takeover, posing a significant risk to user privacy and organizational security.
 
 ---
 
-### [The Hacker News] Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands
-- **Link:** https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html
+### [The Hacker News] TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development
+- **Link:** https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html
+- **AI Analysis:**
+> **Severity: Medium**
+
+**Impact:** This news highlights a concerning emerging trend of using LLMs to lower the barrier for IoT botnet development, even if this specific iteration is currently unsuccessful.
+
+---
+
+### [The Hacker News] OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps
+- **Link:** https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html
+- **AI Analysis:**
+> **Severity: Critical**
+
+**1-sentence Impact:** Users risk complete and irreversible loss of all cryptocurrency assets by unknowingly entering their recovery phrase into a malicious phishing prompt disguised within legitimate Ledger or Trezor desktop applications on an infected PC.
+
+---
+
+### [The Hacker News] Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws
+- **Link:** https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** Unauthenticated remote attackers can execute arbitrary commands on SonicWall SMA 1000 appliances via these actively exploited zero-days, potentially leading to full network compromise and data theft.
+**1-Sentence Impact:** With publicly available exploit code, these critical Firefox vulnerabilities pose an immediate threat of remote code execution, data theft, and security bypass for unpatched users.
 
 ---
 
-### [The Hacker News] Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack
-- **Link:** https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html
-- **AI Analysis:**
-> Here's the analysis of the security news:
-
-**Severity:** Critical
-
-**1-sentence Impact:** Immediate patching of Microsoft systems is critical to prevent active exploitation of two zero-day vulnerabilities, among a record 622 total fixes.
-
----
-
-### [The Hacker News] SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data
-- **Link:** https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
-- **AI Analysis:**
-> *   **Severity:** Critical
-*   **Impact:** This critical flaw allows an authenticated attacker to exploit memory corruption in SAP NetWeaver ABAP, potentially leading to the exposure or modification of sensitive data.
-
----
-
-### [The Hacker News] Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads
-- **Link:** https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html
-- **AI Analysis:**
-> **Severity:** High
-
-**1-Sentence Impact:** This flaw allows rogue browser extensions to bypass permissions and access users' sensitive Gmail, Google Docs, and Calendar data through the Claude for Chrome extension.
-
----
-
-### [Bleeping Computer] CISA warns admins to patch actively exploited SharePoint flaws
-- **Link:** https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/
+### [Bleeping Computer] New Spirals ransomware encrypts victim network in under 24 hours
+- **Link:** https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** Unpatched, internet-exposed on-premises SharePoint servers are actively being compromised, risking data breaches and system control by attackers.
+**Impact:** Organizations face a critical and immediate threat from this new ransomware, which rapidly encrypts networks and steals data, severely limiting response time.
 
 ---
 
-### [Bleeping Computer] Microsoft: Some Dell PCs shut down after recent Windows updates
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-some-dell-devices-shut-down-after-windows-update/
+### [Bleeping Computer] Dutch police bust investment fraud ring stealing over €100 million
+- **Link:** https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 41.496218393s. [links {
+Please retry in 9.074139732s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -79,18 +78,18 @@ Please retry in 41.496218393s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 41
+  seconds: 9
 }
 ]
 
 ---
 
-### [Bleeping Computer] US charges alleged operators of Russian bulletproof hosting service
-- **Link:** https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/
+### [Bleeping Computer] Zoom warns of critical account takeover vulnerability
+- **Link:** https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 40.404909185s. [links {
+Please retry in 7.9951791s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -108,18 +107,18 @@ Please retry in 40.404909185s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 40
+  seconds: 7
 }
 ]
 
 ---
 
-### [Bleeping Computer] SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now
-- **Link:** https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/
+### [Bleeping Computer] Google Gemini CLI abused as a hacking agent, malware botnet operator
+- **Link:** https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 39.321709326s. [links {
+Please retry in 6.90881897s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -137,18 +136,18 @@ Please retry in 39.321709326s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 39
+  seconds: 6
 }
 ]
 
 ---
 
-### [Bleeping Computer] Spanish Police take down €140 million cyber fraud ring, arrest four
-- **Link:** https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/
+### [Bleeping Computer] AsyncAPI npm packages infected with credential-stealing malware
+- **Link:** https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 38.239978226s. [links {
+Please retry in 5.822678058s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -166,7 +165,7 @@ Please retry in 38.239978226s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 38
+  seconds: 5
 }
 ]
 
