@@ -1,78 +1,72 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-07-27 11:34:25 (UTC)*
+*Generated on: 2026-07-28 10:42:41 (UTC)*
 
-### [The Hacker News] TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments
-- **Link:** https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html
+### [The Hacker News] Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In
+- **Link:** https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-sentence Impact:** A likely nation-state actor is deploying new, evasive malware via Telegram C2 against Middle East governments, posing a critical espionage and data exfiltration risk.
+**Impact:** Unauthenticated attackers can achieve arbitrary code execution, leading to full compromise of vulnerable TeamCity On-Premises servers.
 
 ---
 
-### [The Hacker News] GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption
-- **Link:** https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html
+### [The Hacker News] Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit
+- **Link:** https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html
 - **AI Analysis:**
-> **Severity Category:** High
+> **Severity:** High
 
-**1-Sentence Impact:** This feature significantly reduces the risk of supply chain attacks by delaying the automatic adoption of potentially malicious new software package releases, providing a critical window for detection and removal.
+**Impact:** This local kernel exploit enables an ordinary user to gain root privileges, leading to complete system compromise on affected Linux installations.
 
 ---
 
-### [The Hacker News] Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable
-- **Link:** https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html
+### [The Hacker News] Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost
+- **Link:** https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html
 - **AI Analysis:**
-> Here's an analysis of the provided security news:
+> This news item does not represent a security threat, vulnerability, or incident. Instead, it is an announcement of a new **positive development** in cybersecurity tooling. Therefore, the standard severity categories (Critical/High/Medium/Low) typically used for threats or vulnerabilities are not applicable.
 
-**Severity:** **High**
+**Severity:** Not Applicable (This is a positive development, not a threat or vulnerability.)
 
-**Impact:** This highly evasive malvertising operation uses a novel technique to have victim browsers assemble full executables, leading to undetectable system compromise and potential financial loss for targeted users.
+**1-sentence Impact:** Microsoft's new cybersecurity-specific AI model aims to significantly improve the accuracy and cost-efficiency of vulnerability identification and remediation for its MDASH users.
 
 ---
 
-### [The Hacker News] Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available
-- **Link:** https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html
+### [The Hacker News] Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw
+- **Link:** https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** Attackers are actively exploiting a critical, unauthenticated remote code execution (RCE) vulnerability in Fastjson 1.x, allowing them to take full control of affected applications, with no official patch currently available.
+**Impact:** Active exploitation of this maximum-severity command injection flaw allows attackers to achieve arbitrary code execution, potentially leading to full compromise of affected Arista VeloCloud Orchestrator systems.
 
 ---
 
-### [The Hacker News] Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git
-- **Link:** https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html
+### [The Hacker News] NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework
+- **Link:** https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html
 - **AI Analysis:**
-> **Severity:** High
+> Here's the analysis of the security news:
 
-**Impact:** Authenticated users can execute arbitrary commands as the 'git' user on unpatched self-managed GitLab instances, leading to potential system compromise.
+**Severity:** Low
+
+**Impact:** This initiative fosters collaborative efforts to proactively develop and share open standards and tools, aiming to significantly enhance the security of future AI agents and software.
 
 ---
 
-### [Bleeping Computer] GitHub, PyPI add time-based defenses against supply chain attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/
+### [Bleeping Computer] Data breach at medical billing firm MCBS affects 1.26 million people
+- **Link:** https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/
 - **AI Analysis:**
-> This news reports a *positive security development*, not a vulnerability or an active attack. Therefore, categorizing its "severity" in the traditional sense (Critical/High/Medium/Low for threats) is a bit inverted. However, if we must fit it into the scale, it represents a *reduction in future potential severity* for users.
+> *Self-correction on the summary: The year "2025" in the summary is highly likely a typo and should refer to a past year (e.g., 2023 or 2024), as breaches are reported after they occur, not for future dates. My analysis proceeds assuming this is a report of a past event.*
 
-*   **Severity:** **Low** (as this is a proactive defense enhancement, not a vulnerability report or active threat)
-*   **Impact:** This enhancement introduces time-based defenses in Dependabot for GitHub and PyPI, significantly limiting the potential impact of supply chain attacks.
+**Severity:** High
 
----
-
-### [Bleeping Computer] Steam forum ClickFix attacks infect gamers with XMRig cryptominers
-- **Link:** https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** This attack leads to compromised systems that suffer severe performance degradation and increased electricity costs due to unauthorized cryptomining.
+**1-sentence impact:** This breach exposed the sensitive medical and personal data of over 1.2 million people, creating a high risk of identity theft, medical fraud, and other long-term personal security issues.
 
 ---
 
-### [Bleeping Computer] Malicious sites use JavaScript to build malware in browser memory
-- **Link:** https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/
+### [Bleeping Computer] Hackers target US firms in FastJson RCE zero-day attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 38.030748941s. [links {
+Please retry in 22.464020122s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -90,18 +84,18 @@ Please retry in 38.030748941s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 38
+  seconds: 22
 }
 ]
 
 ---
 
-### [Bleeping Computer] ShinyHunters data leaks fuel $2,000 sextortion email scam
-- **Link:** https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/
+### [Bleeping Computer] Arista patches VeloCloud Orchestrator zero-day exploited in attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 36.945509538s. [links {
+Please retry in 21.41276045s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -119,18 +113,18 @@ Please retry in 36.945509538s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 36
+  seconds: 21
 }
 ]
 
 ---
 
-### [Bleeping Computer] OpenAI confirms ChatGPT is down worldwide
-- **Link:** https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/
+### [Bleeping Computer] New Dysphoria DDoS botnet spreads to 200k devices worldwide
+- **Link:** https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 35.866891139s. [links {
+Please retry in 20.366312496s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -148,7 +142,36 @@ Please retry in 35.866891139s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 35
+  seconds: 20
+}
+]
+
+---
+
+### [Bleeping Computer] New Certighost PoC exploit lets attackers hijack Windows domains
+- **Link:** https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 19.310488608s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 19
 }
 ]
 
