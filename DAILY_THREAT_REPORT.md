@@ -1,66 +1,77 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-08-07 09:09:08 (UTC)*
+*Generated on: 2026-08-08 08:52:37 (UTC)*
 
-### [The Hacker News] TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign
-- **Link:** https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** The persistent TeamPCP threat group compromises internet-facing infrastructure and has expanded into supply chain attacks, posing a significant, widespread risk of downstream compromise for many organizations.
-
----
-
-### [The Hacker News] New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts
-- **Link:** https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html
-- **AI Analysis:**
-> **Severity Category:** Critical
-
-**1-Sentence Impact:** This critical vulnerability allows an attacker with kernel privileges inside a guest VM to escape KVM isolation and execute code on the host, fundamentally compromising host security.
-
----
-
-### [The Hacker News] Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs
-- **Link:** https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html
+### [The Hacker News] Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication
+- **Link:** https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-sentence Impact:** Critical vulnerabilities, including three with a 9.9 CVSS score, in Cisco SD-WAN and IOS XE software could allow attackers to fully compromise affected networking infrastructure, necessitating immediate patching.
+**Impact:** This zero-day vulnerability allows unauthenticated remote attackers to gain full administrative control over Metabase instances, leading to potential data compromise and system control.
 
 ---
 
-### [The Hacker News] New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs
-- **Link:** https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html
+### [The Hacker News] N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist
+- **Link:** https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html
 - **AI Analysis:**
-> **Severity: High**
+> **Severity: Critical**
 
-**1-Sentence Impact:** This interrupt injection attack allows unprivileged programs to bypass existing Spectre v2 mitigations on Intel and AMD CPUs, re-exposing systems to sensitive information leakage from the kernel.
+**Impact:** Active exploitation of the N-able N-central RMM allows attackers to achieve persistent access to managed systems, risking widespread compromise across affected customer environments.
 
 ---
 
-### [The Hacker News] ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories
-- **Link:** https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html
+### [The Hacker News] Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts
+- **Link:** https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-Sentence Impact:** This week features multiple critical vulnerabilities, including one-click takeovers and remote code execution, enabling system compromise with minimal or no user interaction across diverse platforms and common file types.
+**1-Sentence Impact:** This critical command injection flaw allows active exploitation for arbitrary command execution on vulnerable Progress Kemp LoadMaster devices, enabling full system compromise.
 
 ---
 
-### [Bleeping Computer] OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it
-- **Link:** https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/
+### [The Hacker News] Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer
+- **Link:** https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html
 - **AI Analysis:**
-> This news is **Low** severity.
+> Here's an analysis of the security news:
 
-**1-sentence impact:** This news describes service upgrades and feature enhancements for ChatGPT users and does not directly report on any security vulnerabilities, incidents, or risks.
+**Severity:** **High**
+
+**1-Sentence Impact:** This widespread npm supply chain attack poses a high risk of full system compromise and data theft for developers on Windows, Mac, and Linux who install the malicious packages.
+
+**Reasoning for Severity:**
+*   **Supply Chain Attack:** Targeting npm, a critical software registry, inherently makes this a high-impact vector as developers unknowingly pull malicious code into their projects.
+*   **Scale:** Nearly 800 packages indicate a significant and concerted effort by attackers.
+*   **Cross-Platform:** The malware targets Windows, Mac, and Linux, broadening the potential victim pool significantly.
+*   **Payload Severity:** Delivering a **RAT (Remote Access Trojan)** means complete control over a compromised system, and an **Infostealer** leads directly to credential theft, data breaches, and financial fraud. These are highly destructive payloads.
+*   **Deception Method:** "AI slop squatted, or randomly generated typo-squatting package names" suggests a sophisticated attempt to evade detection and trick developers, making it harder to spot.
+
+While not a "zero-day" or unauthenticated RCE on a core system, the widespread nature, critical infrastructure targeting (software supply chain), and highly destructive payload make this a clear "High" severity threat, bordering on "Critical" due to the potential for widespread developer compromise and subsequent impact on downstream applications.
 
 ---
 
-### [Bleeping Computer] ClickFix attack pushes macOS infostealer for crypto theft attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/
+### [The Hacker News] ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets
+- **Link:** https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** This macOS malware poses a critical threat, enabling attackers to fully compromise user digital identities by draining cryptocurrency wallets and stealing all stored passwords and sensitive credentials from browsers and iCloud Keychain.
+
+---
+
+### [Bleeping Computer] Metabase SQLi zero-day exploited in customer data-theft attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/
+- **AI Analysis:**
+> **Severity:** Critical
+
+**1-sentence Impact:** This critical zero-day SQL injection in Metabase has been actively exploited to breach customer instances, resulting in the theft of sensitive data.
+
+---
+
+### [Bleeping Computer] Unlimited Technology Systems breach impacts 3.8 million people
+- **Link:** https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 56.142176145s. [links {
+Please retry in 26.931574051s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -78,18 +89,18 @@ Please retry in 56.142176145s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 56
+  seconds: 26
 }
 ]
 
 ---
 
-### [Bleeping Computer] Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group
-- **Link:** https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/
+### [Bleeping Computer] Levi Strauss & Co. says hackers stole corporate data in cyberattack
+- **Link:** https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 55.072787531s. [links {
+Please retry in 25.839972076s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -107,18 +118,18 @@ Please retry in 55.072787531s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 55
+  seconds: 25
 }
 ]
 
 ---
 
-### [Bleeping Computer] Swiss government SharePoint breach compromised 200 accounts
-- **Link:** https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/
+### [Bleeping Computer] Real emails, hijacked payments: Two H1 2026 attack chains
+- **Link:** https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 54.007864229s. [links {
+Please retry in 24.74091958s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -136,18 +147,18 @@ Please retry in 54.007864229s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 54
+  seconds: 24
 }
 ]
 
 ---
 
-### [Bleeping Computer] New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes
-- **Link:** https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/
+### [Bleeping Computer] North Carolina Ports confirms cyberattack disrupting operations
+- **Link:** https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 52.935977752s. [links {
+Please retry in 23.643654326s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -165,7 +176,7 @@ Please retry in 52.935977752s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 52
+  seconds: 23
 }
 ]
 
