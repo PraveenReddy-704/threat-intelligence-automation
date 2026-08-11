@@ -1,72 +1,68 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-08-10 09:41:36 (UTC)*
+*Generated on: 2026-08-11 09:08:50 (UTC)*
 
-### [The Hacker News] Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials
-- **Link:** https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html
-- **AI Analysis:**
-> Here's the analysis:
-
-**Severity:** Critical
-
-**1-sentence Impact:** This incident poses a critical threat to developers using VS Code for Solidity, potentially leading to the theft of cryptocurrency, API keys, and other sensitive credentials, with ongoing risks for already infected systems.
-
----
-
-### [The Hacker News] OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause
-- **Link:** https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html
-- **AI Analysis:**
-> Here's an analysis of the security news:
-
-**Severity:** High
-
-**1-Sentence Impact:** OpenAI paused its Astra AI model due to its advanced cyber capabilities, raising significant concerns about the potential for autonomous AI misuse in future cyberattacks.
-
----
-
-### [The Hacker News] Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers
-- **Link:** https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** This vulnerability allows attackers to leverage Atlassian Rovo to exfiltrate any Jira and Confluence data accessible by a signed-in user to an external server, potentially leading to significant data breaches of sensitive company information.
-
----
-
-### [The Hacker News] New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens
-- **Link:** https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** This critical vulnerability allows malicious CSS within emails to bypass webmail sandboxing across all major providers, enabling attackers to steal credentials, take over accounts, and manipulate UI elements by simply viewing a compromised email.
-
----
-
-### [The Hacker News] Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication
-- **Link:** https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html
+### [The Hacker News] Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine
+- **Link:** https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html
 - **AI Analysis:**
 > Here's the analysis of the security news:
 
-**Severity:** Critical
+**Severity:** High
 
-**1-sentence Impact:** This zero-day allows unauthenticated remote attackers to gain full administrative control over Metabase instances and potentially all connected data.
+**Impact:** A cyberattack successfully shut down a Polish power plant turbine and water treatment system via its private cellular network, demonstrating critical infrastructure vulnerability despite maintaining heat supply to residents.
 
 ---
 
-### [Bleeping Computer] Hackers breach TrueConf to trojanize client installers with backdoors
-- **Link:** https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/
+### [The Hacker News] BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins
+- **Link:** https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** This supply chain attack creates rogue WordPress admin accounts, giving attackers full control over compromised websites that used BdThemes plugins.
+
+---
+
+### [The Hacker News] Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development
+- **Link:** https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html
+- **AI Analysis:**
+> **Severity: High**
+
+**1-sentence impact:** The rapid acceleration of AI-driven code development poses a systemic risk that security teams will be overwhelmed, leading to a loss of control over shipped software and a significant increase in exploitable vulnerabilities.
+
+---
+
+### [The Hacker News] China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw
+- **Link:** https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html
+- **AI Analysis:**
+> **Severity: High**
+
+**Impact:** Organizations face a heightened risk of data encryption and operational disruption from a sophisticated, China-linked threat actor deploying a new, previously undocumented ransomware strain, potentially exploiting remote monitoring tools for widespread impact.
+
+---
+
+### [The Hacker News] ⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors
+- **Link:** https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** Users downloading TrueConf client installers are unknowingly installing backdoors, granting attackers complete and persistent access to their systems and potentially enabling widespread compromise.
+**Impact:** This week presents a critical security landscape with immediate, widespread threats from a Metabase 0-day, supply chain compromises, and router backdoors, often stemming from simple actions or overlooked defaults.
 
 ---
 
-### [Bleeping Computer] Metabase SQLi zero-day exploited in customer data-theft attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/
+### [Bleeping Computer] Hackers breached a small Polish energy plant via private APN last year
+- **Link:** https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/
+- **AI Analysis:**
+> **Severity:** High
+
+**1-sentence impact:** The breach of an energy plant's operational technology (OT) network via a private APN risked disrupting essential heat services for 50,000 residents.
+
+---
+
+### [Bleeping Computer] BdThemes plugins supply-chain hack creates rogue WordPress admins
+- **Link:** https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 27.944750741s. [links {
+Please retry in 27.68928796s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -90,12 +86,12 @@ Please retry in 27.944750741s. [links {
 
 ---
 
-### [Bleeping Computer] Unlimited Technology Systems breach impacts 3.8 million people
-- **Link:** https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/
+### [Bleeping Computer] OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users
+- **Link:** https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 26.88847418s. [links {
+Please retry in 26.582177957s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -119,61 +115,23 @@ Please retry in 26.88847418s. [links {
 
 ---
 
-### [Bleeping Computer] Levi Strauss & Co. says hackers stole corporate data in cyberattack
-- **Link:** https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/
+### [Bleeping Computer] New StormEncryptor ransomware used by former Medusa affiliate
+- **Link:** https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/
 - **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 25.821000287s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 25
-}
-]
+> Here's the analysis:
+
+**Severity:** High
+
+**1-sentence Impact:** This new StormEncryptor ransomware, wielded by an experienced and financially motivated threat actor, poses a high risk of data encryption, operational disruption, and financial loss for targeted organizations.
 
 ---
 
-### [Bleeping Computer] Real emails, hijacked payments: Two H1 2026 attack chains
-- **Link:** https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/
+### [Bleeping Computer] CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs
+- **Link:** https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/
 - **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 24.760586239s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 24
-}
-]
+> **Severity:** Critical
+
+**Impact:** Unpatched SonicWall SMA1000 appliances are at immediate and critical risk of compromise by ransomware gangs due to active exploitation of maximum-severity vulnerabilities.
 
 ---
 
