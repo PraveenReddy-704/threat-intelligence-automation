@@ -1,137 +1,100 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-08-11 09:08:50 (UTC)*
+*Generated on: 2026-08-12 09:19:37 (UTC)*
 
-### [The Hacker News] Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine
-- **Link:** https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html
-- **AI Analysis:**
-> Here's the analysis of the security news:
-
-**Severity:** High
-
-**Impact:** A cyberattack successfully shut down a Polish power plant turbine and water treatment system via its private cellular network, demonstrating critical infrastructure vulnerability despite maintaining heat supply to residents.
-
----
-
-### [The Hacker News] BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins
-- **Link:** https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** This supply chain attack creates rogue WordPress admin accounts, giving attackers full control over compromised websites that used BdThemes plugins.
-
----
-
-### [The Hacker News] Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development
-- **Link:** https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html
-- **AI Analysis:**
-> **Severity: High**
-
-**1-sentence impact:** The rapid acceleration of AI-driven code development poses a systemic risk that security teams will be overwhelmed, leading to a loss of control over shipped software and a significant increase in exploitable vulnerabilities.
-
----
-
-### [The Hacker News] China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw
-- **Link:** https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html
-- **AI Analysis:**
-> **Severity: High**
-
-**Impact:** Organizations face a heightened risk of data encryption and operational disruption from a sophisticated, China-linked threat actor deploying a new, previously undocumented ransomware strain, potentially exploiting remote monitoring tools for widespread impact.
-
----
-
-### [The Hacker News] ⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors
-- **Link:** https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html
+### [The Hacker News] Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations
+- **Link:** https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** This week presents a critical security landscape with immediate, widespread threats from a Metabase 0-day, supply chain compromises, and router backdoors, often stemming from simple actions or overlooked defaults.
+**Impact:** This is a Critical security incident as a software supply chain attack harvested highly sensitive credentials (cloud keys, SSH, Kubernetes tokens, and database passwords) from potentially over 2,100 organizations, risking widespread infrastructure compromise and data breaches.
 
 ---
 
-### [Bleeping Computer] Hackers breached a small Polish energy plant via private APN last year
-- **Link:** https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/
+### [The Hacker News] SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code
+- **Link:** https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**1-sentence impact:** This critical flaw allows unauthenticated attackers to execute arbitrary code, leading to complete compromise of SAP Commerce Cloud systems, potential data theft, and disruption of e-commerce operations.
+
+---
+
+### [The Hacker News] ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access
+- **Link:** https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html
+- **AI Analysis:**
+> Here's the analysis:
+
+*   **Severity:** **Critical**
+*   **1-Sentence Impact:** Attackers can achieve SYSTEM access on Windows systems by exploiting a zero-day patch bypass in Microsoft Defender, negating previous security updates and leaving systems vulnerable.
+
+---
+
+### [The Hacker News] Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS
+- **Link:** https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html
+- **AI Analysis:**
+> This is a **Critical** severity vulnerability.
+
+**Impact:** Actively exploited, this vulnerability allows unauthenticated, remote attackers to trigger a denial-of-service on critical Cisco ASA and FTD firewalls, severely disrupting network operations.
+
+---
+
+### [The Hacker News] Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack
+- **Link:** https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** This actively exploited zero-day in a core Windows kernel driver allows attackers to escalate privileges to SYSTEM, granting full control over a compromised machine.
+
+---
+
+### [Bleeping Computer] Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse
+- **Link:** https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/
+- **AI Analysis:**
+> This news describes a significant positive development in cybersecurity, not a vulnerability or an attack. It's about a successful defense mechanism.
+
+*   **Severity:** **High** (While individual unwanted notifications might seem "Medium" for annoyance, the sheer volume (7 billion daily) and the explicit mention of "fight abuse" (which includes potential phishing, malware links, and deceptive practices) means that stopping this flow prevents a *high volume* of *potentially high-impact* threats.)
+
+*   **1-sentence impact:** Google Chrome's successful reduction of 7 billion daily unwanted Android notifications significantly improves user experience and mitigates the risk of mobile phishing and other forms of abuse.
+
+---
+
+### [Bleeping Computer] DeadLock ransomware uses blockchain to resist infrastructure takedown
+- **Link:** https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/
 - **AI Analysis:**
 > **Severity:** High
 
-**1-sentence impact:** The breach of an energy plant's operational technology (OT) network via a private APN risked disrupting essential heat services for 50,000 residents.
+**Impact:** This tactic makes ransomware operations more resilient to takedowns by law enforcement, enabling prolonged extortion and data leak activities for victims.
 
 ---
 
-### [Bleeping Computer] BdThemes plugins supply-chain hack creates rogue WordPress admins
-- **Link:** https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/
+### [Bleeping Computer] Sandworm hackers target IT pros with trojanized WireGuard VPN client
+- **Link:** https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/
 - **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 27.68928796s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 27
-}
-]
+> **Severity:** High
+
+**Impact:** This sophisticated Sandworm campaign targets IT professionals via fake job offers and trojanized WireGuard VPN clients, directly threatening deep organizational network access and control.
 
 ---
 
-### [Bleeping Computer] OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users
-- **Link:** https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 26.582177957s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 26
-}
-]
-
----
-
-### [Bleeping Computer] New StormEncryptor ransomware used by former Medusa affiliate
-- **Link:** https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/
+### [Bleeping Computer] Cisco warns of ASA and FTD VPN flaw exploited to crash devices
+- **Link:** https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/
 - **AI Analysis:**
 > Here's the analysis:
 
 **Severity:** High
 
-**1-sentence Impact:** This new StormEncryptor ransomware, wielded by an experienced and financially motivated threat actor, poses a high risk of data encryption, operational disruption, and financial loss for targeted organizations.
+**1-sentence Impact:** Actively exploited, this flaw can remotely crash critical Cisco network security devices (VPNs/firewalls), causing significant network disruption and security failures.
 
 ---
 
-### [Bleeping Computer] CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs
-- **Link:** https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/
+### [Bleeping Computer] Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees
+- **Link:** https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/
 - **AI Analysis:**
-> **Severity:** Critical
+> Here's the analysis:
 
-**Impact:** Unpatched SonicWall SMA1000 appliances are at immediate and critical risk of compromise by ransomware gangs due to active exploitation of maximum-severity vulnerabilities.
+**Severity:** High
+
+**1-Sentence Impact:** Unauthorized activity aboard an aircraft posed potential data interception risks for passengers and triggered significant regulatory and legal concerns for Delta due to illegal device operation.
 
 ---
 
