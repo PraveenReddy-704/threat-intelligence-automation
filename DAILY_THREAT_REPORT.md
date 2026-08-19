@@ -1,68 +1,102 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-08-18 08:47:28 (UTC)*
+*Generated on: 2026-08-19 08:48:35 (UTC)*
 
-### [The Hacker News] CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE
-- **Link:** https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
+### [The Hacker News] Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps
+- **Link:** https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-Sentence Impact:** An actively exploited vulnerability in the Ray AI/ML framework allows attackers to achieve remote code execution, compromising systems running AI and machine learning workloads.
+**Impact:** A single click on a malicious link can silently exfiltrate sensitive data from a user's Microsoft Copilot Personal connected applications and session.
 
 ---
 
-### [The Hacker News] Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects
-- **Link:** https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html
+### [The Hacker News] Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets
+- **Link:** https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** This critical flaw allows unauthenticated remote attackers to modify or delete public GitLab projects and associated user data.
+**1-sentence Impact:** Actively exploited critical vulnerabilities enable attackers to steal cloud credentials and secrets, posing significant risks to both AI platforms and industrial control systems.
 
 ---
 
-### [The Hacker News] Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection
-- **Link:** https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html
+### [The Hacker News] Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000
+- **Link:** https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html
+- **AI Analysis:**
+> **Severity: High**
+
+**1-sentence impact:** Ransomware victims face further financial extortion and potential data exposure from a fraudulent entity offering to delete stolen data for a fee, without verifiable results or actual resolution to their original compromise.
+
+---
+
+### [The Hacker News] AI "Mind Viruses" Can Spread Between Agents Through Persistent Prompt Files
+- **Link:** https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html
+- **AI Analysis:**
+> This is a significant finding with potentially far-reaching implications.
+
+**Severity:** High
+
+**1-Sentence Impact:** This demonstrates a novel and high-risk vulnerability allowing AI agents to autonomously spread malicious instructions via persistent prompt files, posing a significant threat of uncontrolled and potentially harmful AI behavior.
+
+*(Note: The date "August 10, 2026" is likely a typo and presumed to mean August 10, 2024, given it's presented as current security news. If taken literally as a future date, the immediate severity would be lower, but the *potential* severity remains High, as it's a proven concept for a future threat.)*
+
+---
+
+### [The Hacker News] TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks
+- **Link:** https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html
+- **AI Analysis:**
+> Here's the analysis:
+
+**Severity:** High
+
+**1-Sentence Impact:** This new, sophisticated implant enables highly stealthy credential theft and lateral movement across networks by uniquely hiding its command-and-control within trusted Microsoft services, making it extremely difficult to detect and mitigate.
+
+---
+
+### [Bleeping Computer] CISA: Medusa ransomware hit over 500 critical infrastructure orgs
+- **Link:** https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** Attackers could leverage crafted GitHub issues to achieve command injection and steal internal Jira credentials, providing a gateway to sensitive internal systems and data.
+**Impact:** This signifies widespread and ongoing operational disruption, data exfiltration risks, and potential public safety concerns across essential U.S. services due to a prolific ransomware group targeting critical infrastructure.
 
 ---
 
-### [The Hacker News] Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads
-- **Link:** https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html
+### [Bleeping Computer] Comcast turns your Xfinity WiFi into a home motion detector
+- **Link:** https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/
 - **AI Analysis:**
-> Here's the analysis of the security news:
+> Here's the analysis:
 
-**Severity:** Critical
+**Severity:** High
 
-**1-sentence impact:** This flaw enables unauthenticated attackers to execute arbitrary code and achieve full compromise of hundreds of thousands of WordPress sites using the Forminator plugin.
+**Impact:** This feature poses a high privacy risk by collecting intimate motion data that, if compromised or misused, could reveal detailed home occupancy patterns and daily routines.
 
 ---
 
-### [The Hacker News] Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic
-- **Link:** https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html
+### [Bleeping Computer] Clop created custom web shell for Windchill data theft attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/
 - **AI Analysis:**
-> **Severity:** High
+> **Severity: Critical**
 
-**1-sentence Impact:** Iranian nation-state hackers are using highly stealthy C2 techniques to evade detection, enabling persistent compromise and potential for significant espionage or disruption against targeted entities.
+**1-Sentence Impact:** This sophisticated custom web shell enables the notorious Clop gang to directly steal critical intellectual property and sensitive credentials from vulnerable PTC Windchill and FlexPLM servers.
 
 ---
 
-### [Bleeping Computer] Microsoft starts removing WMIC tool used by cybercriminals
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/
+### [Bleeping Computer] Your Controls Block Known Attacks. What About the Behavior?
+- **Link:** https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/
 - **AI Analysis:**
-> **Severity:** Medium
+> This news describes a significant, systemic issue rather than a specific vulnerability.
 
-**Impact:** Microsoft's removal of WMIC in upcoming Windows 11 versions reduces a common "living-off-the-land" attack vector often abused by cybercriminals, improving the system's overall security posture.
+*   **Severity:** **High**
+*   **1-Sentence Impact:** Many organizations are highly vulnerable to advanced, behavioral attacks that evade traditional security controls, leading to undetected breaches despite perceived protection.
 
 ---
 
-### [Bleeping Computer] Hacker claims 3.6 million Azure account records stolen from major companies
-- **Link:** https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/
+### [Bleeping Computer] Microsoft tests faster Windows File Explorer, new context menu
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 35.767587678s. [links {
+Please retry in 25.81601596s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -80,94 +114,7 @@ Please retry in 35.767587678s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 35
-}
-]
-
----
-
-### [Bleeping Computer] Pokémon Center data breach exposes customer info, cancels some orders
-- **Link:** https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 34.704665559s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 34
-}
-]
-
----
-
-### [Bleeping Computer] Microsoft confirms GitHub is down worldwide
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 33.633952279s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 33
-}
-]
-
----
-
-### [Bleeping Computer] Certighost and the Privilege Hiding in Your Certificate Authority
-- **Link:** https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 32.561511871s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 32
+  seconds: 25
 }
 ]
 
