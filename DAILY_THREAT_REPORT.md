@@ -1,42 +1,68 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-08-24 08:57:29 (UTC)*
+*Generated on: 2026-08-25 08:52:40 (UTC)*
 
-### [The Hacker News] UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit
-- **Link:** https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html
+### [The Hacker News] Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data
+- **Link:** https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
 - **AI Analysis:**
-> Here's the analysis:
+> **Severity:** Critical
 
-**Severity:** Critical
-
-**Impact:** This sophisticated threat leverages AI, a critical hardware exploit (SPECTRE), EDR bypasses, and Linux rootkits to achieve deep, persistent, and largely undetectable root-level control over targeted web servers globally.
+**Impact:** This actively exploited, unauthenticated critical flaw grants remote attackers full access to sensitive data on Oracle WebLogic and HTTP Servers.
 
 ---
 
-### [The Hacker News] TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit
-- **Link:** https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html
+### [The Hacker News] Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt
+- **Link:** https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html
 - **AI Analysis:**
-> Here's the analysis:
+> This news addresses a **Medium** severity concern.
 
-*   **Severity:** High
-*   **1-sentence Impact:** This settlement imposes a substantial financial penalty on TikTok, underscoring the severe regulatory and reputational risks major platforms face for failing to protect child privacy.
+**Impact:** AI's accelerated code generation introduces numerous open-source dependencies that can overwhelm security teams, leading to a dangerous backlog of unaddressed vulnerabilities.
 
 ---
 
-### [The Hacker News] 14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2
-- **Link:** https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html
+### [The Hacker News] Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning
+- **Link:** https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html
 - **AI Analysis:**
 > **Severity:** High
 
-**Impact:** This supply chain attack leverages trojanized npm packages to deploy an AI-assisted Linux backdoor, granting attackers persistent remote control over compromised development and production systems.
+**Impact:** This malware actively targets gamers, tricking them via convincing fake Minecraft websites and SEO poisoning into downloading Weedhack malware, leading to system compromise.
 
 ---
 
-### [The Hacker News] Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot
-- **Link:** https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html
+### [The Hacker News] ⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More
+- **Link:** https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html
+- **AI Analysis:**
+> Based on the provided title and summary:
+
+**Severity:** **Critical**
+
+**Impact:** This week's threats include AI-powered attacks on critical industrial control systems, supply chain risks via GitLab, and significant financial fraud potential from leaked Stripe keys.
+
+---
+
+### [The Hacker News] WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords
+- **Link:** https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html
+- **AI Analysis:**
+> **Severity: Critical**
+
+**Impact:** These new malware families deliver stealers and phish Windows passwords, creating a significant risk of data breaches and paving the way for full-scale ransomware attacks by selling access to threat groups.
+
+---
+
+### [Bleeping Computer] Unpatched Calix flaw lets hackers bypass NAT to expose internal devices
+- **Link:** https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** An unpatched flaw allows remote, unauthenticated attackers to bypass NAT and create port-forwarding rules, directly exposing internal network devices to the public internet and making them vulnerable to further compromise.
+
+---
+
+### [Bleeping Computer] Hackers target WordPress sites in miniOrange auth bypass attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 44.118644262s. [links {
+Please retry in 24.205194637s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -54,18 +80,18 @@ Please retry in 44.118644262s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 44
+  seconds: 24
 }
 ]
 
 ---
 
-### [The Hacker News] Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet
-- **Link:** https://thehackernews.com/2026/08/android-car-malware-spreads-through.html
+### [Bleeping Computer] TikTok reaches $400M settlement with US over COPPA violations
+- **Link:** https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 43.037510489s. [links {
+Please retry in 23.107141401s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -83,18 +109,18 @@ Please retry in 43.037510489s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 43
+  seconds: 23
 }
 ]
 
 ---
 
-### [Bleeping Computer] ToxicPanda Android malware uses VPN permissions to block Google Play
-- **Link:** https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/
+### [Bleeping Computer] ReliaQuest confirms failed data-theft attack after ShinyHunters breach
+- **Link:** https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 41.853409577s. [links {
+Please retry in 22.008543174s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -112,18 +138,18 @@ Please retry in 41.853409577s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 41
+  seconds: 22
 }
 ]
 
 ---
 
-### [Bleeping Computer] Hackers infect Android car head units with proxy botnet malware
-- **Link:** https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/
+### [Bleeping Computer] Microsoft Teams now lets admins block external bots from meetings
+- **Link:** https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 35.239409074s. [links {
+Please retry in 20.891253691s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -141,94 +167,7 @@ Please retry in 35.239409074s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 35
-}
-]
-
----
-
-### [Bleeping Computer] Named Pipes Under Attack: Securing Windows Interprocess Communication
-- **Link:** https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 34.137623249s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 34
-}
-]
-
----
-
-### [Bleeping Computer] New SynkLoader malware pushed in Microsoft Teams phishing campaign
-- **Link:** https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 33.048759927s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 33
-}
-]
-
----
-
-### [Bleeping Computer] Hundreds of leaked AWS keys give full control over corporate accounts
-- **Link:** https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 31.964025046s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 31
+  seconds: 20
 }
 ]
 
