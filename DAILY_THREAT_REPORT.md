@@ -1,68 +1,72 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-08-25 08:52:40 (UTC)*
+*Generated on: 2026-08-26 08:53:56 (UTC)*
 
-### [The Hacker News] Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data
-- **Link:** https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
+### [The Hacker News] INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown
+- **Link:** https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html
+- **AI Analysis:**
+> **Severity: Low**
+
+**1-Sentence Impact:** This operation positively impacts global cybersecurity by disrupting major West African cyber fraud networks, reducing threats to potential victims worldwide.
+
+---
+
+### [The Hacker News] Newly SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode
+- **Link:** https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html
+- **AI Analysis:**
+> Here's the analysis:
+
+**Severity:** High
+
+**Impact:** This stealthy new Windows backdoor grants attackers persistent remote control and the ability to execute arbitrary commands, posing a significant risk for data exfiltration and further system compromise.
+
+---
+
+### [The Hacker News] Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload
+- **Link:** https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** This actively exploited, unauthenticated critical flaw grants remote attackers full access to sensitive data on Oracle WebLogic and HTTP Servers.
+**Impact:** Attackers can achieve full system compromise and execute arbitrary code on vulnerable Gitea servers, as evidenced by active exploitation distributing miner-like payloads.
 
 ---
 
-### [The Hacker News] Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt
-- **Link:** https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html
+### [The Hacker News] Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes
+- **Link:** https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html
 - **AI Analysis:**
-> This news addresses a **Medium** severity concern.
+> Here's the analysis:
 
-**Impact:** AI's accelerated code generation introduces numerous open-source dependencies that can overwhelm security teams, leading to a dangerous backlog of unaddressed vulnerabilities.
+**Severity:** High
+
+**Impact:** This PhaaS platform leverages AI voice phishing to trick victims of device theft into surrendering passcodes and 2FA codes, allowing criminals to bypass Activation Lock and fully compromise stolen Apple devices.
 
 ---
 
-### [The Hacker News] Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning
-- **Link:** https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html
+### [The Hacker News] U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches
+- **Link:** https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html
 - **AI Analysis:**
-> **Severity:** High
-
-**Impact:** This malware actively targets gamers, tricking them via convincing fake Minecraft websites and SEO poisoning into downloading Weedhack malware, leading to system compromise.
-
----
-
-### [The Hacker News] ⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More
-- **Link:** https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html
-- **AI Analysis:**
-> Based on the provided title and summary:
+> Here's the analysis:
 
 **Severity:** **Critical**
 
-**Impact:** This week's threats include AI-powered attacks on critical industrial control systems, supply chain risks via GitLab, and significant financial fraud potential from leaked Stripe keys.
+**1-sentence impact:** Iran-linked hackers have successfully breached critical infrastructure, posing a significant threat to national security and essential services.
 
 ---
 
-### [The Hacker News] WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords
-- **Link:** https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html
-- **AI Analysis:**
-> **Severity: Critical**
-
-**Impact:** These new malware families deliver stealers and phish Windows passwords, creating a significant risk of data breaches and paving the way for full-scale ransomware attacks by selling access to threat groups.
-
----
-
-### [Bleeping Computer] Unpatched Calix flaw lets hackers bypass NAT to expose internal devices
-- **Link:** https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/
+### [Bleeping Computer] LACMA data breach last year exposed social security and medical data
+- **Link:** https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** An unpatched flaw allows remote, unauthenticated attackers to bypass NAT and create port-forwarding rules, directly exposing internal network devices to the public internet and making them vulnerable to further compromise.
+**Impact:** This data breach poses a severe, long-term risk to affected customers and employees by exposing highly sensitive Social Security numbers and medical data, enabling identity theft and various forms of fraud.
 
 ---
 
-### [Bleeping Computer] Hackers target WordPress sites in miniOrange auth bypass attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/
+### [Bleeping Computer] Hackers abuse npm mirrors to host phishing redirect pages
+- **Link:** https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 24.205194637s. [links {
+Please retry in 8.176581319s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -80,18 +84,18 @@ Please retry in 24.205194637s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 24
+  seconds: 8
 }
 ]
 
 ---
 
-### [Bleeping Computer] TikTok reaches $400M settlement with US over COPPA violations
-- **Link:** https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/
+### [Bleeping Computer] AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes
+- **Link:** https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 23.107141401s. [links {
+Please retry in 7.103928373s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -109,18 +113,18 @@ Please retry in 23.107141401s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 23
+  seconds: 7
 }
 ]
 
 ---
 
-### [Bleeping Computer] ReliaQuest confirms failed data-theft attack after ShinyHunters breach
-- **Link:** https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/
+### [Bleeping Computer] Massive DDoS attack disrupts Norway’s government digital services
+- **Link:** https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 22.008543174s. [links {
+Please retry in 6.024201011s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -138,18 +142,18 @@ Please retry in 22.008543174s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 22
+  seconds: 6
 }
 ]
 
 ---
 
-### [Bleeping Computer] Microsoft Teams now lets admins block external bots from meetings
-- **Link:** https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/
+### [Bleeping Computer] Hospital operator Nutex Health says data stolen in cyberattack
+- **Link:** https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 20.891253691s. [links {
+Please retry in 4.95403918s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -167,7 +171,7 @@ Please retry in 20.891253691s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 20
+  seconds: 4
 }
 ]
 
