@@ -1,72 +1,79 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-08-26 08:53:56 (UTC)*
+*Generated on: 2026-08-27 19:02:23 (UTC)*
 
-### [The Hacker News] INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown
-- **Link:** https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html
-- **AI Analysis:**
-> **Severity: Low**
-
-**1-Sentence Impact:** This operation positively impacts global cybersecurity by disrupting major West African cyber fraud networks, reducing threats to potential victims worldwide.
-
----
-
-### [The Hacker News] Newly SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode
-- **Link:** https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html
+### [The Hacker News] Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE
+- **Link:** https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html
 - **AI Analysis:**
 > Here's the analysis:
 
-**Severity:** High
-
-**Impact:** This stealthy new Windows backdoor grants attackers persistent remote control and the ability to execute arbitrary commands, posing a significant risk for data exfiltration and further system compromise.
+*   **Severity:** Critical
+*   **Impact:** These critical flaws enable unauthenticated attackers to remotely execute arbitrary code, gaining full control over vulnerable Next.js servers.
 
 ---
 
-### [The Hacker News] Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload
-- **Link:** https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html
+### [The Hacker News] ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories
+- **Link:** https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html
+- **AI Analysis:**
+> This news report compiles several significant and concerning security events.
+
+**Severity:** Critical
+
+**Impact:** The combination of targeted attacks on critical water infrastructure, widespread enterprise RCE vulnerabilities, and large-scale botnets represents an immediate and severe risk to essential services, data, and global stability.
+
+---
+
+### [The Hacker News] Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers
+- **Link:** https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** A prompt injection vulnerability in Amazon Kiro IDE allows for the exfiltration of sensitive data, posing a significant risk to developer intellectual property and credentials.
+
+---
+
+### [The Hacker News] Learn How to Build Security Operations Ready for AI-Powered Attacks
+- **Link:** https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html
+- **AI Analysis:**
+> Based on the provided text:
+
+**Severity:** Critical
+
+**Impact:** Advanced AI models are fundamentally accelerating every stage of cyberattacks, drastically diminishing defenders' time to react and rendering traditional security processes insufficient.
+
+---
+
+### [The Hacker News] Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks
+- **Link:** https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html
+- **AI Analysis:**
+> Here's an analysis of the provided security news:
+
+**Severity:** Medium
+
+**1-sentence Impact:** This news signifies successful law enforcement action against alleged members of TeamPCP, bringing accountability for their past major supply chain attacks on critical security and AI infrastructure.
+
+---
+**Explanation:**
+
+*   **Severity (Medium):** While the *original supply chain attacks* on Trivy, Checkmarx KICS, and LiteLLM were likely **High** or even **Critical** due to their potential to compromise numerous downstream users, this news item focuses on the *arrests and charges*. The charging of individuals is a positive development for cybersecurity (demonstrating law enforcement capability and accountability) but does not represent a new, active threat requiring immediate action from the general public or organizations. It's an important update regarding past incidents and criminal justice, rather than a warning about an ongoing vulnerability or attack.
+*   **Regarding the "March 2026" date:** It is highly probable that "March 2026" is a typo in the summary and should read "March 2023" or "March 2024," given that charges are being laid in August and relate to *past* compromises. Analyzing it as a future date would make the concept of charges for a past event illogical. The analysis proceeds assuming the attacks were a past event.
+
+---
+
+### [Bleeping Computer] PaperCut warns of NG, MF flaw exploited in zero-day attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** Attackers can achieve full system compromise and execute arbitrary code on vulnerable Gitea servers, as evidenced by active exploitation distributing miner-like payloads.
+**1-sentence impact:** Organizations using PaperCut NG and MF face immediate, critical risk as attackers are actively exploiting a zero-day vulnerability to compromise systems.
 
 ---
 
-### [The Hacker News] Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes
-- **Link:** https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html
-- **AI Analysis:**
-> Here's the analysis:
-
-**Severity:** High
-
-**Impact:** This PhaaS platform leverages AI voice phishing to trick victims of device theft into surrendering passcodes and 2FA codes, allowing criminals to bypass Activation Lock and fully compromise stolen Apple devices.
-
----
-
-### [The Hacker News] U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches
-- **Link:** https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html
-- **AI Analysis:**
-> Here's the analysis:
-
-**Severity:** **Critical**
-
-**1-sentence impact:** Iran-linked hackers have successfully breached critical infrastructure, posing a significant threat to national security and essential services.
-
----
-
-### [Bleeping Computer] LACMA data breach last year exposed social security and medical data
-- **Link:** https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** This data breach poses a severe, long-term risk to affected customers and employees by exposing highly sensitive Social Security numbers and medical data, enabling identity theft and various forms of fraud.
-
----
-
-### [Bleeping Computer] Hackers abuse npm mirrors to host phishing redirect pages
-- **Link:** https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/
+### [Bleeping Computer] Manchester Airports Group says hackers stole travelers' data
+- **Link:** https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 8.176581319s. [links {
+Please retry in 40.705333679s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -84,18 +91,18 @@ Please retry in 8.176581319s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 8
+  seconds: 40
 }
 ]
 
 ---
 
-### [Bleeping Computer] AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes
-- **Link:** https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/
+### [Bleeping Computer] How Threat Research and MDR Help SMBs Build a Defensive Edge
+- **Link:** https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 7.103928373s. [links {
+Please retry in 39.604708868s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -113,18 +120,18 @@ Please retry in 7.103928373s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 7
+  seconds: 39
 }
 ]
 
 ---
 
-### [Bleeping Computer] Massive DDoS attack disrupts Norway’s government digital services
-- **Link:** https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/
+### [Bleeping Computer] Android 17 adds ECH support to make web browsing harder to track
+- **Link:** https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 6.024201011s. [links {
+Please retry in 38.500134558s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -142,18 +149,18 @@ Please retry in 6.024201011s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 6
+  seconds: 38
 }
 ]
 
 ---
 
-### [Bleeping Computer] Hospital operator Nutex Health says data stolen in cyberattack
-- **Link:** https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/
+### [Bleeping Computer] Australia arrests alleged TeamPCP hackers behind supply-chain attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 4.95403918s. [links {
+Please retry in 37.411512775s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -171,7 +178,7 @@ Please retry in 4.95403918s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 4
+  seconds: 37
 }
 ]
 
