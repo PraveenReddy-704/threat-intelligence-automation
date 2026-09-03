@@ -1,73 +1,52 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-09-02 12:43:52 (UTC)*
+*Generated on: 2026-09-03 12:46:40 (UTC)*
 
-### [The Hacker News] How to Secure Enterprise AI: From Adoption to Incident Readiness
-- **Link:** https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html
-- **AI Analysis:**
-> This news snippet is a strategic advisory, not a report on a specific vulnerability or incident.
-
-*   **Severity:** **Medium**
-*   **Impact:** Organizations are urged to strategically secure their rapidly expanding AI implementations to mitigate escalating cyber risks and ensure incident readiness amidst business pressures.
-
----
-
-### [The Hacker News] Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain
-- **Link:** https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**1-sentence Impact:** These critical, pre-authentication zero-day vulnerabilities in SonicWall SMA 1000 VPN appliances are actively exploited, potentially allowing unauthenticated attackers to gain unauthorized access to internal networks.
-
----
-
-### [The Hacker News] GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends
-- **Link:** https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** Unauthenticated attackers can gain full remote control over vulnerable government and agency geoportal backends, potentially compromising sensitive data and critical infrastructure. (Note: The timeline indicating fixes are not available until July 2026, while details are public, significantly amplifies this severity, leaving a long window for exploitation.)
-
----
-
-### [The Hacker News] Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands
-- **Link:** https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html
-- **AI Analysis:**
-> Here's an analysis of the security news:
-
-**Severity:** Low
-
-**1-Sentence Impact:** This news demonstrates successful international law enforcement efforts to hold cybercriminals accountable for past large-scale malware campaigns, serving as a deterrent to future malicious activities.
-
-*(Note: The date "May 2025" for the arrest is likely a typo, given the extradition occurred on August 28 of the current year. Assuming it means May 2023 or an earlier year.)*
-
----
-
-### [The Hacker News] Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another
-- **Link:** https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html
-- **AI Analysis:**
-> Here's an analysis of the security news:
-
-**Severity:** Critical
-
-**1-Sentence Impact:** This news highlights that AI tools can significantly lower the barrier for adapting existing pre-authentication RCE exploits against critical industrial control systems (PLCs), enabling full device compromise with ease.
-
----
-
-### [Bleeping Computer] Dropbox accounts breached through Lenovo email verification flaw
-- **Link:** https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/
+### [The Hacker News] US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries
+- **Link:** https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html
 - **AI Analysis:**
 > **Severity:** High
 
-**Impact:** Unauthorized parties gained direct access to some Dropbox user accounts by exploiting a cross-platform email verification flaw at Lenovo, potentially exposing sensitive files and personal data.
+**1-sentence Impact:** This widespread RMM phishing campaign enables attackers to gain highly privileged access across victim networks, posing a severe risk of data breaches, ransomware, and systemic operational disruption, particularly for US organizations.
 
 ---
 
-### [Bleeping Computer] Microsoft Defender flags legitimate Google search links as malicious
-- **Link:** https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/
+### [The Hacker News] Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks
+- **Link:** https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html
+- **AI Analysis:**
+> This news describes a significant threat.
+
+**Severity:** High
+
+**1-Sentence Impact:** Threat actors are actively leveraging the trusted Node.js runtime as an evasion technique to deliver malicious payloads in targeted attacks against government, tech, and hospitality sectors, complicating detection and response efforts.
+
+*(Note: The date "February 2026" is almost certainly a typo and should likely be "February 2023" or "February 2024," given that a report is being published "today" about attacks that have already occurred. The severity assessment assumes these attacks are current or have recently occurred.)*
+
+---
+
+### [The Hacker News] Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means
+- **Link:** https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**1-Sentence Impact:** This infostealer worm's expanded capability to harvest credentials from developer, CI/CD, cloud, and AI environments poses a critical risk for widespread system compromise and potential supply chain attacks.
+
+---
+
+### [The Hacker News] Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone
+- **Link:** https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**1-sentence Impact:** The zero-click Pegasus exploit resulted in the total compromise of the activist's device, enabling sophisticated surveillance and posing a severe threat to their privacy and security.
+
+---
+
+### [The Hacker News] Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon
+- **Link:** https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 19.203045848s. [links {
+Please retry in 26.004557857s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -85,18 +64,18 @@ Please retry in 19.203045848s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 19
+  seconds: 26
 }
 ]
 
 ---
 
-### [Bleeping Computer] US charges Russian for infecting 80,000 freelancers with malware
-- **Link:** https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/
+### [Bleeping Computer] Microsoft says KB5120998 Windows update resets desktop settings
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-says-kb5120998-windows-update-resets-desktop-settings/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 18.099740447s. [links {
+Please retry in 24.71583928s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -114,18 +93,18 @@ Please retry in 18.099740447s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 18
+  seconds: 24
 }
 ]
 
 ---
 
-### [Bleeping Computer] Sality botnet infrastructure dismantled in joint global takedown
-- **Link:** https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/
+### [Bleeping Computer] Plex warns users to patch security vulnerabilities immediately
+- **Link:** https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 16.993202464s. [links {
+Please retry in 23.663969482s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -143,18 +122,96 @@ Please retry in 16.993202464s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 16
+  seconds: 23
 }
 ]
 
 ---
 
-### [Bleeping Computer] SonicWall warns of actively exploited SMA1000 zero-day flaws
-- **Link:** https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/
+### [Bleeping Computer] Microsoft Teams, Outlook fail to launch on ARM-based Windows PCs
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outlook-fail-to-launch-on-arm-based-windows-pcs/
 - **AI Analysis:**
-> **Severity: Critical**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 22.596050635s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 22
+}
+]
 
-**Impact:** Actively exploited zero-day Remote Code Execution vulnerabilities in SonicWall SMA1000 appliances allow attackers to gain unauthorized access to internal networks.
+---
+
+### [Bleeping Computer] Hackers exploit Sangoma Switchvox flaw to deploy reverse shells
+- **Link:** https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 21.545716929s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 21
+}
+]
+
+---
+
+### [Bleeping Computer] WordPress backup plugin flaw exposes millions of sites to takeover attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 20.491009087s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 20
+}
+]
 
 ---
 
