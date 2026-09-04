@@ -1,52 +1,70 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-09-03 12:46:40 (UTC)*
+*Generated on: 2026-09-04 12:40:30 (UTC)*
 
-### [The Hacker News] US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries
-- **Link:** https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html
+### [The Hacker News] Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws
+- **Link:** https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**1-sentence impact:** Unauthenticated attackers can achieve complete control, including remote code execution, over WordPress sites utilizing vulnerable Super Forms or Elementor Pro plugins.
+
+---
+
+### [The Hacker News] Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws
+- **Link:** https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html
 - **AI Analysis:**
 > **Severity:** High
 
-**1-sentence Impact:** This widespread RMM phishing campaign enables attackers to gain highly privileged access across victim networks, posing a severe risk of data breaches, ransomware, and systemic operational disruption, particularly for US organizations.
+**Impact:** Users are urged to immediately update Plex Media Server and Desktop to patch multiple undisclosed security flaws, preventing potential compromise of their instances.
 
 ---
 
-### [The Hacker News] Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks
-- **Link:** https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html
-- **AI Analysis:**
-> This news describes a significant threat.
-
-**Severity:** High
-
-**1-Sentence Impact:** Threat actors are actively leveraging the trusted Node.js runtime as an evasion technique to deliver malicious payloads in targeted attacks against government, tech, and hospitality sectors, complicating detection and response efforts.
-
-*(Note: The date "February 2026" is almost certainly a typo and should likely be "February 2023" or "February 2024," given that a report is being published "today" about attacks that have already occurred. The severity assessment assumes these attacks are current or have recently occurred.)*
-
----
-
-### [The Hacker News] Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means
-- **Link:** https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html
+### [The Hacker News] Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day
+- **Link:** https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-Sentence Impact:** This infostealer worm's expanded capability to harvest credentials from developer, CI/CD, cloud, and AI environments poses a critical risk for widespread system compromise and potential supply chain attacks.
+**Impact:** This critical zero-day in Chrome's V8 engine is actively exploited by remote attackers, potentially leading to system compromise for unpatched users.
 
 ---
 
-### [The Hacker News] Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone
-- **Link:** https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html
+### [The Hacker News] GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests
+- **Link:** https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html
 - **AI Analysis:**
-> **Severity:** Critical
+> This news describes a new AI model with significant capabilities in cybersecurity and software engineering, along with OpenAI's proactive measures to prevent its misuse.
 
-**1-sentence Impact:** The zero-click Pegasus exploit resulted in the total compromise of the activist's device, enabling sophisticated surveillance and posing a severe threat to their privacy and security.
+**Severity: Medium**
+
+**1-sentence impact:** OpenAI's new highly capable AI demonstrates advanced cybersecurity understanding and software engineering prowess, while current safeguards block exploit generation, highlighting both its defensive potential and future misuse concerns.
 
 ---
 
-### [The Hacker News] Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon
-- **Link:** https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html
+### [The Hacker News] ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories
+- **Link:** https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html
+- **AI Analysis:**
+> **Severity:** High
+
+**1-sentence Impact:** The news highlights how pervasive social engineering, phishing, and deceptive tactics are leading to widespread account compromises and data breaches across various platforms.
+
+---
+
+### [Bleeping Computer] Exchange Online outage causes email delays, 'Server busy' errors
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/
+- **AI Analysis:**
+> Here's the analysis:
+
+**Severity:** **High**
+
+**1-sentence Impact:** This outage severely disrupts external business communication and potentially delays critical security alerts, significantly impacting productivity and operational integrity for affected organizations.
+
+---
+
+### [Bleeping Computer] Google warns of new Chrome zero-day flaw exploited in attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 26.004557857s. [links {
+Please retry in 33.930877791s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -64,18 +82,18 @@ Please retry in 26.004557857s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 26
+  seconds: 33
 }
 ]
 
 ---
 
-### [Bleeping Computer] Microsoft says KB5120998 Windows update resets desktop settings
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-says-kb5120998-windows-update-resets-desktop-settings/
+### [Bleeping Computer] French hospital fined €500,000 after breach exposes data of 727,000
+- **Link:** https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 24.71583928s. [links {
+Please retry in 32.834632548s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -93,18 +111,18 @@ Please retry in 24.71583928s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 24
+  seconds: 32
 }
 ]
 
 ---
 
-### [Bleeping Computer] Plex warns users to patch security vulnerabilities immediately
-- **Link:** https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/
+### [Bleeping Computer] Coder's registry infrastructure compromised to push malicious modules
+- **Link:** https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 23.663969482s. [links {
+Please retry in 31.747125247s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -122,18 +140,18 @@ Please retry in 23.663969482s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 23
+  seconds: 31
 }
 ]
 
 ---
 
-### [Bleeping Computer] Microsoft Teams, Outlook fail to launch on ARM-based Windows PCs
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outlook-fail-to-launch-on-arm-based-windows-pcs/
+### [Bleeping Computer] HPE patches critical ArubaOS-CX remote code execution flaw
+- **Link:** https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 22.596050635s. [links {
+Please retry in 30.663920697s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -151,65 +169,7 @@ Please retry in 22.596050635s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 22
-}
-]
-
----
-
-### [Bleeping Computer] Hackers exploit Sangoma Switchvox flaw to deploy reverse shells
-- **Link:** https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 21.545716929s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 21
-}
-]
-
----
-
-### [Bleeping Computer] WordPress backup plugin flaw exposes millions of sites to takeover attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 20.491009087s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 20
+  seconds: 30
 }
 ]
 
