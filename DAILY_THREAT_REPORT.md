@@ -1,68 +1,68 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-09-06 12:06:25 (UTC)*
+*Generated on: 2026-09-07 14:11:56 (UTC)*
 
-### [The Hacker News] Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication
-- **Link:** https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html
+### [The Hacker News] Your Cloud Security Checklist Doesn't Work the Way You Think It Does
+- **Link:** https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html
+- **AI Analysis:**
+> Here's an analysis of the provided security news:
+
+**Severity:** **Medium**
+
+**1-sentence Impact:** This analysis reveals that common multi-cloud security strategies are failing, leaving organizations exposed to misconfiguration-driven risks that vary significantly by cloud provider.
+
+---
+
+### [The Hacker News] Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts
+- **Link:** https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** This allows attackers to gain full, unauthenticated administrative control over vulnerable, internet-exposed MikroTik routers, leading to complete network compromise and potential for further attacks.
+**Impact:** The exploitation of ConnectWise ScreenConnect for worm-like propagation of multi-stage VBScript poses a critical risk of widespread system compromise and subsequent malicious activity across managed environments.
 
 ---
 
-### [The Hacker News] Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner
-- **Link:** https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html
-- **AI Analysis:**
-> Here's the analysis:
-
-**Severity:** **High**
-
-**1-Sentence Impact:** These modules enable persistent compromise and render infected systems highly vulnerable by disabling core security features and updates, allowing for continued exploitation and resource misuse.
-
----
-
-### [The Hacker News] Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores
-- **Link:** https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** This critical zero-day vulnerability allows attackers to gain full, unauthenticated control over Magento and Adobe Commerce online stores, enabling backdoors and potential data theft.
-
----
-
-### [The Hacker News] Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials
-- **Link:** https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** Attackers exploited an unpatched TeamCity vulnerability to breach JetBrains' Cadence environment and steal AWS credentials, necessitating immediate credential rotation for all Cadence users.
-
----
-
-### [The Hacker News] Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code
-- **Link:** https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** This critical vulnerability allows an attacker with elevated privileges inside a VMware guest VM to execute arbitrary code on the underlying host system, leading to a complete compromise of the host.
-
----
-
-### [Bleeping Computer] Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain
-- **Link:** https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/
+### [The Hacker News] Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released
+- **Link:** https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html
 - **AI Analysis:**
 > **Severity:** High
 
-**1-sentence impact:** Thousands of small business websites are compromised to distribute unwanted ClickFix software to visitors, with the use of blockchain making the payload highly resilient to takedown efforts.
+**Impact:** Unauthenticated remote code execution is possible for Telerik UI applications configured specifically and not yet patched since July, despite a public exploit being available.
 
 ---
 
-### [Bleeping Computer] OpenAI admits it didn't disclose rogue AI wiki hijacking incident
-- **Link:** https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/
+### [The Hacker News] N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw
+- **Link:** https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**1-sentence impact:** This unauthenticated RCE flaw allows attackers to gain full control over vulnerable on-premises N-central servers and is actively being exploited in the wild, demanding immediate patching.
+
+---
+
+### [The Hacker News] JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies
+- **Link:** https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**1-Sentence Impact:** This sophisticated malware poses a critical threat by enabling attackers to bypass major authentication systems like Google using stolen session cookies and credentials, leading to comprehensive account takeover, surveillance, and data interception.
+
+---
+
+### [Bleeping Computer] Mathspace discloses data breach affecting over 1 million people
+- **Link:** https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** The breach of over 1 million records, including sensitive student data, poses a high risk of identity theft and privacy compromise for affected individuals.
+
+---
+
+### [Bleeping Computer] Trezor data breach impact now reaches 81,000 customers
+- **Link:** https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 38.571346769s. [links {
+Please retry in 8.075570236s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -80,18 +80,18 @@ Please retry in 38.571346769s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 38
+  seconds: 8
 }
 ]
 
 ---
 
-### [Bleeping Computer] IDScan sued over alleged data breach affecting 153 million drivers
-- **Link:** https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/
+### [Bleeping Computer] ChatGPT can now connect to your personal apps to mimic writing style
+- **Link:** https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 37.466183378s. [links {
+Please retry in 6.983919459s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -109,18 +109,18 @@ Please retry in 37.466183378s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 37
+  seconds: 6
 }
 ]
 
 ---
 
-### [Bleeping Computer] Critical Citrix NetScaler auth bypass now leveraged in attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/
+### [Bleeping Computer] Hackers exploit new MikroTik RouterOS flaws to hijack routers
+- **Link:** https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 36.358569174s. [links {
+Please retry in 5.881629455s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -138,18 +138,18 @@ Please retry in 36.358569174s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 36
+  seconds: 5
 }
 ]
 
 ---
 
-### [Bleeping Computer] Microsoft says some users can’t open the Teams desktop client
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/
+### [Bleeping Computer] ConnectWise warns of new ScreenConnect flaw without patch
+- **Link:** https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 35.259256567s. [links {
+Please retry in 4.786339771s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -167,7 +167,7 @@ Please retry in 35.259256567s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 35
+  seconds: 4
 }
 ]
 
