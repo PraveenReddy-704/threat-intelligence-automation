@@ -1,22 +1,44 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-09-12 12:07:57 (UTC)*
+*Generated on: 2026-09-13 13:16:26 (UTC)*
+
+### [The Hacker News] Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data
+- **Link:** https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html
+- **AI Analysis:**
+> Here's the analysis:
+
+**Severity:** **Critical**
+
+**1-sentence Impact:** This critical threat enables sophisticated attackers to hijack Microsoft cloud accounts and exfiltrate sensitive data by leveraging advanced passkey phishing and executive impersonation.
+
+---
+
+### [The Hacker News] CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV
+- **Link:** https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** These actively exploited vulnerabilities in critical enterprise and network infrastructure components pose an immediate and severe risk of system compromise, supply chain attacks, and network control for affected organizations.
+
+---
 
 ### [The Hacker News] When the Whole Company Adopts AI: What It Does to Your SOC
 - **Link:** https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html
 - **AI Analysis:**
-> **Severity:** High
+> Here's an analysis of the security news:
 
-**1-Sentence Impact:** The uncontrolled enterprise adoption of AI tools is critically overwhelming SOCs, obscuring real threats, and creating significant data leakage and shadow IT risks.
+**Severity: Medium**
+
+**1-Sentence Impact:** Widespread, uncontrolled AI adoption is overwhelming Security Operations Centers with benign alerts, significantly impairing their ability to identify and respond to genuine threats amidst the noise.
 
 ---
 
 ### [The Hacker News] OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers
 - **Link:** https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html
 - **AI Analysis:**
-> This appears to be a hypothetical scenario or a research paper outlining a future threat, given the date "May 2026." As such, it's not an active or past incident, but a *warning* about a potential future one.
+> This news reports on a **hypothetical future event or research simulation**, given the "May 2026" date. It's not an active, real-world attack happening *now*. However, the *implications* of such a scenario are severe.
 
-*   **Severity:** **Medium**
-*   **Impact:** This news warns of a sophisticated future threat where AI agents could compromise critical software supply chains via RCE, emphasizing the need for proactive defense against emerging AI-driven attacks.
+**Severity: High**
+**1-sentence impact:** This research highlights a credible future threat where AI agents could achieve Remote Code Execution on critical software supply chain infrastructure, requiring proactive defense strategies.
 
 ---
 
@@ -25,45 +47,18 @@
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-Sentence Impact:** This critical vulnerability allows unauthenticated attackers to read arbitrary sensitive files from GitLab servers, immediately risking data breaches and further compromise given active in-the-wild exploitation.
+**Impact:** This critical flaw allows unauthenticated attackers to read arbitrary files from GitLab servers, posing an immediate risk of data theft or further compromise due to active in-the-wild exploitation.
 
 ---
 
-### [The Hacker News] Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks
-- **Link:** https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html
+### [Bleeping Computer] Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent
+- **Link:** https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/
 - **AI Analysis:**
-> **Severity:** High
+> Here's the analysis:
 
-**1-sentence Impact:** The incident represents a significant intellectual property and competitive threat to Anthropic, as major AI labs illicitly leveraged Claude's capabilities at scale to train their own models, undermining fair competition and the value of Anthropic's proprietary technology.
+**Severity:** Critical
 
----
-
-### [The Hacker News] Claude Used to Automate Exploitation and Data Theft Across Multiple Victims
-- **Link:** https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 8.668657948s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 8
-}
-]
+**1-sentence Impact:** These critical Check Point VPN flaws present an immediate and severe risk of network compromise for affected organizations, as attackers are poised for imminent exploitation.
 
 ---
 
@@ -72,7 +67,7 @@ Please retry in 8.668657948s. [links {
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 7.459151785s. [links {
+Please retry in 37.761419178s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -90,7 +85,7 @@ Please retry in 7.459151785s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 7
+  seconds: 37
 }
 ]
 
@@ -101,7 +96,7 @@ Please retry in 7.459151785s. [links {
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 6.363259804s. [links {
+Please retry in 36.684642718s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -119,7 +114,7 @@ Please retry in 6.363259804s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 6
+  seconds: 36
 }
 ]
 
@@ -130,7 +125,7 @@ Please retry in 6.363259804s. [links {
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 5.246625243s. [links {
+Please retry in 35.59272273s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -148,7 +143,7 @@ Please retry in 5.246625243s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 5
+  seconds: 35
 }
 ]
 
@@ -159,7 +154,7 @@ Please retry in 5.246625243s. [links {
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 4.158294528s. [links {
+Please retry in 34.498584841s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -177,36 +172,7 @@ Please retry in 4.158294528s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 4
-}
-]
-
----
-
-### [Bleeping Computer] How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface
-- **Link:** https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 3.06161491s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 3
+  seconds: 34
 }
 ]
 
