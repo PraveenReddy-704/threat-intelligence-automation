@@ -1,98 +1,135 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-09-16 13:27:58 (UTC)*
+*Generated on: 2026-09-17 13:21:13 (UTC)*
 
-### [The Hacker News] N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security
-- **Link:** https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** This campaign poses a high risk of account compromise, leading to widespread access to sensitive data and business systems across cloud environments, often without triggering traditional malware defenses.
-
----
-
-### [The Hacker News] Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation
-- **Link:** https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html
-- **AI Analysis:**
-> **Severity:** High
-
-**1-Sentence Impact:** This privilege escalation flaw in Pixel modems, actively exploited in the wild, could allow attackers to gain elevated control over affected devices.
-
----
-
-### [The Hacker News] Threat Intelligence Alone Won't Close the Exploitation Gap
-- **Link:** https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html
-- **AI Analysis:**
-> **Severity: High**
-
-**Impact:** Organizations face a significant, growing risk of rapid breaches as attackers leverage AI to exploit intelligence faster than current security programs can respond.
-
----
-
-### [The Hacker News] Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks
-- **Link:** https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html
-- **AI Analysis:**
-> Here's the analysis:
-
-*   **Severity:** **High**
-*   **1-Sentence Impact:** Attackers exploiting this flaw can escalate local privileges on affected cPanel/WHM servers, gaining full control over the host and all its hosted websites.
-
----
-
-### [The Hacker News] Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells
-- **Link:** https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html
-- **AI Analysis:**
-> Here's the analysis:
-
-**Severity:** Critical
-
-**Impact:** Unauthenticated attackers can gain full control over affected WooCommerce sites by exploiting this flaw to upload PHP web shells and achieve remote code execution.
-
----
-
-### [Bleeping Computer] Microsoft says Copilot buttons still missing in classic Outlook
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-missing-outlook-copilot-buttons/
-- **AI Analysis:**
-> This is **not a security issue** in the traditional sense of a vulnerability, breach, or threat. It describes a functional bug.
-
-**Categorization of the Problem (Functional Bug Impact):** Medium
-
-**1-sentence impact:** Users are unable to access Copilot's AI productivity features in Classic Outlook due to a persistent software bug, causing an inconvenience and potential workflow disruption.
-
----
-
-### [Bleeping Computer] Webinar: What happens in the first hours of a Google Workspace breach
-- **Link:** https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/
-- **AI Analysis:**
-> **Severity:** Low
-
-**1-Sentence Impact:** This webinar provides crucial guidance for organizations to effectively respond to and minimize the damage from potential Google Workspace breaches.
-
----
-
-### [Bleeping Computer] Critical ScreenConnect flaw now actively exploited in attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/
+### [The Hacker News] Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution
+- **Link:** https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-sentence Impact:** A critical ConnectWise ScreenConnect vulnerability is actively being exploited, exposing affected systems to immediate and severe compromise by attackers.
+**1-Sentence Impact:** This flaw enables unauthenticated remote attackers to gain complete control over vulnerable Issabel PBX systems, leading to severe data and service compromise.
 
 ---
 
-### [Bleeping Computer] Windows Server 2022 reaches end of mainstream support next month
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-next-month/
-- **AI Analysis:**
-> **Severity:** Medium
-
-**Impact:** This transition means Windows Server 2022 will only receive security updates and paid support for non-security issues, potentially increasing operational costs and risks for organizations reliant on free bug fixes or incident support.
-
----
-
-### [Bleeping Computer] Google fixes actively exploited Android zero-day on Pixel devices
-- **Link:** https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/
+### [The Hacker News] Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers
+- **Link:** https://thehackernews.com/2026/09/three-threat-groups-target-russian.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** This actively exploited zero-day on Pixel devices poses an immediate threat of device compromise and data theft for unpatched users.
+**Impact:** Russian enterprises face severe data destruction, operational disruption, and persistent compromise from multiple sophisticated threat groups deploying wipers, ransomware, and backdoors.
+
+---
+
+### [The Hacker News] One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude
+- **Link:** https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** This vulnerability allows an ordinary browser extension to hijack popular AI assistants across multiple Chromium-based browsers, enabling data theft, malicious content generation, and user manipulation.
+
+---
+
+### [The Hacker News] Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories
+- **Link:** https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** A sophisticated attack compromised an AI coding assistant, leading to the theft of critical source code and secrets from approximately 100 repositories, severely impacting the victim's intellectual property and operational security.
+
+---
+
+### [The Hacker News] Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix
+- **Link:** https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html
+- **AI Analysis:**
+> **Severity:** High
+
+**1-Sentence Impact:** This local privilege escalation flaw grants root access to attackers who achieve initial user-level compromise, critically impacting Intel Mac users of Parallels Desktop who cannot install the required security fix.
+
+---
+
+### [Bleeping Computer] Windows 11 24H2 Home and Pro reach end of support in October
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** Devices will no longer receive critical security updates, leaving them highly vulnerable to unpatched exploits and cyberattacks if not upgraded or updated.
+
+**Note on Typo:** Based on current Windows lifecycle information, it is highly probable that "Windows 11 24H2" in the title and summary is a typo and should refer to **Windows 11 22H2**. Windows 11 24H2 is the next major feature release, expected later in 2024, and would not be reaching end of support in October. Assuming the intent was for Windows 11 22H2, the severity and impact remain the same as unpatched systems are a significant risk.
+
+---
+
+### [Bleeping Computer] US takes down NightmareStresser DDoS-for-hire platform
+- **Link:** https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 3.77853711s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 3
+}
+]
+
+---
+
+### [Bleeping Computer] Chinese hackers use SparroWocky malware in govt espionage attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 2.717183333s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 2
+}
+]
+
+---
+
+### [Bleeping Computer] Microsoft shares workaround for Windows domain login issues
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-workaround-for-windows-domain-login-authentication-issues/
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** This issue severely disrupts user productivity and access to network resources by preventing domain-joined Windows 11 users from logging in after installing security updates, despite a temporary fix being available.
+
+---
+
+### [Bleeping Computer] Cisco warns of max severity ISE zero-day exploited in attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/
+- **AI Analysis:**
+> **Severity:** Critical
+
+**1-Sentence Impact:** This critical zero-day vulnerability in Cisco ISE, actively exploited in the wild, allows attackers to compromise network access control, posing an immediate and severe threat to an organization's security posture.
 
 ---
 
