@@ -1,69 +1,156 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-09-25 13:36:18 (UTC)*
+*Generated on: 2026-09-26 12:58:15 (UTC)*
 
-### [The Hacker News] The SOC Doesn't Need to Start Over with Every Alert
-- **Link:** https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html
+### [The Hacker News] Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link
+- **Link:** https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html
 - **AI Analysis:**
 > Here's the analysis:
 
 **Severity:** High
 
-**Impact:** AI's ability to rapidly iterate on failed attacks significantly increases attacker persistence, making it more likely that existing vulnerabilities will eventually be exploited and raising the overall risk of successful compromise.
+**Impact:** An unauthenticated attacker can create a rogue administrator account and fully take over an Elementor-powered WordPress site if an administrator clicks a crafted malicious link.
 
 ---
 
-### [The Hacker News] Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise
-- **Link:** https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**1-Sentence Impact:** A backend compromise led to a critical loss of $351.6 million from Bitget's hot and warm wallets, significantly impacting its operational funds and customer confidence.
-
----
-
-### [The Hacker News] Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild
-- **Link:** https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html
+### [The Hacker News] SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild
+- **Link:** https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html
 - **AI Analysis:**
 > Here's the analysis:
 
 *   **Severity:** **Critical**
-*   **1-sentence impact:** This pre-authentication SQL injection allows unauthenticated attackers to compromise affected Roundcube Webmail servers, potentially leading to data theft or full system control, and is being actively exploited in the wild.
+*   **1-sentence Impact:** Active exploitation of these critical code injection vulnerabilities in SharePoint and MikroTik RouterOS poses an immediate and severe risk of remote system compromise for affected organizations.
 
 ---
 
-### [The Hacker News] Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data
-- **Link:** https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html
+### [The Hacker News] Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack
+- **Link:** https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html
+- **AI Analysis:**
+> **Severity: Critical**
+
+**1-sentence Impact:** Customers face significant operational disruption, including mandated system shutdown for 9 hours, to preempt an imminent and severe cyber attack on Kiteworks systems, based on credible federal intelligence.
+
+---
+
+### [The Hacker News] Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware
+- **Link:** https://thehackernews.com/2026/09/compromised-github-actions-came-back.html
 - **AI Analysis:**
 > **Severity:** High
 
-**Impact:** The flaw allowed Cloudflare Container customers to potentially access leftover, non-live disk data from other customers' containers, violating multi-tenant isolation.
+**Impact:** The re-emergence of compromised GitHub Actions executing malware poses a significant supply chain risk to any project that used them in their CI/CD pipelines, potentially leading to secret theft or further system compromise.
 
 ---
 
-### [The Hacker News] WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV
-- **Link:** https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html
+### [The Hacker News] PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence
+- **Link:** https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html
 - **AI Analysis:**
-> **Severity:** Critical
+> **Severity:** High
 
-**Impact:** These actively exploited critical flaws in WSO2 API Control Plane and Adobe Commerce/Magento, now added to the CISA KEV catalog, pose an immediate and severe risk of system compromise for affected organizations.
+**1-Sentence Impact:** The updated PamStealer macOS malware employs advanced C2 decryption and multi-layer persistence, significantly increasing the difficulty of detection and removal, thus posing a higher risk of data theft.
 
 ---
 
-### [Bleeping Computer] Microsoft plans to deprecate Windows Deployment Services
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/
+### [Bleeping Computer] OpenAI's AI agents accidentally uploaded user-provided images to third-party sites
+- **Link:** https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/
 - **AI Analysis:**
-> **Severity:** Low
+> **Severity:** High
 
-**1-sentence Impact:** Organizations leveraging WDS must plan to migrate to alternative OS deployment solutions, as continued use of deprecated software can introduce future operational and security risks.
+**Impact:** This constitutes a significant privacy breach as user-provided images were inadvertently exposed on unauthorized third-party sites, eroding trust in OpenAI's data handling practices.
 
 ---
 
-### [Bleeping Computer] Rydox marketplace admin pleads guilty, faces 22 years in prison
-- **Link:** https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/
+### [Bleeping Computer] Kiteworks urges 6-hour server shutdown over potential zero-day attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 45.579622559s. [links {
+Please retry in 48.447003467s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 48
+}
+]
+
+---
+
+### [Bleeping Computer] ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw
+- **Link:** https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 47.367506244s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 47
+}
+]
+
+---
+
+### [Bleeping Computer] Elementor WordPress flaw lets attackers create admin accounts
+- **Link:** https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 46.289913103s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 46
+}
+]
+
+---
+
+### [Bleeping Computer] CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 45.214912708s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -82,93 +169,6 @@ Please retry in 45.579622559s. [links {
 }
 , retry_delay {
   seconds: 45
-}
-]
-
----
-
-### [Bleeping Computer] Microsoft: Recent Windows updates cause desktop loading issues
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 44.49833692s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 44
-}
-]
-
----
-
-### [Bleeping Computer] Hackers steal $351.6 million in Bitget crypto exchange hack
-- **Link:** https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 43.416451685s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 43
-}
-]
-
----
-
-### [Bleeping Computer] MacSync malware uses public iCloud calendars to deliver new payloads
-- **Link:** https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 42.324082874s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 42
 }
 ]
 
