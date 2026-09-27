@@ -1,127 +1,71 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-09-26 12:58:15 (UTC)*
+*Generated on: 2026-09-27 13:49:18 (UTC)*
+
+### [The Hacker News] Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation
+- **Link:** https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** Actively exploited zero-day RCE vulnerabilities in Citrix NetScaler appliances allow remote attackers to fully compromise systems, leaving organizations defenseless without an official patch.
+
+---
+
+### [The Hacker News] Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials
+- **Link:** https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html
+- **AI Analysis:**
+> Here's an analysis of the provided security news:
+
+**Severity:** **High**
+
+**1-Sentence Impact:** This sophisticated stealer leverages driver abuse to disable security monitoring and steal sensitive browser credentials, posing a high risk of account compromise and financial loss, particularly for its targeted demographic.
+
+---
+
+### [The Hacker News] Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells
+- **Link:** https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** A critical, unauthenticated remote code execution vulnerability in Oracle PeopleSoft is being actively exploited globally, allowing attackers to bypass WAFs, deploy web shells, and gain full control over affected systems.
+
+---
+
+### [The Hacker News] Zero Trust for AI Agents Starts With Fixing Zero Visibility
+- **Link:** https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html
+- **AI Analysis:**
+> This news analyzes an emerging and systemic security problem rather than reporting a specific, immediate vulnerability or active attack campaign.
+
+*   **Severity:** **Medium**
+*   **1-sentence impact:** The rapid deployment of AI agents without adequate security visibility and Zero Trust principles creates a systemic risk, leading to incidents like data breaches and necessitating a fundamental security shift.
+
+---
 
 ### [The Hacker News] Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link
 - **Link:** https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html
 - **AI Analysis:**
-> Here's the analysis:
+> **Severity:** High
+
+**1-Sentence Impact:** This flaw allows an unauthenticated attacker to create rogue administrator accounts and take control of a site if an administrator clicks a specially crafted link.
+
+---
+
+### [Bleeping Computer] Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors
+- **Link:** https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/
+- **AI Analysis:**
+> Here's an analysis of the security news:
 
 **Severity:** High
 
-**Impact:** An unauthenticated attacker can create a rogue administrator account and fully take over an Elementor-powered WordPress site if an administrator clicks a crafted malicious link.
+**1-Sentence Impact:** The launch of a vast AI plugin marketplace significantly expands Claude's attack surface, introducing substantial supply chain security risks and potential vectors for data exfiltration or malicious AI agent activity if not rigorously vetted.
 
 ---
 
-### [The Hacker News] SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild
-- **Link:** https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html
-- **AI Analysis:**
-> Here's the analysis:
-
-*   **Severity:** **Critical**
-*   **1-sentence Impact:** Active exploitation of these critical code injection vulnerabilities in SharePoint and MikroTik RouterOS poses an immediate and severe risk of remote system compromise for affected organizations.
-
----
-
-### [The Hacker News] Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack
-- **Link:** https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html
-- **AI Analysis:**
-> **Severity: Critical**
-
-**1-sentence Impact:** Customers face significant operational disruption, including mandated system shutdown for 9 hours, to preempt an imminent and severe cyber attack on Kiteworks systems, based on credible federal intelligence.
-
----
-
-### [The Hacker News] Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware
-- **Link:** https://thehackernews.com/2026/09/compromised-github-actions-came-back.html
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** The re-emergence of compromised GitHub Actions executing malware poses a significant supply chain risk to any project that used them in their CI/CD pipelines, potentially leading to secret theft or further system compromise.
-
----
-
-### [The Hacker News] PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence
-- **Link:** https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html
-- **AI Analysis:**
-> **Severity:** High
-
-**1-Sentence Impact:** The updated PamStealer macOS malware employs advanced C2 decryption and multi-layer persistence, significantly increasing the difficulty of detection and removal, thus posing a higher risk of data theft.
-
----
-
-### [Bleeping Computer] OpenAI's AI agents accidentally uploaded user-provided images to third-party sites
-- **Link:** https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** This constitutes a significant privacy breach as user-provided images were inadvertently exposed on unauthorized third-party sites, eroding trust in OpenAI's data handling practices.
-
----
-
-### [Bleeping Computer] Kiteworks urges 6-hour server shutdown over potential zero-day attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/
+### [Bleeping Computer] ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks
+- **Link:** https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 48.447003467s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 48
-}
-]
-
----
-
-### [Bleeping Computer] ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw
-- **Link:** https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 47.367506244s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 47
-}
-]
-
----
-
-### [Bleeping Computer] Elementor WordPress flaw lets attackers create admin accounts
-- **Link:** https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 46.289913103s. [links {
+Please retry in 46.2799366s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -145,12 +89,12 @@ Please retry in 46.289913103s. [links {
 
 ---
 
-### [Bleeping Computer] CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/
+### [Bleeping Computer] Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer
+- **Link:** https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 45.214912708s. [links {
+Please retry in 45.169556404s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -169,6 +113,64 @@ Please retry in 45.214912708s. [links {
 }
 , retry_delay {
   seconds: 45
+}
+]
+
+---
+
+### [Bleeping Computer] Microsoft pauses KB5002907 update after Office license deactivations
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 44.057972192s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 44
+}
+]
+
+---
+
+### [Bleeping Computer] GitHub Actions re-enabled with Mini Shai-Hulud payload still active
+- **Link:** https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 42.953686779s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 42
 }
 ]
 
