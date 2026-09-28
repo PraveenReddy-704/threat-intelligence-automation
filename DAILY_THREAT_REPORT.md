@@ -1,71 +1,83 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-09-27 13:49:18 (UTC)*
+*Generated on: 2026-09-28 16:42:46 (UTC)*
 
-### [The Hacker News] Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation
-- **Link:** https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** Actively exploited zero-day RCE vulnerabilities in Citrix NetScaler appliances allow remote attackers to fully compromise systems, leaving organizations defenseless without an official patch.
-
----
-
-### [The Hacker News] Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials
-- **Link:** https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html
-- **AI Analysis:**
-> Here's an analysis of the provided security news:
-
-**Severity:** **High**
-
-**1-Sentence Impact:** This sophisticated stealer leverages driver abuse to disable security monitoring and steal sensitive browser credentials, posing a high risk of account compromise and financial loss, particularly for its targeted demographic.
-
----
-
-### [The Hacker News] Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells
-- **Link:** https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** A critical, unauthenticated remote code execution vulnerability in Oracle PeopleSoft is being actively exploited globally, allowing attackers to bypass WAFs, deploy web shells, and gain full control over affected systems.
-
----
-
-### [The Hacker News] Zero Trust for AI Agents Starts With Fixing Zero Visibility
-- **Link:** https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html
-- **AI Analysis:**
-> This news analyzes an emerging and systemic security problem rather than reporting a specific, immediate vulnerability or active attack campaign.
-
-*   **Severity:** **Medium**
-*   **1-sentence impact:** The rapid deployment of AI agents without adequate security visibility and Zero Trust principles creates a systemic risk, leading to incidents like data breaches and necessitating a fundamental security shift.
-
----
-
-### [The Hacker News] Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link
-- **Link:** https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html
+### [The Hacker News] ⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats
+- **Link:** https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html
 - **AI Analysis:**
 > **Severity:** High
 
-**1-Sentence Impact:** This flaw allows an unauthenticated attacker to create rogue administrator accounts and take control of a site if an administrator clicks a specially crafted link.
+**Impact:** Attackers capitalized on massive financial hacks, critical enterprise system exploits, and clever new social engineering tactics combined with persistent foundational security weaknesses, highlighting the severe consequences of overlooked assumptions.
 
 ---
 
-### [Bleeping Computer] Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors
-- **Link:** https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/
+### [The Hacker News] Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI
+- **Link:** https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html
 - **AI Analysis:**
-> Here's an analysis of the security news:
+> This news describes a significant, widespread, and growing security concern rather than a specific exploit or vulnerability.
 
-**Severity:** High
-
-**1-Sentence Impact:** The launch of a vast AI plugin marketplace significantly expands Claude's attack surface, introducing substantial supply chain security risks and potential vectors for data exfiltration or malicious AI agent activity if not rigorously vetted.
+*   **Severity:** **High**
+*   **1-sentence impact:** Organizations face a high risk of data breaches, unauthorized actions, and compliance violations due to the widespread lack of governance and visibility over rapidly deploying AI agents that access sensitive systems and data.
 
 ---
 
-### [Bleeping Computer] ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/
+### [The Hacker News] Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent
+- **Link:** https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** Attackers gain full control over compromised Docker hosts through a Telegram-controlled AI agent, enabling resource hijacking, data theft, or further network exploitation.
+
+---
+
+### [The Hacker News] JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources
+- **Link:** https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html
+- **AI Analysis:**
+> Here's an analysis of the provided security news snippet:
+
+**Severity:** Critical
+
+**1-Sentence Impact:** Compromised service principals allowed JADEPUFFER to delete Azure resources, leading to catastrophic data loss and operational paralysis for affected organizations.
+
+---
+**Reasoning for Severity:**
+
+*   **Destructive Actions:** The core of the attack involves "destructive actions" and the "deletion of Azure resources." This is not merely data exfiltration or service disruption; it's the outright destruction of infrastructure, applications, and data, which can lead to complete operational failure for an organization.
+*   **Method of Compromise:** The use of "compromised service principals" indicates a high level of access and privilege. Service principals are powerful identities often used for automation and managing cloud resources, so their compromise grants extensive control over an Azure environment.
+*   **Known Threat Actor & Evolution:** JADEPUFFER (Storm-3168) is a tracked threat actor, and Microsoft notes an "evolution of the threat actor's tradecraft." This suggests sophistication and a persistent threat that is improving its methods.
+*   **Duration:** An 18-hour period for destructive operations provides ample time for significant damage to occur.
+
+This attack represents one of the most severe outcomes an organization can face in the cloud, often requiring extensive recovery efforts from backups, re-deployment, and significant downtime, placing it firmly in the Critical category.
+
+*(Note: The date "early June 2026" appears to be a typo, likely intended to be 2023 or 2024, but the nature of the attack remains critical regardless of the specific year it occurred.)*
+
+---
+
+### [The Hacker News] CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally
+- **Link:** https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html
+- **AI Analysis:**
+> Based on the provided information:
+
+**Severity:** **Critical**
+
+**Impact:** Active global exploitation of critical, unauthenticated Citrix NetScaler vulnerabilities by attackers poses an immediate and severe risk of network compromise for affected organizations.
+
+---
+
+### [Bleeping Computer] JadePuffer agentic AI attacks target Azure, destroy cloud resources
+- **Link:** https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/
+- **AI Analysis:**
+> **Severity:** Critical
+
+**1-Sentence Impact:** This poses a critical risk of catastrophic data loss, system destruction, and extensive operational disruption for Azure tenants targeted by JadePuffer's automated attacks.
+
+---
+
+### [Bleeping Computer] 80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking
+- **Link:** https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 46.2799366s. [links {
+Please retry in 18.192952575s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -83,18 +95,18 @@ Please retry in 46.2799366s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 46
+  seconds: 18
 }
 ]
 
 ---
 
-### [Bleeping Computer] Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer
-- **Link:** https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/
+### [Bleeping Computer] Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist
+- **Link:** https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 45.169556404s. [links {
+Please retry in 17.087183298s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -112,18 +124,18 @@ Please retry in 45.169556404s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 45
+  seconds: 17
 }
 ]
 
 ---
 
-### [Bleeping Computer] Microsoft pauses KB5002907 update after Office license deactivations
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/
+### [Bleeping Computer] US soldier gets 70 months in prison for extorting 10 tech, telecom firms
+- **Link:** https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 44.057972192s. [links {
+Please retry in 15.972108599s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -141,18 +153,18 @@ Please retry in 44.057972192s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 44
+  seconds: 15
 }
 ]
 
 ---
 
-### [Bleeping Computer] GitHub Actions re-enabled with Mini Shai-Hulud payload still active
-- **Link:** https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/
+### [Bleeping Computer] CISA orders feds to patch exploited Citrix flaws by Wednesday
+- **Link:** https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 42.953686779s. [links {
+Please retry in 14.873724053s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -170,7 +182,7 @@ Please retry in 42.953686779s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 42
+  seconds: 14
 }
 ]
 
