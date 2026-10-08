@@ -1,155 +1,100 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-10-07 15:29:12 (UTC)*
+*Generated on: 2026-10-08 15:31:54 (UTC)*
 
-### [The Hacker News] The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow
-- **Link:** https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html
-- **AI Analysis:**
-> This news indicates a significant shift in the cybersecurity landscape and how CISOs perceive risk.
-
-**Severity:** **Medium**
-
-**Impact:** Organizations must strategically re-evaluate security defenses and governance to address cyber risks now embedded within daily internal workflows, human interactions, and AI processes.
-
----
-
-### [The Hacker News] FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials
-- **Link:** https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html
+### [The Hacker News] UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML
+- **Link:** https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** This ongoing campaign presents a critical risk, enabling attackers to gain unauthorized network access via compromised internet-facing Fortinet devices by exploiting leaked or reused credentials.
+**Impact:** Russia-aligned UAC-0099 is actively deploying a novel ASHVEIN RAT and infostealer against Ukrainian government personnel, enabling espionage and persistent system control.
 
 ---
 
-### [The Hacker News] Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details
-- **Link:** https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html
+### [The Hacker News] ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms
+- **Link:** https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html
 - **AI Analysis:**
-> **Severity:** Critical
+> Based on the provided information:
 
-**1-sentence Impact:** This actively exploited critical flaw in Atlassian Data Center products grants threat actors unauthorized access to sensitive files, posing an immediate risk of data theft and system compromise for affected organizations.
-
----
-
-### [The Hacker News] What Is Agentic Pentesting? What It Proves, and Where It Stops.
-- **Link:** https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html
-- **AI Analysis:**
-> This news is **Low** severity.
-
-**Impact:** The news provides an informational overview for security professionals to critically evaluate the claims and actual capabilities of new agentic pentesting solutions.
+**Severity:** Critical
+**Impact:** A targeted campaign leveraging the ARTEX AI pentesting tool resulted in confirmed data exfiltration from South Korean financial firms, exposing sensitive information and posing a significant threat to customer data and financial security.
 
 ---
 
-### [The Hacker News] Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws
-- **Link:** https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html
+### [The Hacker News] Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia
+- **Link:** https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html
 - **AI Analysis:**
 > **Severity:** High
 
-**1-sentence Impact:** Anthropic's security programs, leveraging AI, are demonstrating the capacity to identify an astonishing volume of software vulnerabilities, highlighting the widespread insecurity in current software and the transformative potential of AI in cybersecurity.
+**Impact:** This advanced Wazza phishkit, with its filtering and real-time session management capabilities, significantly enhances phishing efficacy against critical government, banking, and manufacturing organizations worldwide, potentially bypassing traditional multi-factor authentication.
 
 ---
 
-### [Bleeping Computer] PoeLLM malware infects exposed AI servers in cryptomining attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/
+### [The Hacker News] 16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases
+- **Link:** https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html
+- **AI Analysis:**
+> **Severity: Critical**
+
+**Impact:** This threat enables complete compromise and irreversible theft of cryptocurrency funds by stealing wallet recovery phrases and private keys.
+
+---
+
+### [The Hacker News] U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks
+- **Link:** https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html
+- **AI Analysis:**
+> **Severity:** Low
+
+**Impact:** This news highlights ongoing law enforcement efforts to hold individuals accountable for past, significant state-sponsored cyberattacks, rather than indicating an immediate new threat or vulnerability.
+
+---
+
+### [Bleeping Computer] Cisco warns of critical flaws allowing Nexus switch takeover
+- **Link:** https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/
+- **AI Analysis:**
+> Here's the analysis:
+
+**Severity:** Critical
+
+**1-sentence Impact:** These flaws allow attackers to fully compromise Nexus switches with root privileges, leading to complete control over core data center network infrastructure and potential network disruption or data exfiltration.
+
+---
+
+### [Bleeping Computer] OAuth grants pile up faster than you can review them. Here's how to keep up.
+- **Link:** https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/
+- **AI Analysis:**
+> Here's the analysis of the security news:
+
+**Severity:** High
+
+**Impact:** The rapid accumulation of unreviewed OAuth grants creates a widespread vulnerability, allowing attackers to exploit forgotten permissions and gain unauthorized access to sensitive corporate data.
+
+---
+
+### [Bleeping Computer] Uranium crypto exchange hacker convicted for stealing $53 million
+- **Link:** https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/
+- **AI Analysis:**
+> **Severity:** Medium
+
+**Impact:** The conviction of the Uranium Finance hacker serves as a deterrent to cybercriminals and a stark reminder of the significant financial risks and vulnerabilities present in decentralized crypto exchanges.
+
+---
+
+### [Bleeping Computer] Microsoft Teams to get support for third-party deepfake detection tools
+- **Link:** https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/
+- **AI Analysis:**
+> Here's the analysis:
+
+**Severity:** Low
+
+**1-sentence Impact:** This enhancement will strengthen the integrity of virtual communications in Teams meetings by protecting against sophisticated deepfake and impersonation attacks.
+
+---
+
+### [Bleeping Computer] ASOS links data breach to social engineering attack, credential theft
+- **Link:** https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/
 - **AI Analysis:**
 > **Severity:** High
 
-**Impact:** This malware not only hijacks powerful AI servers for cryptomining but also weaponizes them as launchpads to scan and exploit other systems, posing a significant risk of widespread network intrusion and expanded damage.
-
----
-
-### [Bleeping Computer] Ransomware has a new target. Is your backup ready?
-- **Link:** https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 167.756216ms. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-}
-]
-
----
-
-### [Bleeping Computer] Hackers exploit critical Atlassian flaw after public PoC release
-- **Link:** https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 59.063887485s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 59
-}
-]
-
----
-
-### [Bleeping Computer] SonicWall warns of max severity SSRF flaw in SMA1000 gateways
-- **Link:** https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 57.971300641s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
-}
-, violations {
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 57
-}
-]
-
----
-
-### [Bleeping Computer] Musician sent to prison for $10 million streaming fraud using AI bots
-- **Link:** https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/
-- **AI Analysis:**
-> This news is primarily a story about **financial fraud facilitated by technology**, rather than a direct cybersecurity breach or system vulnerability impacting user data.
-
-*   **Severity:** **Medium**
-*   **1-sentence impact:** This incident highlights significant financial fraud against major streaming platforms via AI bots, emphasizing the need for robust royalty and fraud detection systems.
+**Impact:** The ASOS data breach, resulting from credential theft via social engineering, exposes affected customers to increased risks of phishing and identity theft.
 
 ---
 
