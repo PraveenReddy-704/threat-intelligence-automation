@@ -1,70 +1,49 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-10-15 13:18:59 (UTC)*
+*Generated on: 2026-10-16 13:10:29 (UTC)*
 
-### [The Hacker News] Drupal Patches Critical Core RCE Flaw with No-Login Path via Contributed Modules
-- **Link:** https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html
+### [The Hacker News] AI Decision Models and Their Impact on AI SOC Platforms
+- **Link:** https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html
+- **AI Analysis:**
+> This news describes an emerging trend rather than a specific vulnerability or attack.
+
+*   **Severity:** **High**
+*   **Impact:** The rapid integration of new, unvetted AI decision models into critical SOC platforms introduces significant new attack surfaces and integrity risks that security teams must urgently address.
+
+---
+
+### [The Hacker News] China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers
+- **Link:** https://thehackernews.com/2026/10/china-linked-hackers-exploited.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** This critical flaw allows unauthenticated attackers to achieve full server compromise via Remote Code Execution on Drupal sites running specific contributed modules.
+**Impact:** Exploiting a critical zero-day, China-linked hackers gained full control over BeyondTrust remote support servers, posing a significant risk of broader network compromise and data exfiltration.
 
 ---
 
-### [The Hacker News] Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early
-- **Link:** https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html
+### [The Hacker News] CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing
+- **Link:** https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html
 - **AI Analysis:**
 > **Severity:** High
 
-**1-Sentence Impact:** Attackers are leveraging fake AI product impersonations to distribute malware, steal browser sessions, and compromise business accounts across US companies, leading to significant data and financial risks.
+**1-sentence impact:** This incident resulted in unauthorized access and exposure of sensitive personal and confidential business data from live systems, remaining undetected by affected organizations.
 
 ---
 
-### [The Hacker News] Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation
-- **Link:** https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html
+### [The Hacker News] PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions
+- **Link:** https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html
 - **AI Analysis:**
-> **Severity:** High
+> **Severity: Critical**
 
-**Impact:** This actively exploited, authenticated Remote Code Execution (RCE) vulnerability in PAN-OS allows attackers with management interface credentials to execute arbitrary code on critical network security devices, potentially leading to full system compromise or network breach.
-
----
-
-### [The Hacker News] Why AI Confidence Is Not Validation
-- **Link:** https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html
-- **AI Analysis:**
-> This news highlights a significant, foundational issue in the increasing adoption of AI in critical security functions.
-
-**Severity:** **High**
-
-**Impact:** The unchecked confidence of AI in digital forensics and incident response processes creates a systemic risk of erroneous security decisions and overlooked threats due to a lack of proper governance and validation.
+**Impact:** Advanced threat actors are exploiting a Fortinet vulnerability to install stealthy, memory-resident malware (PEERSTITCH), severely compromising critical network infrastructure and bypassing secure VPN session controls.
 
 ---
 
-### [The Hacker News] India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1
-- **Link:** https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html
-- **AI Analysis:**
-> This news describes a policy change rather than a specific security vulnerability or attack. However, it has significant security and privacy implications.
-
-**Severity: High**
-
-**1-sentence Impact:** Aims to reduce spam and fraud by providing caller identification, but significantly impacts user privacy by mandating the public display of registered names, potentially exposing individuals to harassment or targeting.
-
----
-
-### [Bleeping Computer] Police arrests 95 suspects in international CSAM crackdown action
-- **Link:** https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** This operation significantly disrupts a major international network for the distribution of child sexual abuse material (CSAM), enhancing online safety and protecting vulnerable individuals.
-
----
-
-### [Bleeping Computer] Microsoft fixes bug causing Windows black screens, Explorer crashes
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/
+### [The Hacker News] Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory
+- **Link:** https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 4.816578794s. [links {
+Please retry in 37.133579531s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -82,18 +61,18 @@ Please retry in 4.816578794s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 4
+  seconds: 37
 }
 ]
 
 ---
 
-### [Bleeping Computer] UK Legal Aid Agency: Hackers stole records dating back to 1978
-- **Link:** https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/
+### [Bleeping Computer] Burger King Japan data breach exposes 11 million customer records
+- **Link:** https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 3.732293838s. [links {
+Please retry in 35.958007703s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -111,18 +90,18 @@ Please retry in 3.732293838s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 3
+  seconds: 35
 }
 ]
 
 ---
 
-### [Bleeping Computer] Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/
+### [Bleeping Computer] Microsoft: October Windows update may break Smart App Control
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 2.651941022s. [links {
+Please retry in 34.860538056s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -140,18 +119,18 @@ Please retry in 2.651941022s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 2
+  seconds: 34
 }
 ]
 
 ---
 
-### [Bleeping Computer] FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested
-- **Link:** https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/
+### [Bleeping Computer] BAE Systems cyberattack disrupts US federal court operations
+- **Link:** https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
-Please retry in 1.566413226s. [links {
+Please retry in 33.762027648s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -169,7 +148,65 @@ Please retry in 1.566413226s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 1
+  seconds: 33
+}
+]
+
+---
+
+### [Bleeping Computer] BeyondTrust patches zero-day exploited in attacks since August
+- **Link:** https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 32.66752205s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 32
+}
+]
+
+---
+
+### [Bleeping Computer] Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers
+- **Link:** https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 31.572581469s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 31
 }
 ]
 
