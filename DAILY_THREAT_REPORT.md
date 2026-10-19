@@ -1,96 +1,157 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-10-18 12:34:36 (UTC)*
+*Generated on: 2026-10-19 15:30:39 (UTC)*
 
-### [The Hacker News] ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants
-- **Link:** https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html
+### [The Hacker News] ⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More
+- **Link:** https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html
 - **AI Analysis:**
-> **Severity:** Critical
+> This weekly recap paints a very concerning picture of the current threat landscape, encompassing a wide range of sophisticated and impactful attacks.
 
-**1-sentence Impact:** This supply chain attack, leveraging compromised ConnectWise application identities, grants attackers unauthorized access to customer Microsoft 365 tenants, risking widespread data breaches and severe operational disruption for affected organizations.
+**Severity: Critical**
+
+**1-Sentence Impact:** This week highlighted a critical and diverse threat landscape, characterized by massive financial theft, widespread operational disruptions across various sectors, and an alarming volume of actively exploited zero-day vulnerabilities.
 
 ---
 
-### [The Hacker News] MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon
-- **Link:** https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html
-- **AI Analysis:**
-> Here's the analysis of the security news:
-
-**Severity:** **Critical**
-
-**Impact:** This malicious npm package poses a critical software supply chain threat, enabling arbitrary code execution via a shellcode loader on Windows systems that downloaded it, potentially leading to full system compromise and data theft.
-
----
-
-### [The Hacker News] Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants
-- **Link:** https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html
-- **AI Analysis:**
-> **Severity: Critical**
-
-**Impact:** This supply chain attack grants threat actors unauthorized and potentially extensive access to sensitive data and systems across 173 customer Microsoft 365 environments.
-
----
-
-### [The Hacker News] Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug
-- **Link:** https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** An attacker with local access can gain full root control on affected OpenBSD 7.9 systems by leveraging this exploit, which bypasses multiple kernel protections and has publicly available proof-of-concept code.
-
----
-
-### [The Hacker News] Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor
-- **Link:** https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html
-- **AI Analysis:**
-> Here's the analysis:
-
-**Severity:** Critical
-
-**1-Sentence Impact:** A sophisticated supply chain attack on AOMEI's update servers delivered backdoors to users, granting attackers persistent remote access and control over potentially critical systems.
-
----
-
-### [Bleeping Computer] Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack
-- **Link:** https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** A supply-chain attack compromised numerous organizations' Microsoft 365 tenants through a trusted backup service, risking extensive data exposure and further malicious activity.
-
----
-
-### [Bleeping Computer] Drupal patches critical RCE flaws, warns exploits may emerge soon
-- **Link:** https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/
-- **AI Analysis:**
-> **Severity:** Critical
-
-**1-sentence Impact:** These critical RCE flaws allow attackers to remotely execute code on Drupal websites, leading to full compromise, with exploits likely to emerge soon.
-
----
-
-### [Bleeping Computer] Critical BlockStrap flaw lets hackers run code on Magento servers
-- **Link:** https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** This maximum-severity vulnerability allows attackers to execute arbitrary code on affected Magento and Adobe Commerce servers, leading to full server compromise, data theft, and potential business disruption.
-
----
-
-### [Bleeping Computer] Targeted ads installed Candiru spyware in zero-click attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/
-- **AI Analysis:**
-> *   **Severity:** Critical
-*   **Impact:** This zero-click attack, delivered through targeted ads, enables sophisticated Candiru spyware to completely compromise devices and exfiltrate data without any user interaction.
-
----
-
-### [Bleeping Computer] Employees using personal ChatGPT at work? Here's what IT admins need to do
-- **Link:** https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/
+### [The Hacker News] GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories
+- **Link:** https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html
 - **AI Analysis:**
 > **Severity:** High
 
-**Impact:** Unauthorized employee use of personal ChatGPT accounts poses a significant risk of sensitive company data exposure, bypassing existing corporate security controls.
+**Impact:** This supply chain attack poses a high risk to open-source software integrity by stealing developer credentials through phishing and malware disguised as font files, directly compromising 94 GitHub repositories and potentially impacting downstream projects.
+
+---
+
+### [The Hacker News] From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software
+- **Link:** https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html
+- **AI Analysis:**
+> This appears to describe a **prompt injection** vulnerability within Salesforce's Agentforce platform.
+
+**Severity:** **Critical**
+
+**1-sentence Impact:** This prompt injection vulnerability allows untrusted external input to manipulate Salesforce AI agents, potentially bypassing security controls to exfiltrate sensitive data or perform unauthorized actions within the enterprise system.
+
+---
+
+### [The Hacker News] Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic
+- **Link:** https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html
+- **AI Analysis:**
+> Here's the analysis:
+
+*   **Severity:** **High**
+*   **1-sentence Impact:** Victims installing these malicious npm packages face severe risks of information theft, full system compromise, and potential hijacking of their AI agent activities.
+
+---
+
+### [The Hacker News] Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers
+- **Link:** https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**1-sentence Impact:** This unpatched flaw allows an attacker within Wi-Fi range to gain unauthenticated root control of affected Broadcom-based routers, potentially exposing all network traffic, credentials, and enabling further attacks.
+
+---
+
+### [Bleeping Computer] Microsoft fixes game, app crashes caused by recent Windows update
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/
+- **AI Analysis:**
+> *   **Severity:** Low
+*   **Impact:** The bug caused crashes in games and applications using AC-3 audio on a specific Windows 11 preview update, impacting usability for affected users.
+
+---
+
+### [Bleeping Computer] Inside the Underground Market for Know Your Client Services
+- **Link:** https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 32.010610219s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 32
+}
+]
+
+---
+
+### [Bleeping Computer] F5 releases out-of-band patches for critical NGINX vulnerabilities
+- **Link:** https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 30.937802086s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 30
+}
+]
+
+---
+
+### [Bleeping Computer] Microsoft fixes classic Outlook bug that hid Copilot buttons
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 29.868484328s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 29
+}
+]
+
+---
+
+### [Bleeping Computer] Microsoft: October Windows Server updates break Exchange sign-in, mail flow
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** Organizations running affected Exchange Servers will experience significant disruption to email communication, impacting business operations due to users being unable to sign in and mail flow ceasing.
 
 ---
 
