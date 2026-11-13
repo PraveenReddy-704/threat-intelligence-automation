@@ -1,99 +1,138 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-11-12 16:45:22 (UTC)*
+*Generated on: 2026-11-13 16:06:44 (UTC)*
 
-### [The Hacker News] Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry
-- **Link:** https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html
+### [The Hacker News] New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs
+- **Link:** https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-sentence Impact:** This critical flaw allows attackers, potentially unauthenticated, to read and overwrite all private container images in a registry, leading to complete data compromise and severe supply chain risks.
+**Impact:** These attacks fundamentally break AMD SEV-SNP's hardware-enforced isolation, allowing malicious cloud hosts to steal sensitive data, modify VM memory, and fake security attestation, completely undermining the technology's core security promise.
 
 ---
 
-### [The Hacker News] Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass
-- **Link:** https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html
+### [The Hacker News] FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls
+- **Link:** https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html
+- **AI Analysis:**
+> Here's the analysis of the security news:
+
+**Severity:** **High**
+
+**1-Sentence Impact:** This news confirms state-sponsored North Korean actors are using sophisticated deepfake video calls for large-scale cryptocurrency theft, highlighting a significant and advanced social engineering threat.
+
+---
+
+### [The Hacker News] Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases
+- **Link:** https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html
+- **AI Analysis:**
+> **Severity: Critical**
+
+**1-sentence Impact:** This critical supply chain attack allows attackers to physically compromise specific hardware wallets, enabling the theft of recovery phrases and leading to the total loss of users' cryptocurrency assets.
+
+---
+
+### [The Hacker News] When an AI Agent Goes Wrong, Can You Stop It?
+- **Link:** https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
+Please retry in 55.516245912s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://aistudio.google.com/docs/rate-limits"
+}
+, violations {
+  description: "Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 55
+}
+]
+
+---
+
+### [The Hacker News] SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users
+- **Link:** https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
+Please retry in 54.356925034s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://aistudio.google.com/docs/rate-limits"
+}
+, violations {
+  description: "Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 54
+}
+]
+
+---
+
+### [Bleeping Computer] How one AI agent exposed five critical enterprise security gaps
+- **Link:** https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/
+- **AI Analysis:**
+> **Severity:** Critical
+
+**1-sentence Impact:** Malicious manipulation of AI agents can lead to undetected payment redirection and significant financial fraud by bypassing traditional security alerts.
+
+---
+
+### [Bleeping Computer] Microsoft says November security updates cause printing issues
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/
+- **AI Analysis:**
+> **Severity: Medium**
+
+**1-Sentence Impact:** Security updates disrupt operational workflows by preventing users from printing documents with complex formatting.
+
+---
+
+### [Bleeping Computer] Check Point warns of zero-day flaw exploited for root access
+- **Link:** https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** Attackers are actively exploiting a zero-day flaw to gain full root access and establish persistent control over vulnerable Check Point devices, leading to complete system compromise.
+
+---
+
+### [Bleeping Computer] Microsoft confirms Windows activation failures after November updates
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/
 - **AI Analysis:**
 > Here's the analysis:
 
-*   **Severity:** **Critical**
-*   **1-sentence impact:** Critical vulnerabilities, including an authentication bypass (CVSS 9.3), in Citrix NetScaler ADC and Gateway could allow unauthorized access to sensitive network resources or cause denial-of-service.
+*   **Severity:** **Medium**
+*   **1-sentence impact:** Microsoft's November security updates are causing Windows activation and licensing failures, leading to limited system personalization and potential compliance concerns for users and organizations.
 
 ---
 
-### [The Hacker News] 186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers
-- **Link:** https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html
+### [Bleeping Computer] Police arrest 354 suspects in dark web cybercrime crackdown
+- **Link:** https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/
 - **AI Analysis:**
-> Here's the analysis:
+> **Severity: Low**
 
-**Severity:** High
-
-**Impact:** This campaign uses deceptive AI-themed domains to install browser-hijacking malware and serve financial lures, severely compromising users' online experience, privacy, and potentially leading to monetary loss.
-
----
-
-### [The Hacker News] SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths
-- **Link:** https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**1-Sentence Impact:** An active malware campaign is exploiting a critical, now-patched ScreenConnect vulnerability (CVSS 9.9), turning legitimate support sessions into attack paths for compromising MSPs and their client networks.
-
----
-
-### [The Hacker News] Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs
-- **Link:** https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** Attackers with existing code execution within a vulnerable Google Cloud VM can exploit these CPU side-channel flaws to infer sensitive data from other processes or the kernel, potentially leading to privilege escalation and full VM compromise.
-
----
-
-### [Bleeping Computer] New Windows SignDrop zero-day gives hackers SYSTEM privileges
-- **Link:** https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** This zero-day exploit grants attackers SYSTEM privileges on Windows systems, enabling complete compromise without an available patch.
-
----
-
-### [Bleeping Computer] Police dismantle Gootloader, CastleRAT, StealC malware infrastructure
-- **Link:** https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/
-- **AI Analysis:**
-> This is a **positive** security news item. When classifying positive news on a severity scale typically used for threats, we consider the *impact of the action taken* in mitigating severe threats.
-
-**Severity:** High
-
-**1-sentence impact:** This international law enforcement operation severely cripples Gootloader, CastleRAT, and StealC malware operations, significantly reducing their ability to compromise systems and steal data globally.
-
----
-
-### [Bleeping Computer] Your Endpoint Management Platform Could Be Your Biggest Security Risk
-- **Link:** https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** A compromised endpoint management platform grants attackers administrative control over thousands of devices, allowing for widespread malware deployment and system disruption.
-
----
-
-### [Bleeping Computer] Apify rotates API tokens, prompts 2FA resets after breach
-- **Link:** https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** Unauthorized access to Apify's internal systems compromised critical secrets, API tokens, and user 2FA, potentially impacting user account integrity and third-party integrations.
-
----
-
-### [Bleeping Computer] Microsoft: Recent Windows updates cause SQL Server performance issues
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/
-- **AI Analysis:**
-> This news indicates a significant operational issue rather than a direct security vulnerability.
-
-*   **Severity:** **High**
-*   **1-sentence impact:** Organizations running SQL Server on Windows may experience significant operational disruptions due to degraded performance and potential instability in critical database systems caused by recent Microsoft updates.
+**1-sentence Impact:** The international operation significantly disrupts dark web cybercrime marketplaces, removing numerous vendors and buyers from the criminal ecosystem.
 
 ---
 
