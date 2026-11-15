@@ -1,100 +1,159 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-11-14 14:57:19 (UTC)*
+*Generated on: 2026-11-15 15:34:38 (UTC)*
+
+### [The Hacker News] Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent
+- **Link:** https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** The substantial fine levied against Meta underscores severe regulatory consequences for tech companies that access sensitive user data, such as private photos and videos, without explicit consent.
+
+---
+
+### [The Hacker News] Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident
+- **Link:** https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html
+- **AI Analysis:**
+> **Severity:** High
+
+**Impact:** A supply chain attack, enabled by a stolen access key from a third-party breach, led to the distribution of a trojanized AI code extension, potentially compromising user development environments.
+
+---
 
 ### [The Hacker News] Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection
 - **Link:** https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html
 - **AI Analysis:**
-> **Severity:** Critical
+> **Severity:** High
 
-**1-Sentence Impact:** Actively exploited, this flaw enables attackers to execute arbitrary commands on vulnerable UnrealIRCd servers, risking complete system compromise.
+**1-sentence impact:** The actively exploited flaw enables attackers to achieve server-level command injection, allowing them to execute arbitrary commands and gain control over vulnerable UnrealIRCd servers.
 
 ---
 
 ### [The Hacker News] PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE
 - **Link:** https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html
 - **AI Analysis:**
-> **Severity: High**
+> Here's the analysis of the security news:
 
-**1-sentence Impact:** An authenticated PostgreSQL user with object creation privileges can execute arbitrary code on the database server, leading to host system compromise.
+*   **Severity:** **High**
+*   **1-sentence impact:** An authenticated PostgreSQL database user can achieve remote code execution on the server, potentially escalating privileges to the operating system user running the database.
 
 ---
 
 ### [The Hacker News] New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs
 - **Link:** https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html
 - **AI Analysis:**
-> **Severity:** Critical
+> **Severity:** High
 
-**Impact:** These attacks fundamentally break the security promise of AMD SEV-SNP, allowing malicious cloud hosts to steal and modify sensitive data within protected virtual machines and undermining the core trust model of confidential computing.
-
----
-
-### [The Hacker News] FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls
-- **Link:** https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html
-- **AI Analysis:**
-> **Severity:** Critical
-
-**1-Sentence Impact:** This highlights a critical financial and national security threat posed by nation-state actors using advanced deepfake social engineering for massive cryptocurrency theft.
+**Impact:** These attacks directly undermine AMD SEV-SNP's fundamental security guarantees, enabling a malicious or compromised cloud host to steal or modify sensitive data from supposedly protected virtual machines.
 
 ---
 
-### [The Hacker News] Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases
-- **Link:** https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html
+### [Bleeping Computer] TSMC employee data breach linked to cloud provider
+- **Link:** https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/
 - **AI Analysis:**
-> Here's the analysis:
+> Here's an analysis of the provided security news:
 
-*   **Severity:** **Critical**
-*   **1-sentence impact:** Affected users' recovery phrases are stolen directly upon setup, leading to complete loss of all associated cryptocurrency assets.
+**Severity:** **High**
+
+**Impact:** The leak of 6.9GB of personal employee data from TSMC poses significant identity theft risks for affected employees and severe reputational, legal, and potential financial consequences for the company, especially given its critical role in the global supply chain.
+
+---
+
+### [Bleeping Computer] Cursor confirms security breach led to malicious Claude Code extension
+- **Link:** https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
+Please retry in 33.599729704s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://aistudio.google.com/docs/rate-limits"
+}
+, violations {
+  description: "Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 33
+}
+]
+
+---
+
+### [Bleeping Computer] US disrupts North Korean campaign behind $400 million crypto theft
+- **Link:** https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
+Please retry in 31.199176604s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://aistudio.google.com/docs/rate-limits"
+}
+, violations {
+  description: "Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 31
+}
+]
 
 ---
 
 ### [Bleeping Computer] Trezor confirms crypto-stealing implants in three wallets, releases fix
 - **Link:** https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/
 - **AI Analysis:**
-> Here's the analysis of the security news:
-
-**Severity:** Critical
-
-**Impact:** This critical supply chain compromise allows malicious hardware implants in specific Trezor Safe 5 wallets to steal recovery phrases, leading to complete and irreversible cryptocurrency theft for affected users.
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
+Please retry in 30.123512763s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://aistudio.google.com/docs/rate-limits"
+}
+, violations {
+  description: "Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 30
+}
+]
 
 ---
 
 ### [Bleeping Computer] German military drone operations disrupted by cyberattack
 - **Link:** https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/
 - **AI Analysis:**
-> **Severity:** Critical
+> **Severity:** High
 
-**Impact:** This cyberattack on a defense contractor significantly impaired German military drone operations, posing a critical national security risk and hindering intelligence or operational capabilities.
-
----
-
-### [Bleeping Computer] Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper
-- **Link:** https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/
-- **AI Analysis:**
-> **Severity:** Critical
-
-**1-sentence Impact:** This attack allows threat actors to breach perimeter defenses via vulnerable gateways and deploy data-wiping malware on core virtualization infrastructure, leading to catastrophic and potentially irreversible data loss and complete operational outage.
-
----
-
-### [Bleeping Computer] How one AI agent exposed five critical enterprise security gaps
-- **Link:** https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/
-- **AI Analysis:**
-> **Severity:** Critical
-
-**Impact:** AI agents automating critical financial processes can be manipulated to commit direct financial fraud by changing vendor bank details, entirely bypassing traditional security detection systems.
-
----
-
-### [Bleeping Computer] Microsoft says November security updates cause printing issues
-- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/
-- **AI Analysis:**
-> This news describes a functional bug introduced by security updates, rather than a security vulnerability itself.
-
-**Severity:** Medium
-
-**1-sentence impact:** Microsoft's November security updates may cause operational disruption by breaking printing for documents with complex formatting.
-
-*(Note: Assuming "November 2026" is a typo and refers to the most recent November security updates, e.g., November 2023, as security updates are released far more frequently than once every three years.)*
+**Impact:** A cyberattack by hostile actors disrupted German military drone operations, potentially impacting national security and operational readiness.
 
 ---
 
