@@ -1,159 +1,93 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-11-15 15:34:38 (UTC)*
+*Generated on: 2026-11-16 18:19:49 (UTC)*
 
-### [The Hacker News] Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent
-- **Link:** https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html
+### [The Hacker News] Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches
+- **Link:** https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html
+- **AI Analysis:**
+> **Severity: High**
+
+**1-Sentence Impact:** Threat actors are leveraging autonomous AI agents to rapidly build and execute complex, multi-stage exploits, often derived from software patches, drastically reducing the window for effective defense.
+
+---
+
+### [The Hacker News] ⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days
+- **Link:** https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** Widespread zero-day exploits in critical software (Windows, N-able, Chrome), supply chain attacks, and pervasive fundamental security failures create an immediate and critical threat to virtually all digital users and infrastructure.
+
+---
+
+### [The Hacker News] Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login
+- **Link:** https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** These unpatched flaws allow remote, unauthenticated attackers to fully compromise critical refrigeration systems, leading to operational disruptions, spoilage of temperature-sensitive goods, and potential physical damage or wider network intrusion.
+
+---
+
+### [The Hacker News] Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware
+- **Link:** https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** This resurfaced, self-propagating worm acts as a highly resilient and evasive initial access broker, enabling the deployment of arbitrary, more destructive malware payloads across compromised networks.
+
+---
+
+### [The Hacker News] SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity
+- **Link:** https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html
 - **AI Analysis:**
 > **Severity:** High
 
-**Impact:** The substantial fine levied against Meta underscores severe regulatory consequences for tech companies that access sensitive user data, such as private photos and videos, without explicit consent.
+**Impact:** This sophisticated Linux cryptomining malware steals computing resources, degrades system performance, and increases operational costs while evading detection through modified NVIDIA libraries.
 
 ---
 
-### [The Hacker News] Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident
-- **Link:** https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html
+### [Bleeping Computer] Microsoft says months-old bug caused global Microsoft 365 outage
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** A long-standing software bug caused a critical, global outage of Microsoft 365, leading to widespread service unavailability and significant operational disruption for users worldwide.
+
+---
+
+### [Bleeping Computer] Fandango says hackers stole payment card details from checkout pages
+- **Link:** https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/
 - **AI Analysis:**
 > **Severity:** High
 
-**Impact:** A supply chain attack, enabled by a stolen access key from a third-party breach, led to the distribution of a trojanized AI code extension, potentially compromising user development environments.
+**Impact:** Customers are at high risk of financial fraud and identity theft due to their payment card details being directly compromised at the point of entry.
 
 ---
 
-### [The Hacker News] Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection
-- **Link:** https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html
+### [Bleeping Computer] 7 Tips For Complying with CJIS Password and MFA Requirements
+- **Link:** https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/
+- **AI Analysis:**
+> **Severity:** Low
+
+**1-sentence Impact:** This news provides guidance for law enforcement agencies to implement stricter password and MFA policies, ensuring compliance with FBI CJIS requirements and strengthening overall security.
+
+---
+
+### [Bleeping Computer] Google warns that fully-automated AI attacks are coming soon
+- **Link:** https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/
+- **AI Analysis:**
+> **Severity:** Critical
+
+**Impact:** Fully-automated AI attacks will enable threat actors to discover and exploit vulnerabilities at unprecedented machine speed and scale, demanding a paradigm shift in defensive strategies and incident response.
+
+---
+
+### [Bleeping Computer] Microsoft: Windows Server 2016 reaches end of support in 60 days
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/
 - **AI Analysis:**
 > **Severity:** High
 
-**1-sentence impact:** The actively exploited flaw enables attackers to achieve server-level command injection, allowing them to execute arbitrary commands and gain control over vulnerable UnrealIRCd servers.
-
----
-
-### [The Hacker News] PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE
-- **Link:** https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html
-- **AI Analysis:**
-> Here's the analysis of the security news:
-
-*   **Severity:** **High**
-*   **1-sentence impact:** An authenticated PostgreSQL database user can achieve remote code execution on the server, potentially escalating privileges to the operating system user running the database.
-
----
-
-### [The Hacker News] New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs
-- **Link:** https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** These attacks directly undermine AMD SEV-SNP's fundamental security guarantees, enabling a malicious or compromised cloud host to steal or modify sensitive data from supposedly protected virtual machines.
-
----
-
-### [Bleeping Computer] TSMC employee data breach linked to cloud provider
-- **Link:** https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/
-- **AI Analysis:**
-> Here's an analysis of the provided security news:
-
-**Severity:** **High**
-
-**Impact:** The leak of 6.9GB of personal employee data from TSMC poses significant identity theft risks for affected employees and severe reputational, legal, and potential financial consequences for the company, especially given its critical role in the global supply chain.
-
----
-
-### [Bleeping Computer] Cursor confirms security breach led to malicious Claude Code extension
-- **Link:** https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
-Please retry in 33.599729704s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://aistudio.google.com/docs/rate-limits"
-}
-, violations {
-  description: "Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 33
-}
-]
-
----
-
-### [Bleeping Computer] US disrupts North Korean campaign behind $400 million crypto theft
-- **Link:** https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
-Please retry in 31.199176604s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://aistudio.google.com/docs/rate-limits"
-}
-, violations {
-  description: "Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 31
-}
-]
-
----
-
-### [Bleeping Computer] Trezor confirms crypto-stealing implants in three wallets, releases fix
-- **Link:** https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/
-- **AI Analysis:**
-> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
-* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
-Please retry in 30.123512763s. [links {
-  description: "Learn more about Gemini API quotas"
-  url: "https://aistudio.google.com/docs/rate-limits"
-}
-, violations {
-  description: "Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."
-  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
-  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
-  quota_dimensions {
-    key: "model"
-    value: "gemini-2.5-flash"
-  }
-  quota_dimensions {
-    key: "location"
-    value: "global"
-  }
-  quota_value: 5
-}
-, retry_delay {
-  seconds: 30
-}
-]
-
----
-
-### [Bleeping Computer] German military drone operations disrupted by cyberattack
-- **Link:** https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** A cyberattack by hostile actors disrupted German military drone operations, potentially impacting national security and operational readiness.
+**Impact:** Systems remaining on Windows Server 2016 after 60 days will be highly vulnerable to unpatched exploits, significantly increasing the risk of security breaches and data compromise.
 
 ---
 
