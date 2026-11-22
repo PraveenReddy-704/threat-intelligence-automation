@@ -1,12 +1,32 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-11-21 16:04:08 (UTC)*
+*Generated on: 2026-11-22 16:10:09 (UTC)*
+
+### [The Hacker News] OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms
+- **Link:** https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html
+- **AI Analysis:**
+> **Severity: Critical**
+
+**1-sentence Impact:** User trust and privacy are severely compromised as AI hosting providers failed to detect months of internal prompt theft, violating explicit "Zero Data Retention" guarantees for sensitive AI inputs.
+
+---
+
+### [The Hacker News] Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps
+- **Link:** https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html
+- **AI Analysis:**
+> **Severity:** Critical
+
+**1-sentence Impact:** This flaw enables attackers to achieve full server compromise on widely used Linux systems by uploading crafted files, bypassing security sandboxes.
+
+---
 
 ### [The Hacker News] A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats
 - **Link:** https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html
 - **AI Analysis:**
-> **Severity: Critical**
+> This security news describes a significant vulnerability.
 
-**1-Sentence Impact:** A single malicious webpage could directly extract a user's private Meta Muse conversations, stored memories, and critical credentials for linked external accounts, enabling widespread personal data theft and account takeover.
+**Severity:** High
+
+**1-sentence Impact:** A malicious webpage could completely compromise a Meta Muse user's private chats, stored memories, and connected account credentials without their knowledge or approval.
 
 ---
 
@@ -15,58 +35,34 @@
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-Sentence Impact:** This critical memory flaw in GPGME allows specially crafted malicious OpenPGP keys to steal sensitive data from any application that uses the library.
+**Impact:** A critical memory bug in GPGME, triggered by a malicious OpenPGP key, allows attackers to steal sensitive data from applications using the library.
 
 ---
 
 ### [The Hacker News] Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access
 - **Link:** https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html
 - **AI Analysis:**
-> **Severity: Critical**
+> **Severity:** Critical
 
-**Impact:** This zero-day vulnerability allows unauthenticated attackers to gain root access to medical-imaging servers, severely compromising patient data and critical healthcare infrastructure.
+**Impact:** Unauthenticated attackers can gain root access to vulnerable medical imaging servers, enabling complete system compromise, data theft, or service disruption.
 
 ---
 
-### [The Hacker News] Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS
-- **Link:** https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html
+### [Bleeping Computer] Cleverbridge warns hackers stole credit card numbers, CVVs in data breach
+- **Link:** https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/
 - **AI Analysis:**
-> Here's an analysis of the provided security news:
+> **Severity:** Critical
 
-**Severity:** **Medium**
-
-**1-Sentence Impact:** This proactive measure enhances user privacy on Signal by partially mitigating the future risk of AI agents accessing private chat content via screenshots.
+**Impact:** Customers face immediate financial fraud risk as stolen credit card numbers and CVVs enable unauthorized online purchases.
 
 ---
 
-### [The Hacker News] Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge
-- **Link:** https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html
-- **AI Analysis:**
-> This is a **Critical** security news item.
-
-**Severity:** Critical
-
-**Impact:** These actively exploited critical flaws in widely-used enterprise software pose an immediate and severe risk of espionage and system compromise for affected organizations.
-
-*(Note: The provided CVE list was cut off, but the information present (active exploitation, CISA KEV listing, CVSS 9.8, espionage context) is sufficient to categorize it as critical.)*
-
----
-
-### [Bleeping Computer] BADBOX 3.0 botnet returns with record-breaking 40 billion daily ad requests
-- **Link:** https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/
-- **AI Analysis:**
-> **Severity:** High
-
-**Impact:** The BADBOX botnet is hijacking generic Android TV boxes for massive ad fraud, consuming user device resources and causing significant financial losses across the advertising ecosystem.
-
----
-
-### [Bleeping Computer] FBI reportedly hacked again, this time targeting nationwide police database
-- **Link:** https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/
+### [Bleeping Computer] Signal to block Siri, Gemini AI from capturing chats on iOS, Android
+- **Link:** https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
-Please retry in 20.154428146s. [links {
+Please retry in 3.080120677s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://aistudio.google.com/docs/rate-limits"
 }
@@ -85,46 +81,78 @@ Please retry in 20.154428146s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 20
+  seconds: 3
 }
 ]
 
 ---
 
-### [Bleeping Computer] Bell Canada says 'agentic' hacker stole enterprise customer data
-- **Link:** https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/
+### [Bleeping Computer] Rackspace Spot breach let hackers access customer Kubernetes secrets
+- **Link:** https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/
 - **AI Analysis:**
-> This news presents a serious security incident due to the nature of the organization and the data compromised.
-
-**Severity: High**
-
-**1-Sentence Impact:** The theft of enterprise customer data and telecommunications circuit provisioning details from critical infrastructure like Bell Canada creates a high risk of sophisticated follow-on attacks, network mapping, and potential supply chain compromise for their clients.
-
-**Rationale for Severity:**
-*   **Critical Infrastructure:** Bell Canada is a major telecommunications provider, making any breach significant due to its role in national and commercial communications.
-*   **Sensitive Data:** The stolen data includes "enterprise customer data" and, critically, "information from a system used to order and provision telecommunications circuits." This isn't just basic customer information; it likely includes details about network configurations, service provisioning, and potentially sensitive operational insights for businesses, which can be leveraged for highly targeted attacks, espionage, or further network intrusions.
-*   **"Agentic" Threat Actor:** While the term "agentic" can be vague, it implies a sophisticated or automated threat actor, suggesting a higher level of capability and intent.
-*   **Potential for Cascading Effects:** Compromised provisioning data could enable attackers to understand network layouts, identify critical connections, and potentially facilitate supply chain attacks against Bell's enterprise customers.
-
-*(Note: The date "November 17, 2026" is in the future. Assuming this is either a typo in the provided summary or a hypothetical scenario presented as news for analysis, the assessment proceeds based on the content of the breach described.)*
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
+Please retry in 2.008242413s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://aistudio.google.com/docs/rate-limits"
+}
+, violations {
+  description: "Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 2
+}
+]
 
 ---
 
-### [Bleeping Computer] Hackers use autonomous AI tool Cairn to find zero-day, take over server
-- **Link:** https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/
-- **AI Analysis:**
-> **Severity: Critical**
-
-**1-sentence Impact:** The use of autonomous AI to find and exploit a zero-day in a medical imaging application enables full server takeover, risking patient data compromise and significant operational disruption.
-
----
-
-### [Bleeping Computer] Vendor data breach exposes Chase, Visa, Mastercard customer info
-- **Link:** https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/
+### [Bleeping Computer] Microsoft Entra Connect Health flaw exploited to steal tenant data
+- **Link:** https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/
 - **AI Analysis:**
 > **Severity:** High
 
-**Impact:** This breach increases the risk of targeted phishing attacks, identity theft, and potential financial fraud for affected customers of J.P. Morgan Chase.
+**Impact:** The exploitation of an Entra Connect Health vulnerability allowed attackers to steal sensitive administrator emails and tenant configuration data, posing a severe risk for targeted attacks, account takeovers, and identity compromise.
+
+---
+
+### [Bleeping Computer] BADBOX botnet returns with record-breaking 40 billion daily ad requests
+- **Link:** https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
+Please retry in 52.002830657s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://aistudio.google.com/docs/rate-limits"
+}
+, violations {
+  description: "Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 52
+}
+]
 
 ---
 
