@@ -1,82 +1,48 @@
 # Daily Automated Threat Intelligence Report
-*Generated on: 2026-11-26 18:20:35 (UTC)*
+*Generated on: 2026-11-27 18:05:45 (UTC)*
 
-### [The Hacker News] North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware
-- **Link:** https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html
+### [The Hacker News] Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign
+- **Link:** https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**1-Sentence Impact:** This critical supply chain attack by a North Korea-linked actor compromises thousands of GitHub repositories, posing a significant risk of malware infection and data exfiltration for any organization or developer using the poisoned code.
+**1-Sentence Impact:** This nation-state espionage campaign against critical government and military targets threatens national security and regional stability by compromising sensitive defense intelligence on the South China Sea.
 
 ---
 
-### [The Hacker News] Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls
-- **Link:** https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html
+### [The Hacker News] Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control
+- **Link:** https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html
 - **AI Analysis:**
-> This news highlights an ongoing and significant threat.
+> **Severity:** Critical
 
-**Severity:** High
-
-**Impact:** Highly effective phishing kits are bypassing multiple security controls, significantly increasing the risk of successful user compromise and organizational breaches.
+**Impact:** This attack grants threat actors full remote control over compromised systems by leveraging trusted Microsoft channels (Store and code signing), posing a critical risk of data theft, espionage, and system compromise.
 
 ---
 
-### [The Hacker News] 1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach
-- **Link:** https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html
+### [The Hacker News] How to Keep Your Security Picture Current When Attackers Move at AI Speed
+- **Link:** https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html
 - **AI Analysis:**
 > **Severity:** High
 
-**1-Sentence Impact:** Though customer password vaults remained secure, the theft of customer data and source code from 1Password's backend systems creates significant risk for phishing, targeted attacks, and potential future vulnerabilities.
+**Impact:** Organizations relying on non-actionable, retrospective security metrics lack real-time visibility into their actual threats, significantly increasing their vulnerability to fast-evolving cyberattacks.
 
 ---
 
-### [The Hacker News] Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation
-- **Link:** https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html
+### [The Hacker News] Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware
+- **Link:** https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html
 - **AI Analysis:**
 > **Severity:** Critical
 
-**Impact:** Attackers can achieve full site takeover of vulnerable Drupal websites due to a critical core vulnerability that is actively being exploited.
+**1-Sentence Impact:** Compromised official software downloads and updates grant attackers full remote access and control over victim systems.
 
 ---
 
-### [The Hacker News] Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products
-- **Link:** https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html
-- **AI Analysis:**
-> This news indicates a **Critical** severity level.
-
-**1-sentence impact:** Organizations leveraging Mitel, Juniper, Vates, and Danfoss products are at critical, immediate risk of system compromise due to active exploitation of 10 vulnerabilities now listed in CISA's KEV catalog.
-
----
-**Justification for Severity:**
-
-*   **Active Exploitation:** The most critical factor is that these vulnerabilities are *being exploited by hackers in the wild*. This moves them from theoretical risks to immediate threats.
-*   **CISA KEV Catalog:** Inclusion in CISA's Known Exploited Vulnerabilities (KEV) catalog is a strong indicator of critical severity. CISA typically adds vulnerabilities to this list when there is clear evidence of active exploitation, mandating federal agencies to patch them promptly.
-*   **Multiple Vendors/Products:** The exploitation spans across multiple significant vendors (Mitel, Juniper, Vates, Danfoss), indicating a broad potential attack surface.
-*   **Number of Vulnerabilities (10):** A large number of exploited flaws suggests a significant attack campaign or discovery of multiple entry points.
-*   **Type of Vulnerability (e.g., arbitrary file upload):** While the listed CVE (5.3) has a Medium CVSS score, an "arbitrary file upload" vulnerability can often be chained with other flaws or configurations to achieve Remote Code Execution (RCE) or complete system compromise, making it far more dangerous in practice than its base score might suggest, especially when actively exploited.
-
-Even if an individual vulnerability has a lower CVSS score, active exploitation, especially by a government agency warning, elevates the overall situation to **Critical**.
-
-*(Note: There appears to be a typo in the provided CVE ID `CVE-2026-133275`. Given the context of "disclosed last week" and active exploitation, it's highly probable it should be `CVE-202X` for a recent year like 2023 or 2024, not 2026.)*
-
----
-
-### [Bleeping Computer] NordVPN Black Friday Deal: Get 78% off VPN plans in 2026
-- **Link:** https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/
-- **AI Analysis:**
-> This is not security news; it is a commercial advertisement.
-
-*   **Severity:** **Not Applicable** (This is a marketing announcement, not a security incident, vulnerability, or threat.)
-*   **Impact:** This news provides information about a promotional discount for NordVPN subscriptions, offering potential savings for individuals looking to purchase a VPN service.
-
----
-
-### [Bleeping Computer] Fake paid expert interviews impersonate brands to steal Google logins
-- **Link:** https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/
+### [The Hacker News] Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators
+- **Link:** https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html
 - **AI Analysis:**
 > Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
-Please retry in 54.029454317s. [links {
+Please retry in 32.77660784s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://aistudio.google.com/docs/rate-limits"
 }
@@ -95,38 +61,138 @@ Please retry in 54.029454317s. [links {
   quota_value: 5
 }
 , retry_delay {
-  seconds: 54
+  seconds: 32
 }
 ]
 
 ---
 
-### [Bleeping Computer] Remus malware steals Gmail messages via fake Google Sheets extension
-- **Link:** https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/
+### [Bleeping Computer] Unpatched Cacti zero-day with public PoC gives remote code execution
+- **Link:** https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/
 - **AI Analysis:**
-> **Severity:** High
+> **Severity:** Critical
 
-**1-Sentence Impact:** This malicious Chrome extension steals sensitive Gmail messages, potentially leading to account compromise and identity theft for affected users.
+**Impact:** Unauthenticated attackers can leverage a publicly available proof-of-concept for an unpatched Cacti zero-day to execute arbitrary code on vulnerable servers, leading to full system compromise and potential broader network infiltration.
 
 ---
 
-### [Bleeping Computer] SYS010 malware abuses browser management to spy on Gmail, Outlook
-- **Link:** https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/
+### [Bleeping Computer] US Air Force cloud platform reportedly hacked in latest federal breach
+- **Link:** https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/
 - **AI Analysis:**
-> Here's the analysis:
-
-**Severity: Critical**
-
-**Impact:** This malware critically compromises user accounts and privacy by hijacking browser management to steal sensitive data, including Gmail and Outlook emails, enabling widespread identity theft and further attacks.
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
+Please retry in 19.153305646s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://aistudio.google.com/docs/rate-limits"
+}
+, violations {
+  description: "Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 19
+}
+]
 
 ---
 
-### [Bleeping Computer] Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks
-- **Link:** https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/
+### [Bleeping Computer] Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs
+- **Link:** https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/
 - **AI Analysis:**
-> **Severity: Critical**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
+Please retry in 18.102115715s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://aistudio.google.com/docs/rate-limits"
+}
+, violations {
+  description: "Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 18
+}
+]
 
-**Impact:** Active exploitation of these flaws allows threat actors to gain full control over vulnerable Palo Alto Networks devices with internet-exposed management interfaces.
+---
+
+### [Bleeping Computer] Malwarebytes Antivirus: Get 50% off during Black Friday 2026
+- **Link:** https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
+Please retry in 17.046186531s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://aistudio.google.com/docs/rate-limits"
+}
+, violations {
+  description: "Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 17
+}
+]
+
+---
+
+### [Bleeping Computer] Microsoft removes WSUS server role in Windows Server 2028
+- **Link:** https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/
+- **AI Analysis:**
+> Analysis failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
+Please retry in 15.989032165s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://aistudio.google.com/docs/rate-limits"
+}
+, violations {
+  description: "Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 15
+}
+]
 
 ---
 
